@@ -5,6 +5,7 @@ import FilterPanel from './components/FilterPanel';
 import Legend from './components/Legend';
 import WorldMap from './components/WorldMap';
 import {
+    getAgeGroups,
     getPopulationPyramid,
     getPopulationSummary,
     getPopulationTrend,
@@ -18,8 +19,10 @@ function App() {
   const [populationData, setPopulationData] = useState([]);
   const [years, setYears] = useState([]);
   const [sexCategories, setSexCategories] = useState([]);
+  const [ageGroups, setAgeGroups] = useState([]);
   const [selectedYear, setSelectedYear] = useState(null);
   const [selectedSex, setSelectedSex] = useState('total');
+  const [selectedAgeGroup, setSelectedAgeGroup] = useState('ALL');
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [countryTrend, setCountryTrend] = useState([]);
   const [countryPyramid, setCountryPyramid] = useState([]);
@@ -39,18 +42,20 @@ function App() {
       loadPopulationData();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedYear, selectedSex]);
+  }, [selectedYear, selectedSex, selectedAgeGroup]);
 
   const loadMetadata = async () => {
     try {
-      const [yearsData, sexData] = await Promise.all([
+      const [yearsData, sexData, ageGroupsData] = await Promise.all([
         getYears(),
-        getSexCategories()
+        getSexCategories(),
+        getAgeGroups()
       ]);
 
       const yearsList = yearsData.data;
       setYears(yearsList);
       setSexCategories(sexData.data);
+      setAgeGroups(ageGroupsData.data);
 
       // Sélectionner l'année la plus récente par défaut
       if (yearsList.length > 0) {
@@ -78,7 +83,8 @@ function App() {
     try {
       const data = await getPopulationSummary({
         year: selectedYear,
-        sex: selectedSex
+        sex: selectedSex,
+        ageGroup: selectedAgeGroup !== 'ALL' ? selectedAgeGroup : undefined
       });
 
       setPopulationData(data.data);
@@ -156,10 +162,13 @@ function App() {
             <FilterPanel
               years={years}
               sexCategories={sexCategories}
+              ageGroups={ageGroups}
               selectedYear={selectedYear}
               selectedSex={selectedSex}
+              selectedAgeGroup={selectedAgeGroup}
               onYearChange={setSelectedYear}
               onSexChange={setSelectedSex}
+              onAgeGroupChange={setSelectedAgeGroup}
             />
           )}
 

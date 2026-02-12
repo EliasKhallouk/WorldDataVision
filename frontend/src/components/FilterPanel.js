@@ -2,11 +2,14 @@ import './FilterPanel.css';
 
 const FilterPanel = ({ 
   years, 
-  sexCategories, 
+  sexCategories,
+  ageGroups,
   selectedYear, 
   selectedSex,
+  selectedAgeGroup,
   onYearChange,
-  onSexChange 
+  onSexChange,
+  onAgeGroupChange
 }) => {
   return (
     <div className="filter-panel">
@@ -37,6 +40,23 @@ const FilterPanel = ({
           {sexCategories.map(sex => (
             <option key={sex.code} value={sex.code}>
               {sex.label}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div className="filter-group">
+        <label htmlFor="age-select">Tranche d'âge</label>
+        <select 
+          id="age-select"
+          value={selectedAgeGroup}
+          onChange={(e) => onAgeGroupChange(e.target.value)}
+          className="filter-select"
+        >
+          <option value="ALL">Toutes les tranches</option>
+          {ageGroups && ageGroups.filter(ag => ag.label !== 'ALL').map(ageGroup => (
+            <option key={ageGroup.id} value={ageGroup.id}>
+              {ageGroup.label} ans
             </option>
           ))}
         </select>
