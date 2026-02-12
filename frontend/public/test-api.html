@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test API</title>
+</head>
+<body>
+    <h1>Test de l'API - France 2024</h1>
+    <div id="result"></div>
+    
+    <script>
+        fetch('http://localhost:5000/api/population/summary?year=2024')
+            .then(res => res.json())
+            .then(data => {
+                const france = data.data.find(c => c.iso3 === 'FRA');
+                const resultDiv = document.getElementById('result');
+                
+                resultDiv.innerHTML = `
+                    <h2>Résultat:</h2>
+                    <pre>${JSON.stringify(france, null, 2)}</pre>
+                    
+                    <h3>Analyse:</h3>
+                    <p>Type de total_population: <strong>${typeof france.total_population}</strong></p>
+                    <p>Valeur: <strong>${france.total_population}</strong></p>
+                    <p>Est un nombre: <strong>${typeof france.total_population === 'number'}</strong></p>
+                    <p>Supérieur à 0: <strong>${france.total_population > 0}</strong></p>
+                    
+                    <h3>Test getColorForValue:</h3>
+                    <p>Si on applique une couleur avec population=${france.total_population}, min=10000, max=1400000000</p>
+                    <p>Log10(${france.total_population}) = ${Math.log10(france.total_population)}</p>
+                    <p>Log10(10000) = ${Math.log10(10000)}</p>
+                    <p>Log10(1400000000) = ${Math.log10(1400000000)}</p>
+                    <p>Normalized = ${(Math.log10(france.total_population) - Math.log10(10000)) / (Math.log10(1400000000) - Math.log10(10000))}</p>
+                `;
+            })
+            .catch(err => {
+                document.getElementById('result').innerHTML = `<p style="color: red;">Erreur: ${err.message}</p>`;
+            });
+    </script>
+</body>
+</html>

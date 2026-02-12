@@ -1,0 +1,161 @@
+.country-details-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  padding: 20px;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.country-details {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #999;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.close-button:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.country-header {
+  margin-bottom: 24px;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 16px;
+}
+
+.country-header h2 {
+  margin: 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.country-code {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  color: #999;
+  font-weight: 500;
+}
+
+.country-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-label {
+  font-size: 13px;
+  color: #666;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-value {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+.chart-section {
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.chart-section h3 {
+  margin: 0 0 20px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .country-details-overlay {
+    padding: 10px;
+  }
+
+  .country-details {
+    padding: 20px;
+    max-height: 95vh;
+  }
+
+  .country-header h2 {
+    font-size: 22px;
+  }
+
+  .country-info {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .info-value {
+    font-size: 16px;
+  }
+
+  .chart-section {
+    margin-top: 24px;
+    padding-top: 24px;
+  }
+
+  .chart-section h3 {
+    font-size: 16px;
+  }
+}

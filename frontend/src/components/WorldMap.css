@@ -1,0 +1,85 @@
+.world-map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.world-map {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world-map svg {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.world-map path,
+.world-map g {
+  transition: all 0.2s ease;
+  stroke: #fff;
+  stroke-width: 0.5;
+}
+
+.world-map path:hover,
+.world-map g:hover {
+  opacity: 0.8;
+  stroke: #333;
+  stroke-width: 1.5;
+}
+
+.map-tooltip {
+  position: fixed;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(40, 40, 40, 0.95));
+  color: white;
+  padding: 14px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1000;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  max-width: 280px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.map-tooltip h4 {
+  margin: 0 0 10px 0;
+  font-size: 17px;
+  font-weight: 700;
+  border-bottom: 2px solid #fe9929;
+  padding-bottom: 8px;
+  color: #fff;
+}
+
+.map-tooltip p {
+  margin: 6px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.map-tooltip strong {
+  font-weight: 700;
+  color: #fec44f;
+}
+
+/* Animation de chargement */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.world-map-container.loading {
+  animation: pulse 1.5s ease-in-out infinite;
+}

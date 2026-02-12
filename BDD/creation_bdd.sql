@@ -50,6 +50,9 @@ INSERT INTO age_group(label, age_min, age_max) VALUES
 ('90-94', 90, 94),
 ('95+', 95, 120);
 
+INSERT INTO age_group(label, age_min, age_max)
+VALUES ('ALL', 0, 120);
+
 
 -- =====================================================
 -- TABLE : sex
