@@ -10,16 +10,23 @@ export const formatNumber = (num) => {
  * Formate un grand nombre en notation compacte (M pour millions, B pour milliards)
  */
 export const formatCompactNumber = (num) => {
-  if (num === null || num === undefined) return 'N/A';
+  // Gérer les cas invalides
+  if (num === null || num === undefined || num === '') return 'N/A';
   
-  if (num >= 1e9) {
-    return (num / 1e9).toFixed(2) + ' Mds';
-  } else if (num >= 1e6) {
-    return (num / 1e6).toFixed(2) + ' M';
-  } else if (num >= 1e3) {
-    return (num / 1e3).toFixed(1) + ' K';
+  // Convertir en nombre si c'est une chaîne
+  const value = typeof num === 'string' ? parseFloat(num) : num;
+  
+  // Vérifier si c'est un nombre valide
+  if (isNaN(value)) return 'N/A';
+  
+  if (value >= 1e9) {
+    return (value / 1e9).toFixed(2) + ' Mds';
+  } else if (value >= 1e6) {
+    return (value / 1e6).toFixed(2) + ' M';
+  } else if (value >= 1e3) {
+    return (value / 1e3).toFixed(1) + ' K';
   }
-  return formatNumber(num);
+  return formatNumber(value);
 };
 
 /**

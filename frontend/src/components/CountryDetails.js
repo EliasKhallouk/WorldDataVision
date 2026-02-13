@@ -5,6 +5,24 @@ import './CountryDetails.css';
 const CountryDetails = ({ country, trend, pyramid, onClose }) => {
   if (!country) return null;
 
+  // Nettoyer et convertir les données de tendance
+  const cleanTrend = trend && trend.length > 0 
+    ? trend.map(item => ({
+        ...item,
+        year: parseInt(item.year, 10),
+        total_population: parseInt(item.total_population, 10) || 0
+      }))
+    : [];
+
+  // Nettoyer et convertir les données de pyramide
+  const cleanPyramid = pyramid && pyramid.length > 0
+    ? pyramid.map(item => ({
+        ...item,
+        male: parseInt(item.male, 10) || 0,
+        female: parseInt(item.female, 10) || 0
+      }))
+    : [];
+
   return (
     <div className="country-details-overlay" onClick={onClose}>
       <div className="country-details" onClick={(e) => e.stopPropagation()}>
@@ -38,16 +56,25 @@ const CountryDetails = ({ country, trend, pyramid, onClose }) => {
           )}
         </div>
 
-        {trend && trend.length > 0 && (
+        {cleanTrend.length > 0 && (
           <div className="chart-section">
             <h3>Évolution de la population</h3>
             <ResponsiveContainer width="100%" height={300}>
-              <LineChart data={trend}>
+              <LineChart data={cleanTrend}>
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="year" />
-                <YAxis tickFormatter={formatCompactNumber} />
+                <XAxis 
+                  dataKey="year" 
+                  type="number"
+                  domain={['dataMin', 'dataMax']}
+                  tickFormatter={(value) => value.toString()}
+                />
+                <YAxis 
+                  tickFormatter={formatCompactNumber}
+                  domain={[0, 'auto']}
+                />
                 <Tooltip 
                   formatter={(value) => formatCompactNumber(value)}
+                  labelFormatter={(value) => `Année: ${value}`}
                   labelStyle={{ color: '#333' }}
                 />
                 <Legend />
@@ -57,18 +84,20 @@ const CountryDetails = ({ country, trend, pyramid, onClose }) => {
                   stroke="#4a90e2" 
                   strokeWidth={2}
                   name="Population"
+                  dot={false}
+                  isAnimationActive={false}
                 />
               </LineChart>
             </ResponsiveContainer>
           </div>
         )}
 
-        {pyramid && pyramid.length > 0 && (
+        {cleanPyramid.length > 0 && (
           <div className="chart-section">
             <h3>Pyramide des âges</h3>
             <ResponsiveContainer width="100%" height={400}>
               <BarChart 
-                data={pyramid}
+                data={cleanPyramid}
                 layout="vertical"
                 margin={{ left: 20, right: 20 }}
               >

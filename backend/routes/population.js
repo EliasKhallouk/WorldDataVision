@@ -183,12 +183,14 @@ router.get('/trend/:iso3', async (req, res) => {
     const result = await pool.query(`
       SELECT 
         ps.year,
-        SUM(ps.population_count) as total_population
+        ps.population_count as total_population
       FROM population_stat ps
       JOIN country c ON ps.country_id = c.id
       JOIN sex s ON ps.sex_id = s.id
-      WHERE c.iso3 = $1 AND s.code = $2
-      GROUP BY ps.year
+      JOIN age_group ag ON ps.age_group_id = ag.id
+      WHERE c.iso3 = $1 
+        AND s.code = $2
+        AND ag.label = 'ALL'
       ORDER BY ps.year
     `, [iso3.toUpperCase(), sexCode]);
 
