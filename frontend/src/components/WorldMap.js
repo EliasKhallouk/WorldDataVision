@@ -8,7 +8,13 @@ const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry }) => 
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
   const [iso2ToIso3, setIso2ToIso3] = useState({});
+  const [zoom, setZoom] = useState(1);
+  const [pan, setPan] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
   const mapRef = useRef(null);
+  const svgRef = useRef(null);
+  const hasMovedRef = useRef(false);
 
   // Calculer min et max pour l'échelle de couleurs
   const stats = React.useMemo(() => {
@@ -38,6 +44,89 @@ const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry }) => 
       .then(svg => setSvgContent(svg))
       .catch(err => console.error('Erreur lors du chargement de la carte SVG:', err));
   }, []);
+
+  // Gérer le zoom avec la molette
+  const handleWheel = useCallback((e) => {
+    e.preventDefault();
+    const delta = e.deltaY > 0 ? 0.9 : 1.1;
+    const newZoom = Math.min(Math.max(zoom * delta, 1), 10);
+    setZoom(newZoom);
+  }, [zoom]);
+
+  // Gérer le début du drag
+  const handleMouseDown = useCallback((e) => {
+    setIsDragging(true);
+    hasMovedRef.current = false;
+    setDragStart({ x: e.clientX - pan.x, y: e.clientY - pan.y });
+  }, [pan]);
+
+  // Gérer le déplacement pendant le drag
+  const handleMouseMoveMap = useCallback((e) => {
+    if (isDragging) {
+      hasMovedRef.current = true;
+      setPan({
+        x: e.clientX - dragStart.x,
+        y: e.clientY - dragStart.y
+      });
+    }
+  }, [isDragging, dragStart]);
+
+  // Gérer la fin du drag
+  const handleMouseUp = useCallback(() => {
+    setIsDragging(false);
+  }, []);
+
+  // Réinitialiser le zoom et pan
+  const handleReset = useCallback(() => {
+    setZoom(1);
+    setPan({ x: 0, y: 0 });
+  }, []);
+
+  // Zoom in/out avec boutons
+  const handleZoomIn = useCallback(() => {
+    setZoom(prev => Math.min(prev * 1.3, 10));
+  }, []);
+
+  const handleZoomOut = useCallback(() => {
+    setZoom(prev => Math.max(prev / 1.3, 1));
+  }, []);
+
+  // Appliquer les event listeners pour le drag
+  useEffect(() => {
+    const mapContainer = mapRef.current;
+    if (!mapContainer) return;
+
+    mapContainer.addEventListener('wheel', handleWheel, { passive: false });
+    mapContainer.addEventListener('mousedown', handleMouseDown);
+    mapContainer.addEventListener('mousemove', handleMouseMoveMap);
+    mapContainer.addEventListener('mouseup', handleMouseUp);
+    mapContainer.addEventListener('mouseleave', handleMouseUp);
+
+    return () => {
+      mapContainer.removeEventListener('wheel', handleWheel);
+      mapContainer.removeEventListener('mousedown', handleMouseDown);
+      mapContainer.removeEventListener('mousemove', handleMouseMoveMap);
+      mapContainer.removeEventListener('mouseup', handleMouseUp);
+      mapContainer.removeEventListener('mouseleave', handleMouseUp);
+    };
+  }, [handleWheel, handleMouseDown, handleMouseMoveMap, handleMouseUp]);
+
+  // Appliquer la transformation au SVG
+  useEffect(() => {
+    if (!mapRef.current) return;
+    const svg = mapRef.current.querySelector('svg');
+    if (!svg) return;
+
+    svgRef.current = svg;
+    const g = svg.querySelector('g');
+    if (g) {
+      g.style.transform = `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`;
+      g.style.transformOrigin = 'center';
+    } else {
+      svg.style.transform = `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`;
+      svg.style.transformOrigin = 'center';
+    }
+  }, [zoom, pan]);
 
   // Appliquer les couleurs et les événements aux pays
   useEffect(() => {
@@ -321,7 +410,11 @@ const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry }) => 
       element.addEventListener('mouseenter', (e) => handleMouseEnter(e, countryIso3, countryData));
       element.addEventListener('mousemove', handleMouseMove);
       element.addEventListener('mouseleave', handleMouseLeave);
-      element.addEventListener('click', () => handleClick(countryIso3, countryData));
+      element.addEventListener('click', (e) => {
+        if (!hasMovedRef.current) {
+          handleClick(countryIso3, countryData);
+        }
+      });
     });
 
     // Nettoyage
@@ -369,9 +462,34 @@ const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry }) => 
 
   return (
     <div className="world-map-container">
+      <div className="zoom-controls">
+        <button 
+          className="zoom-btn" 
+          onClick={handleZoomIn}
+          title="Zoom avant"
+        >
+          +
+        </button>
+        <button 
+          className="zoom-btn" 
+          onClick={handleZoomOut}
+          title="Zoom arrière"
+        >
+          −
+        </button>
+        <button 
+          className="zoom-btn" 
+          onClick={handleReset}
+          title="Réinitialiser"
+        >
+          ⟲
+        </button>
+        <span className="zoom-level">{Math.round(zoom * 100)}%</span>
+      </div>
       <div 
         ref={mapRef}
         className="world-map"
+        style={{ cursor: isDragging ? 'grabbing' : 'grab' }}
         dangerouslySetInnerHTML={{ __html: svgContent }}
       />
       
