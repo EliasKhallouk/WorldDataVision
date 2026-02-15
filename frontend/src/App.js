@@ -3,19 +3,22 @@ import './App.css';
 import CountryDetails from './components/CountryDetails';
 import FilterPanel from './components/FilterPanel';
 import Legend from './components/Legend';
+import ScatterPlot from './components/ScatterPlot';
 import TimelinePlayer from './components/TimelinePlayer';
 import WorldMap from './components/WorldMap';
 import {
-  getAgeGroups,
-  getCountry,
-  getDemographicStats,
-  getLanguages,
-  getPopulationPyramid,
-  getPopulationSummary,
-  getPopulationTrend,
-  getSexCategories,
-  getStats,
-  getYears
+    getAgeGroups,
+    getCountry,
+    getDemographicStats,
+    getGenderBalance,
+    getLanguages,
+    getPopulationPyramid,
+    getPopulationSummary,
+    getPopulationTrend,
+    getScatterData,
+    getSexCategories,
+    getStats,
+    getYears
 } from './services/api';
 import { calculateStats, formatCompactNumber } from './utils/helpers';
 
@@ -47,6 +50,8 @@ function App() {
   const [error, setError] = useState(null);
   const [globalStats, setGlobalStats] = useState(null);
   const [demographicStats, setDemographicStats] = useState(null);
+  const [genderBalance, setGenderBalance] = useState(null);
+  const [scatterData, setScatterData] = useState([]);
 
   // Charger les métadonnées au démarrage
   useEffect(() => {
@@ -122,13 +127,25 @@ function App() {
 
   const loadDemographicStats = async () => {
     try {
-      const data = await getDemographicStats({
-        year: selectedYear,
-        sex: selectedSex,
-        language: selectedLanguage !== 'ALL' ? selectedLanguage : undefined
-      });
+      const [demoData, genderData, scatterDataResponse] = await Promise.all([
+        getDemographicStats({
+          year: selectedYear,
+          sex: selectedSex,
+          language: selectedLanguage !== 'ALL' ? selectedLanguage : undefined
+        }),
+        getGenderBalance({
+          year: selectedYear,
+          language: selectedLanguage !== 'ALL' ? selectedLanguage : undefined
+        }),
+        getScatterData({
+          year: selectedYear,
+          language: selectedLanguage !== 'ALL' ? selectedLanguage : undefined
+        })
+      ]);
 
-      setDemographicStats(data.data);
+      setDemographicStats(demoData.data);
+      setGenderBalance(genderData.data);
+      setScatterData(scatterDataResponse.data || []);
     } catch (err) {
       console.error('Erreur lors du chargement des stats démographiques:', err);
     }
@@ -306,6 +323,41 @@ function App() {
                       </span>
                       <strong>{demographicStats.aging_index}</strong>
                     </div>
+                    <div className="stat-row">
+                      <span>
+                        Indice de jeunesse:
+                        <InfoTooltip text="Nombre de jeunes (<15 ans) pour 100 personnes âgées (>65 ans). >100 = population jeune, <100 = population vieillissante. C'est l'inverse de l'indice de vieillissement." />
+                      </span>
+                      <strong>{demographicStats.youth_index}</strong>
+                    </div>
+                  </>
+                )}
+
+                {genderBalance && (
+                  <>
+                    <h3 style={{ marginTop: '20px' }}>Équilibre H/F</h3>
+                    <div className="stat-row">
+                      <span>% Hommes:</span>
+                      <strong>{genderBalance.pct_male}%</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>% Femmes:</span>
+                      <strong>{genderBalance.pct_female}%</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>
+                        Ratio H/F:
+                        <InfoTooltip text="Nombre d'hommes pour 100 femmes. 100 = équilibre parfait, >100 = plus d'hommes, <100 = plus de femmes." />
+                      </span>
+                      <strong>{genderBalance.gender_ratio}</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>
+                        Indice d'équilibre:
+                        <InfoTooltip text="Mesure de l'équilibre entre hommes et femmes. 100 = parfait équilibre, plus la valeur est basse, plus le déséquilibre est important." />
+                      </span>
+                      <strong>{genderBalance.gender_balance_index}</strong>
+                    </div>
                   </>
                 )}
               </div>
@@ -327,6 +379,12 @@ function App() {
             selectedCountry={selectedCountry?.iso3}
           />
         </div>
+
+        {scatterData.length > 0 && (
+          <div className="full-width-section">
+            <ScatterPlot data={scatterData} width={1200} height={600} />
+          </div>
+        )}
       </main>
 
       {selectedCountry && (

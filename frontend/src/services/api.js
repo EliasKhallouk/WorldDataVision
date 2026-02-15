@@ -98,4 +98,14 @@ export const getDemographicStats = async (params = {}) => {
   return response.data;
 };
 
+export const getGenderBalance = async (params = {}) => {
+  const response = await api.get('/demographics/gender-balance', { params });
+  return response.data;
+};
+
+export const getScatterData = async (params = {}) => {
+  const response = await api.get('/demographics/scatter-data', { params });
+  return response.data;
+};
+
 export default api;
