@@ -8,6 +8,7 @@ router.get('/years', async (req, res) => {
     const result = await pool.query(`
       SELECT value as year
       FROM year_table
+      WHERE value >= 1960
       ORDER BY value
     `);
 

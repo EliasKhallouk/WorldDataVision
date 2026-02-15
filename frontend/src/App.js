@@ -63,9 +63,10 @@ function App() {
       setAgeGroups(ageGroupsData.data);
       setLanguages(languagesData.data);
 
-      // Sélectionner l'année la plus récente par défaut
+      // Sélectionner 2024 par défaut, ou la dernière année si 2024 n'existe pas
       if (yearsList.length > 0) {
-        setSelectedYear(yearsList[yearsList.length - 1]);
+        const defaultYear = yearsList.includes(2024) ? 2024 : yearsList[yearsList.length - 1];
+        setSelectedYear(defaultYear);
       }
     } catch (err) {
       console.error('Erreur lors du chargement des métadonnées:', err);

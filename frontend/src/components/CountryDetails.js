@@ -32,7 +32,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
           <div className="country-title">
             {country.flag && <span className="country-flag">{country.flag}</span>}
             <div>
-              <h2>{country.name}</h2>
+              <h2>{country.name } {selectedYear && `(${selectedYear})`}</h2>
               {country.name_local && country.name_local !== country.name && (
                 <p className="country-name-local">{country.name_local}</p>
               )}
@@ -204,7 +204,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
 
         {cleanPyramid.length > 0 && (
           <div className="chart-section">
-            <h3>Pyramide des âges {selectedYear && `(${selectedYear})`}</h3>
+            <h3>Pyramide des âges</h3>
             <ResponsiveContainer width="100%" height={400}>
               <BarChart 
                 data={cleanPyramid}
