@@ -8,6 +8,7 @@ import WorldMap from './components/WorldMap';
 import {
   getAgeGroups,
   getCountry,
+  getDemographicStats,
   getLanguages,
   getPopulationPyramid,
   getPopulationSummary,
@@ -17,6 +18,17 @@ import {
   getYears
 } from './services/api';
 import { calculateStats, formatCompactNumber } from './utils/helpers';
+
+// Composant InfoTooltip pour afficher une pastille d'information
+const InfoTooltip = ({ text }) => (
+  <span className="info-tooltip">
+    <svg className="info-icon" viewBox="0 0 16 16" width="14" height="14">
+      <circle cx="8" cy="8" r="7" fill="#667eea" stroke="white" strokeWidth="1"/>
+      <text x="8" y="11.5" textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">i</text>
+    </svg>
+    <span className="tooltip-text">{text}</span>
+  </span>
+);
 
 function App() {
   const [populationData, setPopulationData] = useState([]);
@@ -34,6 +46,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [globalStats, setGlobalStats] = useState(null);
+  const [demographicStats, setDemographicStats] = useState(null);
 
   // Charger les métadonnées au démarrage
   useEffect(() => {
@@ -45,6 +58,7 @@ function App() {
   useEffect(() => {
     if (selectedYear) {
       loadPopulationData();
+      loadDemographicStats();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedYear, selectedSex, selectedAgeGroup, selectedLanguage]);
@@ -103,6 +117,20 @@ function App() {
       console.error('Erreur lors du chargement des données:', err);
       setError('Impossible de charger les données de population');
       setLoading(false);
+    }
+  };
+
+  const loadDemographicStats = async () => {
+    try {
+      const data = await getDemographicStats({
+        year: selectedYear,
+        sex: selectedSex,
+        language: selectedLanguage !== 'ALL' ? selectedLanguage : undefined
+      });
+
+      setDemographicStats(data.data);
+    } catch (err) {
+      console.error('Erreur lors du chargement des stats démographiques:', err);
     }
   };
 
@@ -205,16 +233,81 @@ function App() {
                 <h3>Statistiques</h3>
                 <div className="stat-row">
                   <span>Population totale:</span>
-                  <strong>{formatCompactNumber(stats.sum)}</strong>
-                </div>
+                  <strong>{formatCompactNumber(stats.sum)}</strong>                </div>
                 <div className="stat-row">
                   <span>Pays avec données:</span>
-                  <strong>{populationData.filter(d => d.total_population > 0).length}</strong>
+                  <strong>{stats.countriesWithData}</strong>
+                </div>
+                <div className="stat-row">
+                  <span>Population moyenne:</span>
+                  <strong>{formatCompactNumber(stats.avg)}</strong>
+                </div>
+                <div className="stat-row">
+                  <span>Population médiane:</span>
+                  <strong>{formatCompactNumber(stats.median)}</strong>
+                </div>
+                <div className="stat-row">
+                  <span>Pays le plus peuplé:</span>
+                  <strong>{stats.maxCountry?.name || 'N/A'}</strong>
                 </div>
                 <div className="stat-row">
                   <span>Population max:</span>
                   <strong>{formatCompactNumber(stats.max)}</strong>
                 </div>
+                <div className="stat-row">
+                  <span>Pays le moins peuplé:</span>
+                  <strong>{stats.minCountry?.name || 'N/A'}</strong>
+                </div>
+                <div className="stat-row">
+                  <span>Population min:</span>
+                  <strong>{formatCompactNumber(stats.min)}</strong>
+                </div>
+                
+                {demographicStats && (
+                  <>
+                    <h3 style={{ marginTop: '20px' }}>Démographie</h3>
+                    <div className="stat-row">
+                      <span>% Population &lt; 15 ans:</span>
+                      <strong>{demographicStats.pct_under_15}%</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>% Population &gt; 65 ans:</span>
+                      <strong>{demographicStats.pct_over_65}%</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>% Population active (15-65):</span>
+                      <strong>{demographicStats.pct_working_age}%</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>
+                        Âge médian estimé:
+                        <InfoTooltip text="Âge qui divise la population en deux groupes égaux. Indique si une population est jeune (<30 ans) ou âgée (>40 ans)." />
+                      </span>
+                      <strong>{demographicStats.median_age_estimated} ans</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>
+                        Ratio dépendants/actifs:
+                        <InfoTooltip text="Nombre de personnes dépendantes (enfants <15 ans + retraités >65 ans) pour 100 personnes en âge de travailler (15-65 ans). Important pour les systèmes de retraite." />
+                      </span>
+                      <strong>{demographicStats.dependency_ratio}%</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>
+                        Ratio actifs/dépendants:
+                        <InfoTooltip text="Nombre de personnes en âge de travailler pour chaque personne dépendante. C'est l'inverse du ratio précédent. Plus élevé = meilleur soutien économique." />
+                      </span>
+                      <strong>{demographicStats.active_inactive_ratio}</strong>
+                    </div>
+                    <div className="stat-row">
+                      <span>
+                        Indice de vieillissement:
+                        <InfoTooltip text="Nombre de personnes âgées (>65 ans) pour 100 jeunes (<15 ans). <100 = population jeune, >100 = population vieillissante." />
+                      </span>
+                      <strong>{demographicStats.aging_index}</strong>
+                    </div>
+                  </>
+                )}
               </div>
             </>
           )}

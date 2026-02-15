@@ -92,4 +92,10 @@ export const getStats = async () => {
   return response.data;
 };
 
+// ===== DEMOGRAPHICS =====
+export const getDemographicStats = async (params = {}) => {
+  const response = await api.get('/demographics/global-stats', { params });
+  return response.data;
+};
+
 export default api;

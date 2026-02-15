@@ -146,6 +146,63 @@ body {
   font-weight: 600;
 }
 
+/* Info Tooltip */
+.info-tooltip {
+  position: relative;
+  display: inline-block;
+  margin-left: 6px;
+  cursor: help;
+  vertical-align: middle;
+}
+
+.info-icon {
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+
+.info-tooltip:hover .info-icon {
+  transform: scale(1.2);
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1a202c;
+  color: #ffffff !important;
+  text-align: left;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 1.6;
+  width: 260px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+  border: 1px solid #4a5568;
+  font-weight: 400;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 7px;
+  border-style: solid;
+  border-color: #1a202c transparent transparent transparent;
+}
+
+.info-tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Loading */
 .loading-spinner {
   display: flex;

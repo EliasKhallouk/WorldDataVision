@@ -113,16 +113,45 @@ export const findCountryByCode = (code, countries) => {
  */
 export const calculateStats = (data) => {
   if (!data || data.length === 0) {
-    return { min: 0, max: 0, avg: 0, sum: 0 };
+    return { 
+      min: 0, 
+      max: 0, 
+      avg: 0, 
+      sum: 0,
+      median: 0,
+      countriesWithData: 0,
+      maxCountry: null,
+      minCountry: null
+    };
   }
 
-  const values = data.map(d => d.total_population || 0);
+  const validData = data.filter(d => d.total_population > 0);
+  const values = validData.map(d => d.total_population);
   const sum = values.reduce((a, b) => a + b, 0);
+  
+  // Trouver pays avec population max et min
+  const maxCountry = validData.reduce((prev, current) => 
+    (prev.total_population > current.total_population) ? prev : current
+  , validData[0]);
+  
+  const minCountry = validData.reduce((prev, current) => 
+    (prev.total_population < current.total_population) ? prev : current
+  , validData[0]);
+  
+  // Calculer la médiane
+  const sorted = [...values].sort((a, b) => a - b);
+  const median = sorted.length % 2 === 0
+    ? (sorted[sorted.length / 2 - 1] + sorted[sorted.length / 2]) / 2
+    : sorted[Math.floor(sorted.length / 2)];
   
   return {
     min: Math.min(...values),
     max: Math.max(...values),
     avg: sum / values.length,
-    sum
+    sum,
+    median,
+    countriesWithData: validData.length,
+    maxCountry,
+    minCountry
   };
 };
