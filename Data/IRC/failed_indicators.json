@@ -1,0 +1,17 @@
+{
+  "saved_at": "2026-02-19T23:00:06.701060",
+  "failed_indicators": [
+    [
+      "SP.POP.AG.MA.NO",
+      "median_age"
+    ],
+    [
+      "EG.ELC.PROD.KH",
+      "electricity_production"
+    ],
+    [
+      "EN.ATM.CO2E.PC",
+      "co2_emissions_per_capita"
+    ]
+  ]
+}

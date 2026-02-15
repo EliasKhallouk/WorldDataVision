@@ -1,0 +1,1768 @@
+country_code,country_name,indicator_code,indicator_name,year,value,unit,decimal
+CSS,Caribbean small states,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,27.1686756472154,,1
+CSS,Caribbean small states,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,27.2381964017293,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,31.6448202485068,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,33.3873489432114,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,39.3503158486765,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,40.9992084481667,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,33.3359635115053,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,31.6602313959176,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,32.1834478665604,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,33.0093502625864,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,32.2486390338709,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,31.5347700888549,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,29.170018951991,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,32.8677445154457,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,34.3745643479121,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,35.5749130886869,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,42.0061709454569,,1
+ECA,Europe & Central Asia (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,34.5050838282794,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,23.9117159912303,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,25.090940841168,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,28.6153496877721,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,30.8405329536641,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,24.4606794601158,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,23.0666764491925,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,23.3866310704089,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,22.598550345929,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,21.8109865687534,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,20.2548888086112,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,17.9933321549015,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,19.3484055846642,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,20.0673236682712,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,21.0086121964558,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,22.4352244065171,,1
+TEC,Europe & Central Asia (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,18.0473795369764,,1
+LCN,Latin America & Caribbean,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,69.1122409191485,,1
+LCN,Latin America & Caribbean,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,77.6816371622071,,1
+LCN,Latin America & Caribbean,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,70.6884319438481,,1
+LAC,Latin America & Caribbean (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,69.2960020947005,,1
+LAC,Latin America & Caribbean (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,66.4556421157692,,1
+LAC,Latin America & Caribbean (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,69.2264125499782,,1
+LAC,Latin America & Caribbean (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,77.9141737302421,,1
+LAC,Latin America & Caribbean (excluding high income),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,71.0076212752645,,1
+TLA,Latin America & the Caribbean (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,69.1973947607836,,1
+TLA,Latin America & the Caribbean (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,66.2817586207011,,1
+TLA,Latin America & the Caribbean (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,69.0760103211382,,1
+TLA,Latin America & the Caribbean (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,77.6779808004109,,1
+TLA,Latin America & the Caribbean (IDA & IBRD countries),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,70.7260662562803,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,113.567829493566,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,112.321804069948,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,110.071944642092,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,116.017310285539,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,122.003637015656,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,96.9143262399128,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,95.2889566518371,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,94.1731793114252,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,95.0501725323993,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,93.1430673255618,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,92.1526825251906,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,92.0884356902759,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,90.5794494414687,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,86.6939695512679,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,82.4223141128765,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,74.082190707757,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,62.379523573968,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,54.3922152333392,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,54.5680181691681,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,55.7852995438633,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,55.9758597311477,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,55.9889096354886,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,54.0559138753041,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,53.0412248800117,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,35.442247195029,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,40.1621212230056,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,43.8060454681772,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,46.7480310078954,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,49.4138197463287,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,49.7796617339655,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,49.7944561561606,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,50.5463441934301,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,48.1548628584636,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,46.0579919760658,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,42.7122116009725,,1
+NAC,North America,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1989,39.128400199944,,1
+OED,OECD members,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,44.4909772545934,,1
+OED,OECD members,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,43.5825489839274,,1
+OED,OECD members,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,41.7938237861658,,1
+OED,OECD members,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,36.0551552595304,,1
+PST,Post-demographic dividend,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,44.106143890209,,1
+PST,Post-demographic dividend,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,41.8412188396362,,1
+PST,Post-demographic dividend,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,35.3249780489476,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,46.5656471581538,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,47.6257691620468,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,47.6728207481302,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,50.8423091675751,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,50.6062629648635,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,50.9967091013628,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,51.2727904226404,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,52.1832993863618,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,52.0331586963563,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,56.3529447807272,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,57.0954415021292,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,58.2777103305044,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,60.5562898681274,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,63.0918598841689,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,63.9289388384921,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,60.9943097223078,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,61.480702979549,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,58.2364465802722,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,56.5678102867184,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,53.0238082183941,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,51.8518557700619,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,51.7133623221527,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,47.5900259577279,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,49.3635520962941,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,51.3744969469253,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,53.4793966111998,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,51.4282900315058,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,51.8804241792514,,1
+SAS,South Asia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,52.4090353608959,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,46.5656471581538,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,47.6257691620468,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,47.6728207481302,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,50.8423091675751,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,50.6062629648635,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,50.9967091013628,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,51.2727904226404,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,52.1832993863618,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,52.0331586963563,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,56.3529447807272,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,57.0954415021292,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,58.2777103305044,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,60.5562898681274,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,63.0918598841689,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,63.9289388384921,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,60.9943097223078,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,61.480702979549,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,58.2364465802722,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,56.5678102867184,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,53.0238082183941,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,51.8518557700619,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,51.7133623221527,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,47.5900259577279,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,49.3635520962941,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,51.3744969469253,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,53.4793966111998,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,51.4282900315058,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,51.8804241792514,,1
+TSA,South Asia (IDA & IBRD),GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,52.4090353608959,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,81.9202285649265,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,83.4542023899143,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,74.8082518103115,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,63.6337689393506,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,74.5233409147154,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,79.8771647108445,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,79.2842872907886,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,72.9442880579616,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,70.4662619818776,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,64.0504160397904,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,69.1921886031503,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,54.4034191327832,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,52.2939099492755,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,37.0772780150153,,1
+ALB,Albania,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,29.4509913700363,,1
+ARM,Armenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,47.8813384852474,,1
+ARM,Armenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,48.0562986773694,,1
+ARM,Armenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,46.5518225515757,,1
+ARM,Armenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,60.080359762005,,1
+ARM,Armenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,63.4012140048923,,1
+ARM,Armenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,50.028420686875,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,57.8834285733848,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,69.836773674895,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,69.0656538994855,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,59.9837867004913,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,54.3001380799371,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,53.1037976577229,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,54.463570652249,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,46.293292747612,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,41.5409287207942,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,37.4031396926123,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,39.3096720165071,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,30.0025299553744,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,28.5706752868622,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,23.7918159800555,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,18.1404251935735,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,20.0582738191257,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,21.4023842789788,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,22.3700818832059,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,22.8245660455405,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,25.0320718409237,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,25.8412136969849,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,27.6400889435694,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,29.4708236736698,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,31.0107125026288,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,16.848537830388,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,20.8274667149747,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,21.777431307299,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,21.6474459271968,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,20.1596024704357,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,17.8490180915729,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,14.1253907401946,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,11.9025520926005,,1
+AUS,Australia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,12.211252069756,,1
+AZE,Azerbaijan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,6.38557579182856,,1
+AZE,Azerbaijan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,6.29501240116287,,1
+AZE,Azerbaijan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,4.57653797474662,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,73.7303207978365,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,77.6639776783144,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,82.5398306554789,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,79.0414158175081,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,56.6924606462303,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,56.5027068771842,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,52.624565152769,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,50.2046646297839,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,47.6225079407988,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,46.3248467111347,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,44.7663646864529,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,36.4498330286183,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,35.306429206242,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,33.6922817103418,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,30.908208407968,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,25.45550066502,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,22.9908535609144,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,22.7774542870491,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,18.7520042790972,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,19.6411443712608,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,20.9517328580084,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,21.7237964992515,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,34.2227763923525,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,33.9982502187227,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,34.8665234734581,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,34.4340232858991,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,30.6304277902863,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,27.9767032232351,,1
+BHS,"Bahamas, The",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,24.4188250157928,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,111.598089491983,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,91.3598106259863,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,84.3014580347853,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,77.5251429515026,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,70.5694533398636,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,60.7584088656577,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,43.5275770260668,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,42.2700248553772,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,35.6065986284181,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,34.5689325404164,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,29.0713708137176,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,15.6294022913075,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,7.2926256555605,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,7.54545632569935,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,20.2540605565848,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,29.3985591955441,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,32.4533576041094,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,28.3796671065326,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,27.1047836328351,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,25.7450148929614,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,20.8358032721467,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,18.6135552828644,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,14.916205663568,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,13.9070398716136,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,14.9389566082491,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,15.7248022647076,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,17.0153363819107,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,18.732405446645,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,14.4052165631514,,1
+BHR,Bahrain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,7.67539435426901,,1
+BGD,Bangladesh,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,31.2044521104432,,1
+BGD,Bangladesh,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,31.863991518402,,1
+BGD,Bangladesh,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,31.4618431575804,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,125.131136467769,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,117.275144037977,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,108.313205262783,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,99.4343885869565,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,90.2372160654002,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,82.4489816884745,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,76.4393226392145,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,86.8542626598636,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,71.0883224744168,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,66.8016267359889,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,62.3690591999655,,1
+BRB,Barbados,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,63.7916238643802,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,33.2442039424903,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,37.0957369908527,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,39.8801045313301,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,38.9240984107258,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,37.5981780519834,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,24.5487262666937,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,23.8372955552391,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,24.4293134230567,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,39.416810851275,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,18.9052457267088,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,18.5574619839498,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,10.6566343685377,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,8.9092608163614,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,6.64440183178372,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,6.57022058767027,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,12.3366860124798,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,11.440616774975,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,15.0144518163306,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,15.103117448937,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,20.1805426390813,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,12.1714690728675,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,11.5201288580528,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,16.8800606245315,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,75.9557129208116,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,5.18781725888325,,1
+BLR,Belarus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,25.7608695652174,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,61.0308317738748,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,61.1342977094366,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,61.1385471733495,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,62.4120191090005,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,64.0391039757611,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,64.9499537251718,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,62.033292116626,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,64.0974458625061,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,67.1012109617633,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,69.6837899301797,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,78.5645928230355,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,66.6155817914396,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,50.4310172089739,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,29.2899620868898,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,27.5080847835654,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,27.971219349138,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,26.2914118966151,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,24.551156705335,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,21.34863774194,,1
+BLZ,Belize,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,21.2008791196748,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,111.007884099526,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,90.3573525872411,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,95.847821202237,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,95.7786850240393,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,92.2912013135809,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,81.050561010158,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,84.9990711320017,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,88.9492144824279,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,67.0148156229242,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,57.5496480907902,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,50.9195301727763,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,53.9367496631031,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,57.6965298565065,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,59.811072814383,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,71.297555656776,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,75.6957100342792,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,71.8993384935838,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,65.6287612724923,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,54.1217805841119,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,67.1679909951713,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,37.2923933577388,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,36.0933589086497,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,31.0826268923135,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,31.9367467746927,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,37.853277255727,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,28.2639492340235,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,34.4420204367148,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,40.9407963084292,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,47.4833533625875,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,49.386292649567,,1
+BTN,Bhutan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,53.3463593270416,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,68.3398527645303,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,60.1091977404058,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,56.2575829839375,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,47.0751925934341,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,46.5365054086561,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,47.8828066229933,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,57.4113793922892,,1
+BOL,Bolivia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,59.1717241709186,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,39.9087988139954,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,40.310118633539,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,41.743510524303,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,46.9748193876917,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,45.4216327992572,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,44.0235714193856,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,44.8932316799242,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,47.3715635753068,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,52.2381270477915,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,53.5008592967128,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,49.6097495570649,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,49.0902635470572,,1
+BIH,Bosnia and Herzegovina,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,45.8346943048337,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,19.6161332466694,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,16.193904309718,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,15.2307151442609,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,14.6807691767743,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,15.8049523115174,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,19.086977673783,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,18.3257336074772,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,19.0163812887175,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,20.6231807851092,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,21.0743622822987,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,21.8862970525723,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,19.2517818685668,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,8.00402997376666,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,5.9431764131185,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,6.02356808660498,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,11.1567555492122,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,10.972076070214,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,12.0423976352474,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,12.4450599461028,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,12.5321505732804,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,12.1168020575228,,1
+BWA,Botswana,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,11.3711032492715,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,81.8554431216383,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,83.0317498511131,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,79.1023218876878,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,85.0115036759105,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,98.7098819481716,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,92.5652532010336,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,86.6078841230118,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,83.6692026484793,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,73.4188038098507,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,67.5375540389418,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,58.4572711007508,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,57.2284093858434,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,59.8494900102759,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,59.341658294152,,1
+BRA,Brazil,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,61.3187804640802,,1
+BFA,Burkina Faso,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,61.9320439112839,,1
+BFA,Burkina Faso,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,63.1897248083414,,1
+BFA,Burkina Faso,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,55.5822235519468,,1
+BFA,Burkina Faso,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,73.3851925499913,,1
+BFA,Burkina Faso,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,47.0623633703305,,1
+BFA,Burkina Faso,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,45.5738610488619,,1
+KHM,Cambodia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,50.3420177198925,,1
+KHM,Cambodia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,27.4923946833641,,1
+KHM,Cambodia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,28.0325110467398,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,79.4576584012943,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,84.8102640173471,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,106.280979179561,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,106.500522736019,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,48.5973153695346,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,58.646137344434,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,48.8665341962956,,1
+CMR,Cameroon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,35.6686948009612,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,64.9003074523507,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,62.4731322069255,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,59.9440184640855,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,68.7795713723483,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,74.5544073791525,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,53.3623246913959,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,53.1515356456582,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,54.4625651849142,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,56.0236243991088,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,55.9915837788793,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,51.4827081297932,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,53.200869076551,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,55.7251649377054,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,54.1193858391726,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,53.1497329605545,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,53.1924466726998,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,45.3205112731135,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,39.1585639491399,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,43.2916781929928,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,46.0616514241618,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,46.8009858324025,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,51.2713370557453,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,54.1491194927984,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,57.4583564504362,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,58.7379742383571,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,66.245831750035,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,72.4827997563099,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,74.9284095733244,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,78.0386679289258,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,77.3126219756355,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,75.9438464996237,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,75.1877082393509,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,70.7020527924547,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,67.4447435281779,,1
+CAN,Canada,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,61.7622404568793,,1
+CHL,Chile,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,13.1456400053184,,1
+CHL,Chile,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,13.2770070115782,,1
+CHL,Chile,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,12.1152964047133,,1
+CHL,Chile,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,12.7798231837826,,1
+CHL,Chile,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,14.5844761393369,,1
+CHL,Chile,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,17.2839264371757,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,71.483126167997,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,71.3312731846403,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,70.2611600056829,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,80.4259616026375,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,91.1566069420143,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,72.703878581374,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,71.6505702522092,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,66.7272478437669,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,66.9071609156014,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,53.2785874719769,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,47.9761695130311,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,67.1029119456429,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,65.227695883164,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,62.8601328222053,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,72.4526699261111,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,68.9990033374936,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,65.2450803056946,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,52.5354195230314,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,17.7090216802298,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,19.0653508704071,,1
+COL,Colombia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,5.40391549112143,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,14.9405246182608,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,152.187001902338,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,243.595506269697,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,232.936231054902,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,169.786611378329,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,104.002107466568,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,128.444708079096,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,113.584666,,1
+COD,"Congo, Dem. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,289.844727083008,,1
+COG,"Congo, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,25.4826844740907,,1
+COG,"Congo, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,60.2269417189103,,1
+CRI,Costa Rica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,39.3351119117989,,1
+CRI,Costa Rica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,38.5018488599169,,1
+CRI,Costa Rica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,40.1048028944163,,1
+CRI,Costa Rica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,40.2051024300097,,1
+CRI,Costa Rica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,30.1790308643986,,1
+CRI,Costa Rica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,30.0982111795656,,1
+CIV,Cote d'Ivoire,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,171.065442627283,,1
+CYP,Cyprus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,53.6510804579325,,1
+CYP,Cyprus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,58.7207992783616,,1
+CYP,Cyprus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,56.0891425551974,,1
+CYP,Cyprus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,56.4111860003038,,1
+CYP,Cyprus,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,50.6956998402926,,1
+CZE,Czechia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,13.9974227725367,,1
+CZE,Czechia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,15.7297302900884,,1
+DNK,Denmark,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,75.3312600417617,,1
+DNK,Denmark,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,78.2852478726662,,1
+DNK,Denmark,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,66.6053260676425,,1
+DNK,Denmark,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,62.1550956180596,,1
+DOM,Dominican Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,0,,1
+DOM,Dominican Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,16.4168038368014,,1
+DOM,Dominican Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,17.5702324990029,,1
+DOM,Dominican Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,20.9601830753133,,1
+EGY,"Egypt, Arab Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,85.7885338345865,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,105.804728748456,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,102.190173433284,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,74.0361190983906,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,66.4690525886664,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,70.3842794023881,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,53.8790393562178,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,52.2142820084663,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,55.2485188270717,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,52.0656561848555,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,51.278403284547,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,50.837954417803,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,62.3992767937371,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,54.852339808708,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,54.5625709916988,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,57.4942866187624,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,58.1469205675387,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,48.4269376195663,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,48.4823724778462,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,50.5122222715281,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,56.2158116750578,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,56.5005963032977,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,57.9112234090821,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,62.446945384262,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,35.370552538118,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,27.376408936306,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,28.1906634561591,,1
+SLV,El Salvador,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,24.6529338880384,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,35.7240338809728,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,38.3588929573653,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,29.8019704214051,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,27.1148162836527,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,21.886341638627,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,20.5460181439876,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,16.3848798476003,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,14.3086225605816,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,13.2587988833004,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,12.7705717318626,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,12.9613211155748,,1
+SWZ,Eswatini,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,22.7106420776584,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,31.4488445675115,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,32.5332245880697,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,30.0951138166574,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,29.00568173215,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,27.9431250361336,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,26.9372797319632,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,10.733283781495,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,83.4720247831402,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,76.0638442706389,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,67.7317426757118,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,70.3936489385985,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,80.6182076424932,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,90.2523100095927,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,71.5033855542775,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,43.3007948756543,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,49.6471547793914,,1
+ETH,Ethiopia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,47.1758923635809,,1
+FJI,Fiji,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,36.6282593243799,,1
+FJI,Fiji,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,36.5383548067393,,1
+FJI,Fiji,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,33.6735845779785,,1
+FJI,Fiji,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,36.8418217433888,,1
+FIN,Finland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,58.3135962645897,,1
+FIN,Finland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,51.6838492232216,,1
+FIN,Finland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,34.1053360224565,,1
+FIN,Finland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,17.0126926351639,,1
+FIN,Finland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,10.4750437381821,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,40.0993201611166,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,43.4063813624702,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,42.9693933571232,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,54.7271260127791,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,65.193315792645,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,44.723685798174,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,38.2238727024287,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,38.8413159167876,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,39.4788389461877,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,36.0003473428274,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,30.3921568627451,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,28.9477658041046,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,28.1048141377209,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,27.6972297789187,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,31.4208316402546,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,30.8567774936061,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,23.4732554299105,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,19.2040626581459,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,23.090087672862,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,29.2292335361289,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,36.9156072188349,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,45.5074088345535,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,55.4493025751073,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,56.0323643991609,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,58.5196339627013,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,60.7776033305696,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,56.9064733876267,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,45.902215196821,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,46.4029985782603,,1
+GEO,Georgia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,61.051634865257,,1
+DEU,Germany,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,20.8541847518475,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,25.2099619740494,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,24.7007424112068,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,24.5639597782709,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,24.8169594138567,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,23.3939731993278,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,20.383408037295,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,21.986997531652,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,22.2347729614565,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,21.6021201382389,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,22.1444573926966,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,21.0384409661569,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,18.692477319178,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,20.2690233179284,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,16.9838230125754,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,13.4701885924417,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,11.2801678443371,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,11.3452176738095,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,11.2418328744629,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,11.404999017517,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,13.1619490409219,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,13.6225081203374,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,15.8312193134152,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,17.7517913078306,,1
+GTM,Guatemala,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,24.4806851423724,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,75.527467420073,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,86.3675279469398,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,95.2231106008826,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,82.9051914690244,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,86.1973246810211,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,91.8441738086318,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,96.4972044136958,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,96.3435073362669,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,98.6050135301158,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,94.7599117618678,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,94.3996155079431,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,90.7091826398842,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,81.4521758815481,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,81.2715110436077,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,72.6965505214979,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,69.1717704501836,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,68.4509493873209,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,65.2922510023179,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,63.0718340903114,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,59.8296815502685,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,58.990636010179,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,59.3104335567133,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,61.1369122307752,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,66.6676130729647,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,64.0609970246077,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,67.1725660018478,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,74.7296832293098,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,85.8329587620979,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,83.0469530647097,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,85.8326049732293,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,75.2294883851339,,1
+HUN,Hungary,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,70.9952478217972,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,80.155194222013,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,85.119675075089,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,94.3257130305097,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,98.4737480726843,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,89.0165347824994,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,80.6816491232151,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,89.2469810873099,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,101.938031559405,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,116.155544798537,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,134.408470656825,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,139.919746804735,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,150.774647187434,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,155.158764960484,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,148.777767500602,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,145.104759933745,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,128.506321494882,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,83.0821198008625,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,85.9662539768117,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,83.2677822586796,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,47.8003800968138,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,53.8074063156628,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,55.7146327984115,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,59.6429980160428,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,57.5281607671929,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,58.3418775384846,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,62.1963334175136,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,67.1605212693227,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,44.1501840514072,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,44.7793930745069,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,42.6148988162488,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,41.6073685299857,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,36.3773083496902,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,30.2575113175965,,1
+ISL,Iceland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,28.9040249028754,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,46.5224986659322,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,47.5836093800197,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,47.6337555915272,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,49.9647183856551,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,49.9009248748319,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,50.3118273627008,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,50.6780305618952,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,51.5565536600977,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,51.5919103003897,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,55.2564461117969,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,57.2922142809949,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,57.4975363892468,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,59.6667302762217,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,62.2265261001737,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,62.5929767433885,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,62.1900538960464,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,62.5527712945573,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,59.0179097968845,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,55.0042464964554,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,51.3529514384148,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,50.3192181735145,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,50.3654361276153,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,45.7233077028079,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,47.4916413028303,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,49.5942827047274,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,51.7598082886747,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,49.6809013594637,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,50.0100803583574,,1
+IND,India,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,50.7832537948314,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,29.997306381567,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,34.2250282105616,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,29.7173962466428,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,32.2241265309989,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,45.2079671076106,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,55.2040876648634,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,72.4853185253111,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,23.92314220907,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,30.8043248823304,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,36.5705901605804,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,37.4975968521644,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,42.7093574260874,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,40.2756295663842,,1
+IDN,Indonesia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,45.7414523316285,,1
+IRQ,Iraq,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,27.4382483655647,,1
+IRQ,Iraq,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,35.8630061588304,,1
+IRQ,Iraq,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,29.4760678294225,,1
+IRQ,Iraq,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,27.3918908853526,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,88.2425171142693,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,94.4480151714433,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,93.4134801274242,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,98.1735667246328,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,99.2859658269312,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,103.501650613099,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,111.866313277602,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,114.123027913945,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,117.72768005178,,1
+ISR,Israel,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,132.118898345577,,1
+ITA,Italy,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,77.285531523906,,1
+ITA,Italy,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,71.2588510056247,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,97.8664003524224,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,85.769346526226,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,96.136723606367,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,115.889445490401,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,118.195358706681,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,132.413890497651,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,135.885094993632,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,137.934669887058,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,133.978459775192,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,136.224334891016,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,134.678769793404,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,120.339824591656,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,112.989990199089,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,117.698811478754,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,121.00247616654,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,122.008068595913,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,127.433255587593,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,127.777467033609,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,117.535033564029,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,98.3341557109605,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,88.9636436472209,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,81.6705597000984,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,73.7000090787124,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,72.2521952357009,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,83.8611841763719,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,94.6607428923022,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,112.197175107941,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,123.606951339215,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,232.832210578933,,1
+JAM,Jamaica,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,138.741327638319,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,102.847276118182,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,100.908283146258,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,98.9957033797672,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,75.9660726859906,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,79.3448532492717,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,75.3805020477717,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,74.071860773415,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,78.8614496694168,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,77.7139917549107,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,73.723812248079,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,65.3506139398579,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,60.4217719904335,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,59.7710843617397,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,59.2214668762727,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,55.0660525842339,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,69.9595261843331,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,72.6249133521929,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,79.9498072958681,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,89.0222348564437,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,88.9183393971254,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,85.0740359140418,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,90.8265631629398,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,93.7109707103206,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,99.9058546631362,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,101.172590823202,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,100.385416463901,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,106.234221027771,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,105.062888412836,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,116.445964243913,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,125.609617959016,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,152.601096831376,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,129.999661933739,,1
+JOR,Jordan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,128.794683278404,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,20.8858497209469,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,21.3547830092174,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,22.4120405827369,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,23.7157605010227,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,18.4830469477519,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,21.9922369395187,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,16.9303582595661,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,16.7694252748762,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,19.307916061599,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,12.6469696266918,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,10.8406391538642,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,10.4981138465889,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,8.80131007226425,,1
+KAZ,Kazakhstan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,9.52296325134078,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,48.5543786213188,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,47.6110641211319,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,45.8328947097791,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,43.7757991203646,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,37.6954836147489,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,35.5200546892848,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,35.445983032352,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,36.1498687471311,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,35.7105612669292,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,34.8171170095688,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,33.3707589515616,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,31.0184112293818,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,8.39336880153862,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,6.63432383740304,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,6.97432545068181,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,7.91331663708199,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,8.90471239173119,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,9.68344217619626,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,9.93619504178387,,1
+KOR,"Korea, Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,7.22113697955519,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,40.2318478859281,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,40.54198900827,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,47.085480540382,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,56.3623694600643,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,67.9562222931595,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,51.3325378370411,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,51.6567858407378,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,60.9182286766387,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,60.4735108680683,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,72.4565575830671,,1
+KGZ,Kyrgyz Republic,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,53.8893270176244,,1
+LVA,Latvia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,7.44569772362789,,1
+LBN,Lebanon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,128.641269114899,,1
+LBN,Lebanon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,106.957053807029,,1
+LBN,Lebanon,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,96.9088659793814,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,2.99271686140967,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,32.1670318908686,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,32.8447143461545,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,37.368022786851,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,42.0604324864983,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,33.1383846153849,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,33.0174927862044,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,33.208634984126,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,32.1837873350535,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,27.1308905908949,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,29.563599276758,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,41.6905722621989,,1
+LSO,Lesotho,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,37.5171853858454,,1
+LUX,Luxembourg,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,2.90134514623114,,1
+LUX,Luxembourg,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,2.62215760462585,,1
+LUX,Luxembourg,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,1.95657501746058,,1
+LUX,Luxembourg,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,2.52016078856205,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,55.5992119991912,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,44.7856317881982,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,41.7011065959944,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,34.2946221236566,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,37.8862077383383,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,27.3346460465678,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,27.9207565041985,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,24.9138891722583,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,28.4619929059634,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,18.8455448354712,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,19.2608300361334,,1
+MWI,Malawi,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,20.1151721676317,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,64.2816241956596,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,60.1479261322487,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,63.2668366732951,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,62.0067215079956,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,52.4213502111087,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,51.1859148842757,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,50.0496777392469,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,51.8905275342534,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,53.5744697326154,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,52.6758487332831,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,52.9992519246741,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,51.6464316160996,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,50.0286816425423,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,49.5598230655171,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,50.8357455983458,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,39.7997028374607,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,40.0881257702829,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,40.5883961366256,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,42.0675597614326,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,45.6966383151073,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,45.0766412986635,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,43.047339208221,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,41.0697028403447,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,47.6197297670635,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,55.6918359524722,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,64.3772978856134,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,73.3193215120926,,1
+MYS,Malaysia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,79.5366179323318,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,57.2981206101706,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,54.8854181471638,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,46.1935516743923,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,30.3431523048305,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,29.1842777540108,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,29.5408843071306,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,33.9271150397616,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,27.2730426643921,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,30.3523770936084,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,33.5908378331301,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,31.2308703408131,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,40.8644099852265,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,40.126298421858,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,40.9867359654762,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,39.670387725631,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,43.0352763629504,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,47.3520580907562,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,44.2117002448663,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,45.5515611288816,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,41.6154638148062,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,35.5734695506425,,1
+MDV,Maldives,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,30.7823377634974,,1
+MLT,Malta,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,29.9674017223477,,1
+MLT,Malta,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,28.6087739753643,,1
+MLT,Malta,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,24.4176852360766,,1
+MLT,Malta,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,22.7213832538174,,1
+MLT,Malta,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,20.1391925353451,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,41.5637492486046,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,44.0008963636364,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,47.728014974263,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,48.3205495540139,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,47.4856330974415,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,49.4013516129032,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,52.7442510729614,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,52.42613226342,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,56.0864126523505,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,68.8800763500931,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,71.9117976190476,,1
+MHL,Marshall Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,71.5412639836289,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,57.1349404640455,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,54.5604097916564,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,55.4162684218654,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,36.0040049386744,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,35.0358570491021,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,36.275908664453,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,36.0211353228051,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,33.2416262961369,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,34.1599246904864,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,37.4486905882301,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,41.1387968950545,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,38.5444032538334,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,44.1430010758192,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,39.288508399984,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,29.7941358107018,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,31.6907550044809,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,30.9931762285205,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,33.1487378303686,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,35.3476342070016,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,35.2757196068331,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,32.4319382714997,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,30.7485422779047,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,29.8242079194186,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,31.5314654106726,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,39.3945282634877,,1
+MUS,Mauritius,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,39.1235900360959,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,45.0297603114434,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,43.9694401399305,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,44.8609557938384,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,45.8373464334068,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,41.3273940507878,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,18.1918633340197,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,19.4785244628191,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,21.0082173789952,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,19.7405052707619,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,23.9323468344639,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,30.7434988919319,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,26.8438813996716,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,19.2441733425118,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,28.1470540238128,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,38.2182364854974,,1
+MEX,Mexico,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,46.6268573934833,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,27.7955651702173,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,24.1514441624365,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,23.6979660714286,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,31.5972203342618,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,25.9593969230769,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,30.5527561343995,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,23.7828362712429,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,26.6937762883914,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,27.4856202419944,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,25.5717958565802,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,24.6789076055627,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,25.9631355889374,,1
+FSM,"Micronesia, Fed. Sts.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,27.1265032594345,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,34.261803395941,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,34.4860323998862,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,32.1187790600053,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,33.9555752157792,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,25.4510119081043,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,27.5107781705941,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,29.6674963404315,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,32.2474466077299,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,23.3135833177914,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,21.0660070666528,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,19.9179521587446,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,20.3471393454785,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,19.7666739342535,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,21.9325612593611,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,27.6322264363496,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,18.4425161310829,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,23.239565787011,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,29.1792912365375,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,32.4251035801551,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,51.9542957042957,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,52.5337629892465,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,59.5592506390136,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,60.7746432557048,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,73.0188685605433,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,77.8984533931353,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,82.8327822731422,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,48.0869353115827,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,40.1231820920436,,1
+MDA,Moldova,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,37.6286611371025,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,43.3447191792161,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,67.5710143296444,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,73.9367835188975,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,60.8440397290863,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,65.9653147309463,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,69.0997980938579,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,78.41832770873,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,83.9144976966664,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,71.5753340452053,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,54.6275786922475,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,49.4796320305737,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,37.0712826765271,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,51.434529837839,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,41.4415301033198,,1
+MNG,Mongolia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,20.621673383358,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,51.2263215704569,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,47.0982656739638,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,43.6257434782389,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,41.2851314683307,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,46.3035380770239,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,49.5746100609743,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,53.6662965686373,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,48.4750786200092,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,55.4449807288653,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,55.0124708324473,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,64.4624151446094,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,68.3949152787535,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,69.8259155220588,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,74.12313156115,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,70.9378689831812,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,62.0674162757784,,1
+MAR,Morocco,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,87.1967599759139,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,71.7932488373315,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,72.6610029459905,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,76.6350609536734,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,84.1569664621914,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,101.390931723437,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,78.878341504915,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,81.3537163201553,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,78.504609250696,,1
+MOZ,Mozambique,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,92.2424455674773,,1
+MMR,Myanmar,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,0,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,4.66758235586367,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,2.57186406136687,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,-1.17072566818484,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,7.45061506273455,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,1.60694919254531,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,0.277603198530483,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,1.10133141237365,,1
+NAM,Namibia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,117.515261125839,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,39.9222686422289,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,39.0485631284493,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,31.7771473472895,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,33.8625212320188,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,43.799987249558,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,42.9786611378803,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,49.6869680346867,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,51.7646230480547,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,59.4156672858263,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,62.5881953798115,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,63.9354609821022,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,58.9891415877141,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,64.5733198414706,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,64.0681097896128,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,66.3514434343267,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,59.8824296913156,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,65.1978803839092,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,66.1836432074826,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,66.5412100044161,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,63.6815382338544,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,61.6569229882709,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,64.911430440788,,1
+NPL,Nepal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,52.6205809545912,,1
+NLD,Netherlands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,54.214654116,,1
+NLD,Netherlands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,56.4483118552881,,1
+NLD,Netherlands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,56.0063065464404,,1
+NLD,Netherlands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,55.2083108027125,,1
+NLD,Netherlands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,54.7226413643846,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,54.0530599083664,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,53.9594714921364,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,51.3022296239772,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,46.0466265250956,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,32.7640829279005,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,36.6067779902994,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,38.629234026174,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,41.3592419573932,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,42.9013651890488,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,43.8708941737301,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,46.4245970754158,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,51.5541055220579,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,48.0816617433301,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,34.7227798053528,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,31.8653341616565,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,36.0132953366238,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,36.9753526219646,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,42.9524894769889,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,44.1698490827743,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,43.8675166117793,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,48.2453384728239,,1
+NZL,New Zealand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,32.7763842551838,,1
+NOR,Norway,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,30.7520156212036,,1
+NOR,Norway,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,31.5607533776556,,1
+NOR,Norway,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,22.342831631806,,1
+NOR,Norway,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,18.5942813892647,,1
+NOR,Norway,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,19.8470116461584,,1
+PAK,Pakistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,55.0324216144747,,1
+PAK,Pakistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,79.0846919843326,,1
+PAK,Pakistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,78.910190522119,,1
+PAK,Pakistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,74.5285767943305,,1
+PAK,Pakistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,76.0908289241623,,1
+PAK,Pakistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,78.7725350870327,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,85.1724489555373,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,83.8357085312167,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,78.0419162493333,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,66.4155843165132,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,62.0056278289201,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,21.5280269043579,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,22.9112159302113,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,26.8646997283355,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,25.5119664948813,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,32.3858558130148,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,23.9561620586775,,1
+PLW,Palau,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,23.2605058625389,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,52.3812606028215,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,48.1888180987368,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,52.5838575077787,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,48.6800956012736,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,40.1543056202126,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,36.6742909998618,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,32.685689411013,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,33.7401900962348,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,29.8753777382805,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,26.8946120001805,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,69.7344601261207,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,68.2675567269125,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,57.7415312557776,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,63.5373009220453,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,66.3501460864216,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,62.4046556302616,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,55.6433690965017,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,53.6620013882835,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,53.5450156411045,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,44.3261901337552,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,44.8643144683874,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,46.6108276015088,,1
+PNG,Papua New Guinea,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,48.9532540146935,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,35.2492265687178,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,34.7649150394579,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,26.5266050337015,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,25.7290009540889,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,24.7483395083352,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,23.7062564307639,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,22.8655544691074,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,19.5653895947835,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,18.3944203835483,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,19.2166594578957,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,20.7202165716448,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,23.6817913403586,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,26.4008658746012,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,26.0763223472509,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,28.5288183913942,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,32.539457544846,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,55.4915347082036,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,70.6160984544118,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,80.142729037233,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,78.2167512063909,,1
+PER,Peru,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,189.246285557642,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,43.426338941462,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,47.1441818576352,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,49.1574552067049,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,48.8058481254572,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,50.1962414764938,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,52.4006931344165,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,52.4322709324654,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,51.5748916279875,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,58.7978739921016,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,65.7097431233166,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,71.6007252032252,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,71.1158091036307,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,64.715074553291,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,59.2614955783056,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,58.598433117411,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,52.8348897149163,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,58.2805829140392,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,48.6978483259554,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,46.5576634189528,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,53.471178145145,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,49.4185114622984,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,58.8331979479565,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,46.269790365795,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,43.5879493136021,,1
+PHL,Philippines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,45.0076745112999,,1
+POL,Poland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,60.4543984704576,,1
+PRT,Portugal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,5.65740456986878,,1
+PRT,Portugal,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,8.24573773501712,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,18.5032227571465,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,19.2884758032917,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,21.0287512612177,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,22.992021036968,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,17.2760484379376,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,16.1685789853238,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,16.3253741158845,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,14.2417395793548,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,13.5407657719462,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,11.2004612830571,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,9.06725564048848,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,8.55140859340356,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,8.64108194430582,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,9.09810564473106,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,8.69786633503919,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,6.49528743788997,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,7.15843011658404,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,9.89107286046746,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,16.6608684477983,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,41.3527168644107,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,48.9836153351704,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,62.1488888669576,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,100.744137724205,,1
+RUS,Russian Federation,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,143.948999533393,,1
+RWA,Rwanda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,48.4289742567034,,1
+RWA,Rwanda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,47.8601030997282,,1
+RWA,Rwanda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,49.7969202729087,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,99.8703823864118,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,103.153573480276,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,95.1200992157321,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,98.3476214402002,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,55.0853181002707,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,55.9404550948587,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,54.5934447738196,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,57.3280875356783,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,56.9302290703978,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,53.3245594444444,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,54.0230135522152,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,51.2177218815052,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,44.8293754643131,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,54.9724926638478,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,46.6074007297297,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,46.8685383292534,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,47.4509601314966,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,47.7656117619987,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,39.3423254317549,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,31.923367795504,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,26.5286653982985,,1
+SMR,San Marino,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,12.7348281481481,,1
+SYC,Seychelles,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,174.684386519568,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,175.613907899815,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,175.596688461184,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,154.10364293744,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,149.289112307138,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,151.706326360826,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,128.07809248235,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,110.689756336151,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,109.197026214998,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,108.854265915138,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,103.320839751929,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,99.6097986729595,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,99.4464888561159,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,107.828093624626,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,104.78518384861,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,101.449782417951,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,106.372468302322,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,96.4099647516113,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,77.2760743035509,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,82.8374805427534,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,94.9666937754733,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,101.779018993689,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,108.589983770079,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,106.332540928351,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,93.9363125102557,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,83.842291725532,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,87.8603784550691,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,82.599116639914,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,71.3607292667242,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,72.735334061978,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,72.7804903132088,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,70.2818345454772,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,72.8796371846888,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,81.8827558107494,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,78.97732191875,,1
+SGP,Singapore,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,77.855311856756,,1
+SVN,Slovenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,16.2364911396379,,1
+SVN,Slovenia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,18.5258461582337,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,16.439440971058,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,11.4639181336923,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,7.74420413246414,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,7.68567032356845,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,8.40244987775226,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,6.25960695263414,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,6.73763116684843,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,8.72030492472168,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,10.1053266338219,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,11.5924176820868,,1
+SLB,Solomon Islands,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,13.9267708227713,,1
+SOM,"Somalia, Fed. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,0.000450345535180531,,1
+SOM,"Somalia, Fed. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,0.00161662140085104,,1
+SOM,"Somalia, Fed. Rep.",GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,0.00181677300204681,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,79.446907709916,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,76.2054429487374,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,74.0826080100226,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,75.7255090818801,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,64.589278136337,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,59.1023114125426,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,56.2597208339946,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,53.7387913927398,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,52.651157246849,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,39.6390583837328,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,42.1780316027359,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,44.6542617733798,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,43.1755459966558,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,44.2298759185659,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,44.8686189886337,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,44.8169697430772,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,39.9507720898509,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,36.9022310979407,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,33.9135908287352,,1
+ZAF,South Africa,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,32.3971949577925,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,107.300287362269,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,109.040623157974,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,132.546759057657,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,138.955245507052,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,111.293101275415,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,107.203121896334,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,106.577780541254,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,105.968136997792,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,104.513601542435,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,104.927837458817,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,91.8693310694076,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,77.4461594128753,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,57.789985767622,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,49.9611949458986,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,48.1994103859309,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,35.7047178344384,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,31.7331273427183,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,35.7479971661015,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,40.2343199708659,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,43.4376841356233,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,45.4755013249315,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,50.1525231278943,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,51.9977632183383,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,56.4411355546668,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,59.2051841099922,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,64.3080233782551,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,64.0463528212559,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,64.2492650926687,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,57.9249475404066,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,48.1390226934954,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,46.7322033007399,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,37.0105702712913,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,35.1902538036712,,1
+ESP,Spain,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,35.1574354161158,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,73.5126591624451,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,68.5910423357715,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,68.3536165599981,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,66.747235367113,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,68.5257394056158,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,69.2530251841806,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,86.063491912486,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,84.9944169483341,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,88.6994841221229,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,90.6049131149854,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,102.328536698869,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,102.270712023476,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,105.524990754701,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,103.219274149885,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,96.9040326453759,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,95.1081546127674,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,89.1958239111343,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,86.105931670321,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,92.343984335944,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,94.6498205974494,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,94.8553232346257,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,96.7978140982655,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,95.3619119503954,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,98.4833957754233,,1
+LKA,Sri Lanka,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,96.5806255127663,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,57.666394367293,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,67.1288453720016,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,96.9555960797348,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,103.00959046712,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,104.877909576037,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,100.754350550575,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,92.4815575039171,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,97.046322814295,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,84.6590647845878,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,92.3212291448103,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,90.828054331704,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,92.3085420315927,,1
+KNA,St. Kitts and Nevis,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,79.2688095806906,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,45.8570272133998,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,43.3977023635892,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,41.6345301264286,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,45.2980532065982,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,47.1957374440562,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,52.0352250489237,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,49.5833333333333,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,48.5183795948987,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,50.0329218106996,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,40.0705394190871,,1
+LCA,St. Lucia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,30.8776806989674,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,53.6982398780635,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,43.5145083072876,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,43.8571223188117,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,51.3164930897991,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,54.2704239409077,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,56.3132501150882,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,52.4828063154553,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,49.5534268859916,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,45.5115533057875,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,47.911890587105,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,51.9460822416441,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,40.0388592047741,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,39.3831604507018,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,41.6080087595808,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,43.3534141253135,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,43.2640630598352,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,40.7099336377631,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,33.631808975589,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,31.5824661356898,,1
+VCT,St. Vincent and the Grenadines,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,31.5259094901308,,1
+SDN,Sudan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,865.873242919908,,1
+SDN,Sudan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,786.949168449653,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,19.8822985290733,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,17.5861857589033,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,19.9391907467762,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,20.8521076698005,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,18.9542598001148,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,18.6781185686767,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,20.2844118353444,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,19.3809926486343,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,20.4392949646999,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,20.6112427869967,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,20.2181574462584,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,21.344495938121,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,21.1420070510112,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,20.9935662166253,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,21.7016373930473,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,23.0826538987753,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,23.6558294443865,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,25.7683538770765,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,29.3971783159172,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,29.3653695137999,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,28.8028890827852,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,29.7429844907184,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,24.7027735794148,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,25.7779061594765,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,25.0056548792634,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,27.1341875947238,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,24.9237649035228,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,22.9044358709718,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,22.4952087782551,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,20.0680258688926,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,18.4445481293767,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,15.2316390704242,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,13.0443645225384,,1
+CHE,Switzerland,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,12.325321761579,,1
+TJK,Tajikistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,79.804079881426,,1
+TJK,Tajikistan,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,114.076117982873,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,62.1983655632713,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,61.1243613638526,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,60.349920189306,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,58.5114542035114,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,50.3227814999415,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,38.6277055941279,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,37.9104188436045,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,37.3065204045664,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,36.6705695355179,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,35.3904739452699,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,38.1666950570794,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,28.4447160238828,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,28.1319762983791,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,26.9008455475014,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,26.7791952036446,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,22.4502172623288,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,22.9934668319175,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,24.3806591494652,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,25.4581282780769,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,24.3963998008709,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,27.0460183720806,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,30.0703562721572,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,24.5783340358589,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,21.9645865139196,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,20.0057789155598,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,10.6698573854214,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,4.64152040948473,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,3.67349745742469,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,4.61009471231839,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,5.69321973711674,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,8.18624353670039,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,10.8789951587465,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,13.3655673362757,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,18.4477538501483,,1
+THA,Thailand,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1989,0,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,43.0808046891087,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,43.0541813775852,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,48.2405761734079,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,45.6224781466791,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,49.3817801189399,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,51.114971793039,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,47.3558959748934,,1
+TON,Tonga,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,48.914577670051,,1
+TTO,Trinidad and Tobago,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,15.928004235045,,1
+TTO,Trinidad and Tobago,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,16.803206848237,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,42.5197543010178,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,42.4807224505219,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,38.7660002963438,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,42.9297921509547,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,43.2877054340983,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,45.7824704950416,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,48.5639104645928,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,52.4205297222421,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,53.8375580931292,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,55.0213155722411,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,55.9344340024072,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,56.4678199732883,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,56.7212758294998,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,55.6386363803379,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,54.2817440338334,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,56.9353278066895,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,55.2965179400303,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,57.518267866149,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,59.0345141585198,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,59.3098274568642,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,55.4991317544397,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,60.6727188081937,,1
+TUN,Tunisia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,54.7703800956018,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,26.6192344843666,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,33.2548360241526,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,35.3300843747051,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,41.637512472512,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,41.0396523800978,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,33.4600744646841,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,29.3999927097041,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,29.5734179689365,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,30.0752014180837,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,29.1451452655038,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,31.1206735024546,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,31.7836465290005,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,37.6997174661117,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,39.969342535799,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,45.1797411845197,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,48.4871401224526,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,41.03188129671,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,30.2863787420054,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,31.8793752282311,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,27.4847222842895,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,25.8570964356936,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,44.0175057105221,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,33.6982232562415,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,34.0172750620102,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,32.1299111323629,,1
+TUR,Turkiye,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,30.2454942016516,,1
+UGA,Uganda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,53.1469350760568,,1
+UGA,Uganda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,53.890283062847,,1
+UGA,Uganda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,51.3026623484674,,1
+UGA,Uganda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,44.1859143085922,,1
+UGA,Uganda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,38.47694531299,,1
+UGA,Uganda,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,34.6735709943685,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,58.7161850732326,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,48.3272696003568,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,56.9059506749708,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,66.7346465062875,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,71.8095454494004,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,70.2588376218982,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,63.6653191884884,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,35.6313995863809,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,32.445911715199,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,26.4808201734686,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,28.8666366228354,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,23.9900342329063,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,13.2299542095983,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,43.7297874273256,,1
+UKR,Ukraine,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,60.9764493031386,,1
+ARE,United Arab Emirates,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,1.80326774822252,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,131.073062954793,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,136.142431919028,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,138.215904304967,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,183.804848939919,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,194.682828796265,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,158.972569875821,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,156.766820519267,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,160.141177233502,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,155.581504971929,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,147.063146778865,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,149.584281299965,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,141.033172505075,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,146.371335905972,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,143.125971214621,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,130.497283454602,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,122.887383328898,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,104.84023075526,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,93.3735852072108,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,91.788062892401,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,91.8639528693767,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,90.2045973945536,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,86.4073086616893,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,86.1686223366587,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,84.04178204707,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,87.284376049437,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,87.2968787467984,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,90.0985636275882,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,88.2229100746031,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,87.1897058807433,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,88.2190284248486,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,40.4800884599488,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,35.3135500060757,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,30.3997500632281,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,29.1948960284953,,1
+GBR,United Kingdom,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,30.2033709452908,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,118.110809413059,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,116.975041091042,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,114.751249288826,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,120.426823865111,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,126.432892675138,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,100.979786328903,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,99.2223695206525,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,97.8800564031882,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,98.6931939368279,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,96.6110565851958,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,95.9491132711014,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,95.7184835504169,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,93.8330014607143,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,89.7347177439651,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,85.1548294082739,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,76.0321911124259,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,63.9719356606883,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,55.81423486742,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,55.6206336286886,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,56.6929754702153,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,56.8323090866456,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,56.4292821179909,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,54.0472133861297,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,52.6288977430517,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2000,33.2676548646821,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,37.7272782686058,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,41.1291489790385,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,44.1174698332784,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,46.7417685500108,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,47.2095352870886,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,47.3534821707435,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,48.2461403335599,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,46.0501444176036,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,44.0615972806026,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,40.933943570707,,1
+USA,United States,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1989,39.128400199944,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2024,66.4049496757675,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,62.3670975864135,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,54.2372595164662,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,58.1130528659423,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,60.4014180930182,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,50.1314492009057,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,47.3414750646128,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,45.0744196888857,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,46.4584676110441,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,47.27655851426,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,41.2850007392277,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,40.0884943756463,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,41.0282347517241,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,43.2074168752496,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,42.4666388098334,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2009,47.6955014400928,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2008,55.8665794694501,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2007,57.5599818827522,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2006,68.4607045919814,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2005,76.1144597007906,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2004,85.4255941362735,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2003,105.602780865499,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2002,95.2678607213147,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2001,40.6433348447185,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,24.5301880718095,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,21.8791430371302,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,23.6047773194107,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,24.5905757591411,,1
+URY,Uruguay,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,31.5959630364015,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2023,72.3247537863113,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2022,79.7735452170055,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,87.0720898262884,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1999,27.3032116324112,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,28.4031452746136,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,23.3531607922546,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,22.3390410958904,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,24.1834507924015,,1
+VUT,Vanuatu,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,23.4169659568011,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2021,71.4111761749593,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2020,103.543152350363,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2019,61.9301173695734,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2018,59.712221166501,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2017,52.2809418400663,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2016,46.4328935945728,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2015,49.4073473478714,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2014,44.3958675869335,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2013,24.2239941452842,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2012,23.4889192803801,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2011,18.0499093613498,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",2010,17.3215114837051,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1998,161.232157851948,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1997,150.072548942759,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1996,175.934490736564,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1995,155.279224614308,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1994,149.209889858483,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1993,161.786076869105,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1992,164.700753558863,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1991,277.530307986501,,1
+ZMB,Zambia,GC.DOD.TOTL.GD.ZS,"Central government debt, total (% of GDP)",1990,244.380536439033,,1

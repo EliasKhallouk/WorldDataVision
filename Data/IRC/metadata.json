@@ -1,0 +1,384 @@
+{
+  "download_date": "2026-02-19T23:00:06.700048",
+  "source": "World Bank API",
+  "api_version": "v2",
+  "period": "1960-2025",
+  "total_indicators": 75,
+  "indicators": [
+    {
+      "code": "EG.USE.ELEC.KH.PC",
+      "name": "electricity_use_per_capita",
+      "file": "electricity_use_per_capita.csv"
+    },
+    {
+      "code": "EN.GHG.CO2.PC.CE.AR5",
+      "name": "co2_emissions_per_capita_ar5",
+      "file": "co2_emissions_per_capita_ar5.csv"
+    },
+    {
+      "code": "SP.POP.TOTL",
+      "name": "population_total",
+      "file": "population_total.csv"
+    },
+    {
+      "code": "SP.POP.0014.TO.ZS",
+      "name": "population_0_14",
+      "file": "population_0_14.csv"
+    },
+    {
+      "code": "SP.POP.1564.TO.ZS",
+      "name": "population_15_64",
+      "file": "population_15_64.csv"
+    },
+    {
+      "code": "SP.POP.65UP.TO.ZS",
+      "name": "population_65plus",
+      "file": "population_65plus.csv"
+    },
+    {
+      "code": "SP.POP.AG.MA.NO",
+      "name": "median_age",
+      "file": "median_age.csv"
+    },
+    {
+      "code": "SP.POP.DPND",
+      "name": "dependency_ratio",
+      "file": "dependency_ratio.csv"
+    },
+    {
+      "code": "SP.POP.DPND.OL",
+      "name": "old_dependency_ratio",
+      "file": "old_dependency_ratio.csv"
+    },
+    {
+      "code": "SP.POP.DPND.YG",
+      "name": "young_dependency_ratio",
+      "file": "young_dependency_ratio.csv"
+    },
+    {
+      "code": "SP.DYN.CBRT.IN",
+      "name": "birth_rate",
+      "file": "birth_rate.csv"
+    },
+    {
+      "code": "SP.DYN.CDRT.IN",
+      "name": "death_rate",
+      "file": "death_rate.csv"
+    },
+    {
+      "code": "SP.DYN.TFRT.IN",
+      "name": "fertility_rate",
+      "file": "fertility_rate.csv"
+    },
+    {
+      "code": "SP.DYN.LE00.IN",
+      "name": "life_expectancy",
+      "file": "life_expectancy.csv"
+    },
+    {
+      "code": "SP.POP.GROW",
+      "name": "population_growth",
+      "file": "population_growth.csv"
+    },
+    {
+      "code": "SM.POP.NETM",
+      "name": "net_migration",
+      "file": "net_migration.csv"
+    },
+    {
+      "code": "SP.URB.TOTL.IN.ZS",
+      "name": "urban_population",
+      "file": "urban_population.csv"
+    },
+    {
+      "code": "AG.LND.AGRI.ZS",
+      "name": "agricultural_land",
+      "file": "agricultural_land.csv"
+    },
+    {
+      "code": "AG.LND.ARBL.HA.PC",
+      "name": "arable_land_per_capita",
+      "file": "arable_land_per_capita.csv"
+    },
+    {
+      "code": "AG.YLD.CREL.KG",
+      "name": "cereal_yield",
+      "file": "cereal_yield.csv"
+    },
+    {
+      "code": "AG.PRD.FOOD.XD",
+      "name": "food_production_index",
+      "file": "food_production_index.csv"
+    },
+    {
+      "code": "AG.PRD.CROP.XD",
+      "name": "crop_production_index",
+      "file": "crop_production_index.csv"
+    },
+    {
+      "code": "AG.PRD.LVSK.XD",
+      "name": "livestock_production_index",
+      "file": "livestock_production_index.csv"
+    },
+    {
+      "code": "TM.VAL.FOOD.ZS.UN",
+      "name": "food_imports",
+      "file": "food_imports.csv"
+    },
+    {
+      "code": "TX.VAL.FOOD.ZS.UN",
+      "name": "agricultural_exports",
+      "file": "agricultural_exports.csv"
+    },
+    {
+      "code": "ER.H2O.FWST.ZS",
+      "name": "water_stress",
+      "file": "water_stress.csv"
+    },
+    {
+      "code": "ER.H2O.INTR.PC",
+      "name": "renewable_water_per_capita",
+      "file": "renewable_water_per_capita.csv"
+    },
+    {
+      "code": "AG.LND.FRST.ZS",
+      "name": "forest_area",
+      "file": "forest_area.csv"
+    },
+    {
+      "code": "EG.ELC.PROD.KH",
+      "name": "electricity_production",
+      "file": "electricity_production.csv"
+    },
+    {
+      "code": "EG.FEC.RNEW.ZS",
+      "name": "renewable_energy_consumption",
+      "file": "renewable_energy_consumption.csv"
+    },
+    {
+      "code": "EG.USE.COMM.FO.ZS",
+      "name": "fossil_fuel_consumption",
+      "file": "fossil_fuel_consumption.csv"
+    },
+    {
+      "code": "EG.ELC.NUCL.ZS",
+      "name": "nuclear_electricity",
+      "file": "nuclear_electricity.csv"
+    },
+    {
+      "code": "EG.ELC.HYRO.ZS",
+      "name": "hydro_electricity",
+      "file": "hydro_electricity.csv"
+    },
+    {
+      "code": "EG.IMP.CONS.ZS",
+      "name": "energy_imports_net",
+      "file": "energy_imports_net.csv"
+    },
+    {
+      "code": "NY.GDP.PETR.RT.ZS",
+      "name": "oil_rents",
+      "file": "oil_rents.csv"
+    },
+    {
+      "code": "NY.GDP.NGAS.RT.ZS",
+      "name": "natural_gas_rents",
+      "file": "natural_gas_rents.csv"
+    },
+    {
+      "code": "NY.GDP.COAL.RT.ZS",
+      "name": "coal_rents",
+      "file": "coal_rents.csv"
+    },
+    {
+      "code": "EG.USE.PCAP.KG.OE",
+      "name": "energy_use_per_capita",
+      "file": "energy_use_per_capita.csv"
+    },
+    {
+      "code": "EG.ELC.ACCS.ZS",
+      "name": "access_electricity",
+      "file": "access_electricity.csv"
+    },
+    {
+      "code": "CC.EST",
+      "name": "corruption_control",
+      "file": "corruption_control.csv"
+    },
+    {
+      "code": "GE.EST",
+      "name": "government_effectiveness",
+      "file": "government_effectiveness.csv"
+    },
+    {
+      "code": "PV.EST",
+      "name": "political_stability",
+      "file": "political_stability.csv"
+    },
+    {
+      "code": "RL.EST",
+      "name": "rule_of_law",
+      "file": "rule_of_law.csv"
+    },
+    {
+      "code": "RQ.EST",
+      "name": "regulatory_quality",
+      "file": "regulatory_quality.csv"
+    },
+    {
+      "code": "VA.EST",
+      "name": "voice_accountability",
+      "file": "voice_accountability.csv"
+    },
+    {
+      "code": "GC.DOD.TOTL.GD.ZS",
+      "name": "government_debt",
+      "file": "government_debt.csv"
+    },
+    {
+      "code": "DT.DOD.DECT.GN.ZS",
+      "name": "external_debt",
+      "file": "external_debt.csv"
+    },
+    {
+      "code": "DT.TDS.DECT.EX.ZS",
+      "name": "debt_service",
+      "file": "debt_service.csv"
+    },
+    {
+      "code": "GC.TAX.TOTL.GD.ZS",
+      "name": "tax_revenue",
+      "file": "tax_revenue.csv"
+    },
+    {
+      "code": "FI.RES.TOTL.MO",
+      "name": "reserves_months_imports",
+      "file": "reserves_months_imports.csv"
+    },
+    {
+      "code": "NY.GDP.PCAP.PP.KD",
+      "name": "gdp_per_capita_ppp",
+      "file": "gdp_per_capita_ppp.csv"
+    },
+    {
+      "code": "NY.GDP.MKTP.KD.ZG",
+      "name": "gdp_growth",
+      "file": "gdp_growth.csv"
+    },
+    {
+      "code": "FP.CPI.TOTL.ZG",
+      "name": "inflation",
+      "file": "inflation.csv"
+    },
+    {
+      "code": "SL.UEM.TOTL.ZS",
+      "name": "unemployment",
+      "file": "unemployment.csv"
+    },
+    {
+      "code": "BN.CAB.XOKA.GD.ZS",
+      "name": "current_account_balance",
+      "file": "current_account_balance.csv"
+    },
+    {
+      "code": "BX.KLT.DINV.WD.GD.ZS",
+      "name": "fdi_inflows",
+      "file": "fdi_inflows.csv"
+    },
+    {
+      "code": "MS.MIL.XPND.GD.ZS",
+      "name": "military_expenditure",
+      "file": "military_expenditure.csv"
+    },
+    {
+      "code": "SE.XPD.TOTL.GD.ZS",
+      "name": "education_expenditure",
+      "file": "education_expenditure.csv"
+    },
+    {
+      "code": "SE.TER.ENRR",
+      "name": "school_enrollment_tertiary",
+      "file": "school_enrollment_tertiary.csv"
+    },
+    {
+      "code": "SE.ADT.LITR.ZS",
+      "name": "literacy_rate_adult",
+      "file": "literacy_rate_adult.csv"
+    },
+    {
+      "code": "GB.XPD.RSDV.GD.ZS",
+      "name": "rd_expenditure",
+      "file": "rd_expenditure.csv"
+    },
+    {
+      "code": "SP.POP.SCIE.RD.P6",
+      "name": "researchers_per_million",
+      "file": "researchers_per_million.csv"
+    },
+    {
+      "code": "IP.PAT.RESD",
+      "name": "patent_applications",
+      "file": "patent_applications.csv"
+    },
+    {
+      "code": "IP.JRN.ARTC.SC",
+      "name": "scientific_articles",
+      "file": "scientific_articles.csv"
+    },
+    {
+      "code": "TX.VAL.TECH.MF.ZS",
+      "name": "high_tech_exports",
+      "file": "high_tech_exports.csv"
+    },
+    {
+      "code": "IT.NET.USER.ZS",
+      "name": "internet_users",
+      "file": "internet_users.csv"
+    },
+    {
+      "code": "IT.CEL.SETS.P2",
+      "name": "mobile_subscriptions",
+      "file": "mobile_subscriptions.csv"
+    },
+    {
+      "code": "IT.NET.BBND.P2",
+      "name": "fixed_broadband",
+      "file": "fixed_broadband.csv"
+    },
+    {
+      "code": "IT.NET.SECR.P6",
+      "name": "secure_internet_servers",
+      "file": "secure_internet_servers.csv"
+    },
+    {
+      "code": "AG.LND.TOTL.K2",
+      "name": "land_area",
+      "file": "land_area.csv"
+    },
+    {
+      "code": "EN.ATM.CO2E.PC",
+      "name": "co2_emissions_per_capita",
+      "file": "co2_emissions_per_capita.csv"
+    },
+    {
+      "code": "SH.XPD.CHEX.GD.ZS",
+      "name": "health_expenditure",
+      "file": "health_expenditure.csv"
+    },
+    {
+      "code": "SH.MED.PHYS.ZS",
+      "name": "physicians_per_1000",
+      "file": "physicians_per_1000.csv"
+    },
+    {
+      "code": "SH.MED.BEDS.ZS",
+      "name": "hospital_beds",
+      "file": "hospital_beds.csv"
+    },
+    {
+      "code": "SP.DYN.IMRT.IN",
+      "name": "infant_mortality",
+      "file": "infant_mortality.csv"
+    }
+  ]
+}
