@@ -1,10 +1,14 @@
+/* ============================================================
+   SCATTER PLOT — Professional analytical chart
+   ============================================================ */
+
 .scatter-plot-container {
   position: relative;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
+  background: var(--color-white);
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  border: var(--border-default);
+  box-shadow: var(--shadow-sm);
 }
 
 .scatter-canvas {
@@ -14,85 +18,87 @@
 
 .scatter-tooltip {
   position: fixed;
-  background: #1a202c;
-  color: white;
-  padding: 10px 14px;
-  border-radius: 6px;
-  font-size: 13px;
+  background: var(--color-neutral-900);
+  color: var(--color-white);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  font-size: var(--text-sm);
   pointer-events: none;
   z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  border: 1px solid #4a5568;
-  line-height: 1.6;
+  box-shadow: var(--shadow-overlay);
+  border: 1px solid var(--color-neutral-700);
+  line-height: var(--leading-relaxed);
 }
 
 .scatter-tooltip strong {
   display: block;
-  margin-bottom: 6px;
-  font-size: 14px;
-  color: white;
+  margin-bottom: 4px;
+  font-size: var(--text-base);
+  color: var(--color-white);
+  font-weight: var(--font-semibold);
 }
 
 .scatter-tooltip div {
   margin: 2px 0;
-  color: white !important;
+  color: var(--color-neutral-300) !important;
+  font-variant-numeric: tabular-nums;
 }
 
 .scatter-legend {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  margin-top: 15px;
-  padding-top: 15px;
-  border-top: 1px solid #e0e0e0;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: var(--border-subtle);
 }
 
 .legend-gradient {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: var(--space-2);
 }
 
 .gradient-bar {
-  width: 300px;
-  height: 20px;
+  width: 280px;
+  height: 12px;
   background: linear-gradient(to right, 
-    rgb(220, 38, 38) 0%,
-    rgb(251, 191, 36) 50%,
-    rgb(34, 197, 94) 100%
+    #9b2c2c 0%,
+    #b8860b 50%,
+    #2d8a56 100%
   );
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border: 1px solid var(--color-neutral-200);
 }
 
 .gradient-labels {
   display: flex;
   justify-content: space-between;
-  width: 300px;
-  font-size: 11px;
-  color: #666;
-  padding: 0 5px;
+  width: 280px;
+  font-size: var(--text-xs);
+  color: var(--color-neutral-500);
+  font-variant-numeric: tabular-nums;
 }
 
 .legend-text {
-  font-size: 13px;
-  color: #666;
-  font-weight: 500;
+  font-size: var(--text-sm);
+  color: var(--color-neutral-500);
+  font-weight: var(--font-medium);
 }
 
-.legend-item {
+.scatter-legend .legend-item {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 13px;
-  color: #666;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-neutral-500);
 }
 
-.legend-color {
-  width: 20px;
-  height: 20px;
+.scatter-legend .legend-color {
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-neutral-200);
 }

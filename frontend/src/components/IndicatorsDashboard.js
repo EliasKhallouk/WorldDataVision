@@ -81,11 +81,11 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
   };
 
   const categories = [
-    { code: 'all', name: 'Tous les indicateurs', icon: '📊' },
-    { code: 'economy', name: 'Économie', icon: '💰' },
-    { code: 'social', name: 'Social', icon: '👥' },
-    { code: 'demographic', name: 'Démographie', icon: '📈' },
-    { code: 'institutional', name: 'Institutionnel', icon: '🏛️' }
+    { code: 'all', name: 'Tous', icon: '' },
+    { code: 'economy', name: 'Économie', icon: '' },
+    { code: 'social', name: 'Social', icon: '' },
+    { code: 'demographic', name: 'Démographie', icon: '' },
+    { code: 'institutional', name: 'Institutionnel', icon: '' }
   ];
 
   if (loading && indicators.length === 0) {
@@ -99,7 +99,7 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
   return (
     <div className="indicators-dashboard">
       <div className="dashboard-header">
-        <h2>📊 Indicateurs de développement</h2>
+        <h2>Indicateurs de développement</h2>
         <p className="subtitle">Données économiques, sociales et institutionnelles</p>
       </div>
 
@@ -111,7 +111,6 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
             className={`category-btn ${selectedCategory === cat.code ? 'active' : ''}`}
             onClick={() => setSelectedCategory(cat.code)}
           >
-            <span className="category-icon">{cat.icon}</span>
             <span className="category-name">{cat.name}</span>
           </button>
         ))}
@@ -151,13 +150,13 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
           className={`view-mode-btn ${viewMode === 'ranking' ? 'active' : ''}`}
           onClick={() => setViewMode('ranking')}
         >
-          🏆 Classement
+          Classement
         </button>
         <button
           className={`view-mode-btn ${viewMode === 'evolution' ? 'active' : ''}`}
           onClick={() => setViewMode('evolution')}
         >
-          📈 Évolution
+          Évolution
         </button>
       </div>
 

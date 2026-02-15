@@ -1,186 +1,197 @@
+/* ============================================================
+   INDICATORS DASHBOARD — Institutional analytical layout
+   ============================================================ */
+
 .indicators-dashboard {
-  padding: 2rem;
-  max-width: 1400px;
-  margin: 0 auto;
+  padding: var(--space-6);
+  width: 100%;
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  border: var(--border-default);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
 }
 
 .dashboard-header {
-  text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-5);
 }
 
 .dashboard-header h2 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  color: #1a202c;
+  font-size: var(--text-2xl);
+  margin-bottom: 4px;
+  color: var(--color-neutral-900);
+  font-weight: var(--font-bold);
 }
 
 .dashboard-header .subtitle {
-  color: #718096;
-  font-size: 1rem;
+  color: var(--color-neutral-500);
+  font-size: var(--text-sm);
 }
 
-/* Filtres de catégories */
+/* ── Category filters ── */
 .category-filters {
   display: flex;
-  gap: 0.75rem;
+  gap: var(--space-2);
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  background: #f7fafc;
-  border-radius: 12px;
+  margin-bottom: var(--space-5);
+  padding: var(--space-3);
+  background: var(--color-neutral-50);
+  border-radius: var(--radius-md);
+  border: var(--border-subtle);
 }
 
 .category-btn {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
-  padding: 1rem 1.5rem;
-  background: white;
-  border: 2px solid #e2e8f0;
-  border-radius: 10px;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-white);
+  border: var(--border-default);
+  border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: all 0.2s;
-  font-weight: 500;
+  transition: all var(--transition-fast);
+  font-weight: var(--font-medium);
+  font-size: var(--text-sm);
+  color: var(--color-neutral-700);
 }
 
 .category-btn:hover {
-  border-color: #667eea;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  border-color: var(--color-primary-400);
+  color: var(--color-primary-700);
+  background: var(--color-primary-50);
 }
 
 .category-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-color: #667eea;
-  color: white;
+  background: var(--color-primary-700);
+  border-color: var(--color-primary-700);
+  color: var(--color-white);
 }
 
 .category-icon {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .category-name {
-  font-size: 0.9rem;
+  font-size: var(--text-sm);
 }
 
-/* Sélecteur d'indicateur */
+/* ── Indicator selector ── */
 .indicator-selector {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: var(--space-5);
+  padding: var(--space-4);
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  border: var(--border-default);
+  box-shadow: var(--shadow-xs);
 }
 
 .indicator-selector label {
   display: block;
-  margin-bottom: 0.75rem;
-  font-weight: 600;
-  color: #2d3748;
+  margin-bottom: var(--space-2);
+  font-weight: var(--font-semibold);
+  color: var(--color-neutral-700);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
 }
 
 .indicator-selector select {
   width: 100%;
-  padding: 0.75rem;
-  font-size: 1rem;
-  border: 2px solid #e2e8f0;
-  border-radius: 8px;
-  background: white;
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-base);
+  border: var(--border-default);
+  border-radius: var(--radius-sm);
+  background: var(--color-white);
   cursor: pointer;
-  transition: border-color 0.2s;
+  transition: border-color var(--transition-fast);
+  color: var(--color-neutral-800);
 }
 
 .indicator-selector select:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: var(--color-primary-500);
+  box-shadow: 0 0 0 2px rgba(37, 99, 160, 0.12);
 }
 
 .indicator-info {
   display: flex;
-  gap: 1.5rem;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #e2e8f0;
-  font-size: 0.9rem;
-  color: #718096;
+  gap: var(--space-5);
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
+  border-top: var(--border-subtle);
+  font-size: var(--text-sm);
+  color: var(--color-neutral-500);
 }
 
 .indicator-unit {
-  font-weight: 500;
+  font-weight: var(--font-medium);
 }
 
-/* Modes de visualisation */
+/* ── View modes ── */
 .view-modes {
   display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
-  justify-content: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-5);
 }
 
 .view-mode-btn {
-  padding: 0.75rem 2rem;
-  border: 2px solid #e2e8f0;
-  background: white;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 500;
+  padding: var(--space-2) var(--space-5);
+  border: var(--border-default);
+  background: var(--color-white);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all var(--transition-fast);
+  color: var(--color-neutral-700);
 }
 
 .view-mode-btn:hover {
-  border-color: #667eea;
-  background: #f7fafc;
+  border-color: var(--color-primary-400);
+  color: var(--color-primary-700);
 }
 
 .view-mode-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-color: #667eea;
-  color: white;
+  background: var(--color-primary-700);
+  border-color: var(--color-primary-700);
+  color: var(--color-white);
 }
 
-/* Contenu du dashboard */
+/* ── Dashboard content ── */
 .dashboard-content {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  padding: 2rem;
-  min-height: 500px;
+  background: var(--color-neutral-50);
+  border-radius: var(--radius-md);
+  border: var(--border-subtle);
+  padding: var(--space-6);
+  min-height: 600px;
 }
 
-/* Loading */
+/* ── Loading ── */
 .loading {
   text-align: center;
-  padding: 3rem;
-  color: #718096;
-  font-size: 1.1rem;
+  padding: var(--space-10);
+  color: var(--color-neutral-500);
+  font-size: var(--text-base);
 }
 
-/* Responsive */
+/* ── Responsive ── */
 @media (max-width: 768px) {
   .indicators-dashboard {
-    padding: 1rem;
+    padding: var(--space-4);
   }
 
   .category-filters {
-    gap: 0.5rem;
+    gap: var(--space-1);
   }
 
   .category-btn {
-    padding: 0.75rem 1rem;
-    font-size: 0.85rem;
-  }
-
-  .category-icon {
-    font-size: 1.2rem;
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--text-sm);
   }
 
   .indicator-info {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--space-1);
   }
 
   .view-modes {
@@ -188,6 +199,6 @@
   }
 
   .dashboard-content {
-    padding: 1rem;
+    padding: var(--space-4);
   }
 }

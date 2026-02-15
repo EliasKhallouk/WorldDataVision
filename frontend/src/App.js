@@ -23,12 +23,11 @@ import {
 } from './services/api';
 import { calculateStats, formatCompactNumber } from './utils/helpers';
 
-// Composant InfoTooltip pour afficher une pastille d'information
 const InfoTooltip = ({ text }) => (
-  <span className="info-tooltip">
-    <svg className="info-icon" viewBox="0 0 16 16" width="14" height="14">
-      <circle cx="8" cy="8" r="7" fill="#667eea" stroke="white" strokeWidth="1"/>
-      <text x="8" y="11.5" textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">i</text>
+  <span className="info-tooltip" role="img" aria-label="Information">
+    <svg className="info-icon" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+      <circle cx="8" cy="8" r="7" fill="none" stroke="var(--color-neutral-400)" strokeWidth="1.5"/>
+      <text x="8" y="11.5" textAnchor="middle" fill="var(--color-neutral-400)" fontSize="10" fontWeight="600">i</text>
     </svg>
     <span className="tooltip-text">{text}</span>
   </span>
@@ -191,9 +190,9 @@ function App() {
         <div className="header-content">
           <div className="header-main">
             <div className="header-left">
-              <h1>🌍 WorldDataVision</h1>
+              <h1>WorldDataVision</h1>
               <p className="header-subtitle">
-                Visualisation interactive des données mondiales de population
+                Plateforme d'analyse des données mondiales
               </p>
             </div>
             {globalStats && (
@@ -220,179 +219,179 @@ function App() {
 
       <main className="app-main">
         {error && (
-          <div className="error-banner">
-            ⚠️ {error}
+          <div className="error-banner" role="alert">
+            {error}
           </div>
         )}
 
-        <div className="sidebar">
-          {years.length > 0 && sexCategories.length > 0 && (
-            <FilterPanel
-              years={years}
-              sexCategories={sexCategories}
-              ageGroups={ageGroups}
-              languages={languages}
-              selectedYear={selectedYear}
-              selectedSex={selectedSex}
-              selectedAgeGroup={selectedAgeGroup}
-              selectedLanguage={selectedLanguage}
-              onYearChange={setSelectedYear}
-              onSexChange={setSelectedSex}
-              onAgeGroupChange={setSelectedAgeGroup}
-              onLanguageChange={setSelectedLanguage}
-            />
-          )}
+        <div className="top-row">
+          <div className="sidebar">
+            {years.length > 0 && sexCategories.length > 0 && (
+              <FilterPanel
+                years={years}
+                sexCategories={sexCategories}
+                ageGroups={ageGroups}
+                languages={languages}
+                selectedYear={selectedYear}
+                selectedSex={selectedSex}
+                selectedAgeGroup={selectedAgeGroup}
+                selectedLanguage={selectedLanguage}
+                onYearChange={setSelectedYear}
+                onSexChange={setSelectedSex}
+                onAgeGroupChange={setSelectedAgeGroup}
+                onLanguageChange={setSelectedLanguage}
+              />
+            )}
 
-          {!loading && populationData.length > 0 && (
-            <>
-              <Legend min={stats.min} max={stats.max} />
-              
-              <div className="stats-panel">
-                <h3>Statistiques</h3>
-                <div className="stat-row">
-                  <span>Population totale:</span>
-                  <strong>{formatCompactNumber(stats.sum)}</strong>                </div>
-                <div className="stat-row">
-                  <span>Pays avec données:</span>
-                  <strong>{stats.countriesWithData}</strong>
-                </div>
-                <div className="stat-row">
-                  <span>Population moyenne:</span>
-                  <strong>{formatCompactNumber(stats.avg)}</strong>
-                </div>
-                <div className="stat-row">
-                  <span>Population médiane:</span>
-                  <strong>{formatCompactNumber(stats.median)}</strong>
-                </div>
-                <div className="stat-row">
-                  <span>Pays le plus peuplé:</span>
-                  <strong>{stats.maxCountry?.name || 'N/A'}</strong>
-                </div>
-                <div className="stat-row">
-                  <span>Population max:</span>
-                  <strong>{formatCompactNumber(stats.max)}</strong>
-                </div>
-                <div className="stat-row">
-                  <span>Pays le moins peuplé:</span>
-                  <strong>{stats.minCountry?.name || 'N/A'}</strong>
-                </div>
-                <div className="stat-row">
-                  <span>Population min:</span>
-                  <strong>{formatCompactNumber(stats.min)}</strong>
-                </div>
+            {!loading && populationData.length > 0 && (
+              <>
+                <Legend min={stats.min} max={stats.max} />
                 
-                {demographicStats && (
-                  <>
-                    <h3 style={{ marginTop: '20px' }}>Démographie</h3>
-                    <div className="stat-row">
-                      <span>% Population &lt; 15 ans:</span>
-                      <strong>{demographicStats.pct_under_15}%</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>% Population &gt; 65 ans:</span>
-                      <strong>{demographicStats.pct_over_65}%</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>% Population active (15-65):</span>
-                      <strong>{demographicStats.pct_working_age}%</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>
-                        Âge médian estimé:
-                        <InfoTooltip text="Âge qui divise la population en deux groupes égaux. Indique si une population est jeune (<30 ans) ou âgée (>40 ans)." />
-                      </span>
-                      <strong>{demographicStats.median_age_estimated} ans</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>
-                        Ratio dépendants/actifs:
-                        <InfoTooltip text="Nombre de personnes dépendantes (enfants <15 ans + retraités >65 ans) pour 100 personnes en âge de travailler (15-65 ans). Important pour les systèmes de retraite." />
-                      </span>
-                      <strong>{demographicStats.dependency_ratio}%</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>
-                        Ratio actifs/dépendants:
-                        <InfoTooltip text="Nombre de personnes en âge de travailler pour chaque personne dépendante. C'est l'inverse du ratio précédent. Plus élevé = meilleur soutien économique." />
-                      </span>
-                      <strong>{demographicStats.active_inactive_ratio}</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>
-                        Indice de vieillissement:
-                        <InfoTooltip text="Nombre de personnes âgées (>65 ans) pour 100 jeunes (<15 ans). <100 = population jeune, >100 = population vieillissante." />
-                      </span>
-                      <strong>{demographicStats.aging_index}</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>
-                        Indice de jeunesse:
-                        <InfoTooltip text="Nombre de jeunes (<15 ans) pour 100 personnes âgées (>65 ans). >100 = population jeune, <100 = population vieillissante. C'est l'inverse de l'indice de vieillissement." />
-                      </span>
-                      <strong>{demographicStats.youth_index}</strong>
-                    </div>
-                  </>
-                )}
+                <div className="stats-panel">
+                  <h3>Statistiques</h3>
+                  <div className="stat-row">
+                    <span>Population totale:</span>
+                    <strong>{formatCompactNumber(stats.sum)}</strong>
+                  </div>
+                  <div className="stat-row">
+                    <span>Pays avec données:</span>
+                    <strong>{stats.countriesWithData}</strong>
+                  </div>
+                  <div className="stat-row">
+                    <span>Population moyenne:</span>
+                    <strong>{formatCompactNumber(stats.avg)}</strong>
+                  </div>
+                  <div className="stat-row">
+                    <span>Population médiane:</span>
+                    <strong>{formatCompactNumber(stats.median)}</strong>
+                  </div>
+                  <div className="stat-row">
+                    <span>Pays le plus peuplé:</span>
+                    <strong>{stats.maxCountry?.name || 'N/A'}</strong>
+                  </div>
+                  <div className="stat-row">
+                    <span>Population max:</span>
+                    <strong>{formatCompactNumber(stats.max)}</strong>
+                  </div>
+                  <div className="stat-row">
+                    <span>Pays le moins peuplé:</span>
+                    <strong>{stats.minCountry?.name || 'N/A'}</strong>
+                  </div>
+                  <div className="stat-row">
+                    <span>Population min:</span>
+                    <strong>{formatCompactNumber(stats.min)}</strong>
+                  </div>
+                  
+                  {demographicStats && (
+                    <>
+                      <h3 className="stats-section-heading">Démographie</h3>
+                      <div className="stat-row">
+                        <span>% Population &lt; 15 ans:</span>
+                        <strong>{demographicStats.pct_under_15}%</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>% Population &gt; 65 ans:</span>
+                        <strong>{demographicStats.pct_over_65}%</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>% Population active (15-65):</span>
+                        <strong>{demographicStats.pct_working_age}%</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>
+                          Âge médian estimé:
+                          <InfoTooltip text="Âge qui divise la population en deux groupes égaux. Indique si une population est jeune (<30 ans) ou âgée (>40 ans)." />
+                        </span>
+                        <strong>{demographicStats.median_age_estimated} ans</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>
+                          Ratio dépendants/actifs:
+                          <InfoTooltip text="Nombre de personnes dépendantes (enfants <15 ans + retraités >65 ans) pour 100 personnes en âge de travailler (15-65 ans). Important pour les systèmes de retraite." />
+                        </span>
+                        <strong>{demographicStats.dependency_ratio}%</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>
+                          Ratio actifs/dépendants:
+                          <InfoTooltip text="Nombre de personnes en âge de travailler pour chaque personne dépendante. C'est l'inverse du ratio précédent. Plus élevé = meilleur soutien économique." />
+                        </span>
+                        <strong>{demographicStats.active_inactive_ratio}</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>
+                          Indice de vieillissement:
+                          <InfoTooltip text="Nombre de personnes âgées (>65 ans) pour 100 jeunes (<15 ans). <100 = population jeune, >100 = population vieillissante." />
+                        </span>
+                        <strong>{demographicStats.aging_index}</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>
+                          Indice de jeunesse:
+                          <InfoTooltip text="Nombre de jeunes (<15 ans) pour 100 personnes âgées (>65 ans). >100 = population jeune, <100 = population vieillissante. C'est l'inverse de l'indice de vieillissement." />
+                        </span>
+                        <strong>{demographicStats.youth_index}</strong>
+                      </div>
+                    </>
+                  )}
 
-                {genderBalance && (
-                  <>
-                    <h3 style={{ marginTop: '20px' }}>Équilibre H/F</h3>
-                    <div className="stat-row">
-                      <span>% Hommes:</span>
-                      <strong>{genderBalance.pct_male}%</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>% Femmes:</span>
-                      <strong>{genderBalance.pct_female}%</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>
-                        Ratio H/F:
-                        <InfoTooltip text="Nombre d'hommes pour 100 femmes. 100 = équilibre parfait, >100 = plus d'hommes, <100 = plus de femmes." />
-                      </span>
-                      <strong>{genderBalance.gender_ratio}</strong>
-                    </div>
-                    <div className="stat-row">
-                      <span>
-                        Indice d'équilibre:
-                        <InfoTooltip text="Mesure de l'équilibre entre hommes et femmes. 100 = parfait équilibre, plus la valeur est basse, plus le déséquilibre est important." />
-                      </span>
-                      <strong>{genderBalance.gender_balance_index}</strong>
-                    </div>
-                  </>
-                )}
-              </div>
-            </>
-          )}
-        </div>
-
-        <div className="map-container">
-          {years.length > 0 && selectedYear && (
-            <TimelinePlayer
-              years={years}
-              selectedYear={selectedYear}
-              onYearChange={setSelectedYear}
-            />
-          )}
-          <WorldMap
-            data={populationData}
-            onCountryClick={handleCountryClick}
-            selectedCountry={selectedCountry?.iso3}
-          />
-        </div>
-
-        {scatterData.length > 0 && (
-          <div className="full-width-section">
-            <ScatterPlot data={scatterData} width={1200} height={600} />
+                  {genderBalance && (
+                    <>
+                      <h3 className="stats-section-heading">Équilibre H/F</h3>
+                      <div className="stat-row">
+                        <span>% Hommes:</span>
+                        <strong>{genderBalance.pct_male}%</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>% Femmes:</span>
+                        <strong>{genderBalance.pct_female}%</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>
+                          Ratio H/F:
+                          <InfoTooltip text="Nombre d'hommes pour 100 femmes. 100 = équilibre parfait, >100 = plus d'hommes, <100 = plus de femmes." />
+                        </span>
+                        <strong>{genderBalance.gender_ratio}</strong>
+                      </div>
+                      <div className="stat-row">
+                        <span>
+                          Indice d'équilibre:
+                          <InfoTooltip text="Mesure de l'équilibre entre hommes et femmes. 100 = parfait équilibre, plus la valeur est basse, plus le déséquilibre est important." />
+                        </span>
+                        <strong>{genderBalance.gender_balance_index}</strong>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </>
+            )}
           </div>
-        )}
 
-        {/* Tableau de bord des indicateurs */}
-        <div className="full-width-section">
-          <IndicatorsDashboard 
-            selectedYear={selectedYear} 
-            selectedCountry={selectedCountry}
-          />
+          <div className="content-column">
+            <div className="map-container">
+              {years.length > 0 && selectedYear && (
+                <TimelinePlayer
+                  years={years}
+                  selectedYear={selectedYear}
+                  onYearChange={setSelectedYear}
+                />
+              )}
+              <WorldMap
+                data={populationData}
+                onCountryClick={handleCountryClick}
+                selectedCountry={selectedCountry?.iso3}
+              />
+            </div>
+
+            {scatterData.length > 0 && (
+              <ScatterPlot data={scatterData} width={1200} height={600} />
+            )}
+
+            <IndicatorsDashboard 
+              selectedYear={selectedYear} 
+              selectedCountry={selectedCountry}
+            />
+          </div>
         </div>
       </main>
 

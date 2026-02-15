@@ -43,7 +43,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
 
         <div className="country-info-grid">
           <div className="info-section">
-            <h3>📍 Informations générales</h3>
+            <h3>Informations générales</h3>
             <div className="info-items">
               {country.continent && (
                 <div className="info-item">
@@ -79,7 +79,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
           </div>
 
           <div className="info-section">
-            <h3>🏛️ Capitale</h3>
+            <h3>Capitale</h3>
             <div className="info-items">
               {country.capital && (
                 <div className="info-item">
@@ -99,7 +99,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
           </div>
 
           <div className="info-section">
-            <h3>💰 Devise</h3>
+            <h3>Devise</h3>
             <div className="info-items">
               {country.currency_name && (
                 <div className="info-item">
@@ -124,7 +124,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
 
           {country.languages && country.languages.length > 0 && (
             <div className="info-section">
-              <h3>🗣️ Langues</h3>
+              <h3>Langues</h3>
               <div className="info-items">
                 <div className="info-item">
                   <span className="info-value languages-list">
@@ -141,7 +141,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
 
           {country.timezones && country.timezones.length > 0 && (
             <div className="info-section">
-              <h3>🕐 Fuseaux horaires</h3>
+              <h3>Fuseaux horaires</h3>
               <div className="info-items">
                 <div className="info-item">
                   <span className="info-value">
@@ -154,7 +154,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
 
           {country.borders && country.borders.length > 0 && (
             <div className="info-section">
-              <h3>🗺️ Pays frontaliers</h3>
+              <h3>Pays frontaliers</h3>
               <div className="info-items">
                 <div className="info-item">
                   <span className="info-value">
@@ -191,7 +191,7 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
                 <Line 
                   type="monotone" 
                   dataKey="total_population" 
-                  stroke="#4a90e2" 
+                  stroke="var(--chart-1, #2563a0)" 
                   strokeWidth={2}
                   name="Population"
                   dot={false}
@@ -216,8 +216,8 @@ const CountryDetails = ({ country, trend, pyramid, selectedYear, onClose }) => {
                 <YAxis dataKey="age_group" type="category" width={60} />
                 <Tooltip formatter={(value) => formatCompactNumber(value)} />
                 <Legend />
-                <Bar dataKey="male" fill="#4a90e2" name="Hommes" />
-                <Bar dataKey="female" fill="#e74c3c" name="Femmes" />
+                <Bar dataKey="male" fill="var(--chart-1, #2563a0)" name="Hommes" />
+                <Bar dataKey="female" fill="var(--chart-4, #9b2c2c)" name="Femmes" />
               </BarChart>
             </ResponsiveContainer>
           </div>

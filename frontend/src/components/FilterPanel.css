@@ -1,20 +1,28 @@
+/* ============================================================
+   FILTER PANEL — Clean institutional controls
+   ============================================================ */
+
 .filter-panel {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: var(--color-white);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border: var(--border-default);
+  box-shadow: var(--shadow-xs);
 }
 
 .filter-title {
-  margin: 0 0 20px 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: #333;
-  text-align: center;
+  margin: 0 0 var(--space-4) 0;
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  color: var(--color-neutral-500);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  padding-bottom: var(--space-2);
+  border-bottom: var(--border-subtle);
 }
 
 .filter-group {
-  margin-bottom: 20px;
+  margin-bottom: var(--space-4);
 }
 
 .filter-group:last-child {
@@ -23,54 +31,47 @@
 
 .filter-group label {
   display: block;
-  margin-bottom: 8px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #555;
+  margin-bottom: var(--space-1);
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--color-neutral-600);
+  letter-spacing: var(--tracking-wide);
 }
 
 .filter-select {
   width: 100%;
-  padding: 10px 12px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
-  color: #333;
-  background-color: white;
+  padding: var(--space-2) var(--space-3);
+  border: var(--border-default);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  color: var(--color-neutral-800);
+  background-color: var(--color-white);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  line-height: var(--leading-normal);
 }
 
 .filter-select:hover {
-  border-color: #4a90e2;
+  border-color: var(--color-primary-400);
 }
 
 .filter-select:focus {
   outline: none;
-  border-color: #4a90e2;
-  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+  border-color: var(--color-primary-500);
+  box-shadow: 0 0 0 2px rgba(37, 99, 160, 0.12);
 }
 
 @media (max-width: 768px) {
   .filter-panel {
-    padding: 16px;
+    padding: var(--space-3);
   }
 
   .filter-title {
-    font-size: 14px;
-    margin-bottom: 16px;
+    font-size: var(--text-xs);
+    margin-bottom: var(--space-3);
   }
 
   .filter-group {
-    margin-bottom: 16px;
-  }
-
-  .filter-group label {
-    font-size: 13px;
-  }
-
-  .filter-select {
-    padding: 8px 10px;
-    font-size: 13px;
+    margin-bottom: var(--space-3);
   }
 }

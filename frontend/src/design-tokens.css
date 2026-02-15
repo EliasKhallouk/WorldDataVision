@@ -1,0 +1,127 @@
+/* ============================================================
+   WORLDDATAVISION — DESIGN TOKENS
+   Institutional data platform design system
+   ============================================================ */
+
+:root {
+  /* ── Primary palette: Deep institutional blues ── */
+  --color-primary-900: #0c1929;
+  --color-primary-800: #122640;
+  --color-primary-700: #1a3a5c;
+  --color-primary-600: #1e4d78;
+  --color-primary-500: #2563a0;
+  --color-primary-400: #3b7cc4;
+  --color-primary-300: #6a9fd8;
+  --color-primary-200: #a3c4e9;
+  --color-primary-100: #dae8f5;
+  --color-primary-50:  #eef4fa;
+
+  /* ── Neutral palette: Professional grays ── */
+  --color-neutral-950: #0f1217;
+  --color-neutral-900: #1a1d23;
+  --color-neutral-800: #2d3139;
+  --color-neutral-700: #3f444e;
+  --color-neutral-600: #565c68;
+  --color-neutral-500: #6e7582;
+  --color-neutral-400: #8b919c;
+  --color-neutral-300: #adb2bb;
+  --color-neutral-200: #d1d5db;
+  --color-neutral-100: #e8eaed;
+  --color-neutral-50:  #f4f5f7;
+  --color-white:       #ffffff;
+
+  /* ── Semantic accents (muted, institutional) ── */
+  --color-accent-green: #2d8a56;
+  --color-accent-green-light: #e8f5ee;
+  --color-accent-amber: #b8860b;
+  --color-accent-amber-light: #fdf6e3;
+  --color-accent-red: #b91c1c;
+  --color-accent-red-light: #fef2f2;
+  --color-accent-blue: #1e5fa0;
+  --color-accent-blue-light: #eff6ff;
+
+  /* ── Chart palette (color-blind safe, muted professional) ── */
+  --chart-1: #2563a0;
+  --chart-2: #b8860b;
+  --chart-3: #2d8a56;
+  --chart-4: #9b2c2c;
+  --chart-5: #6b46a0;
+  --chart-6: #0e7490;
+  --chart-7: #92400e;
+  --chart-8: #4338a0;
+  --chart-9: #065f46;
+  --chart-10: #7c3aed;
+
+  /* ── Map choropleth: Sequential blue ── */
+  --map-0: #f0f4f8;
+  --map-1: #d4e4f2;
+  --map-2: #a8c8e0;
+  --map-3: #7badd0;
+  --map-4: #4e91bf;
+  --map-5: #2e75a8;
+  --map-6: #1a5a8a;
+  --map-7: #0c3d6b;
+  --map-no-data: #e8eaed;
+
+  /* ── Typography ── */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  
+  --text-xs:   0.6875rem;  /* 11px */
+  --text-sm:   0.8125rem;  /* 13px */
+  --text-base: 0.875rem;   /* 14px */
+  --text-md:   0.9375rem;  /* 15px */
+  --text-lg:   1.0625rem;  /* 17px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  1.875rem;   /* 30px */
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+
+  --tracking-tight: -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+
+  /* ── Spacing (4px base) ── */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+
+  /* ── Borders ── */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+
+  --border-default: 1px solid var(--color-neutral-200);
+  --border-subtle: 1px solid var(--color-neutral-100);
+
+  /* ── Shadows (subtle, professional) ── */
+  --shadow-xs: 0 1px 2px rgba(15, 18, 23, 0.04);
+  --shadow-sm: 0 1px 3px rgba(15, 18, 23, 0.06), 0 1px 2px rgba(15, 18, 23, 0.04);
+  --shadow-md: 0 4px 6px rgba(15, 18, 23, 0.05), 0 2px 4px rgba(15, 18, 23, 0.03);
+  --shadow-lg: 0 10px 15px rgba(15, 18, 23, 0.06), 0 4px 6px rgba(15, 18, 23, 0.03);
+  --shadow-overlay: 0 20px 40px rgba(15, 18, 23, 0.12), 0 8px 16px rgba(15, 18, 23, 0.06);
+
+  /* ── Transitions ── */
+  --transition-fast: 120ms ease;
+  --transition-base: 180ms ease;
+
+  /* ── Layout ── */
+  --sidebar-width: 280px;
+  --header-height: auto;
+  --max-width: 1800px;
+}

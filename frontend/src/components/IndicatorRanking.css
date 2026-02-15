@@ -1,141 +1,160 @@
+/* ============================================================
+   INDICATOR RANKING — Professional data table
+   ============================================================ */
+
 .indicator-ranking {
   width: 100%;
 }
 
 .ranking-header {
-  text-align: center;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-3);
+  border-bottom: 2px solid var(--color-primary-700);
 }
 
 .ranking-header h3 {
-  font-size: 1.5rem;
-  color: #1a202c;
-  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  color: var(--color-neutral-900);
+  margin-bottom: var(--space-2);
+  font-weight: var(--font-semibold);
 }
 
 .ranking-meta {
   display: flex;
-  gap: 2rem;
-  justify-content: center;
-  font-size: 0.9rem;
-  color: #718096;
+  gap: var(--space-6);
+  font-size: var(--text-sm);
+  color: var(--color-neutral-500);
 }
 
 .ranking-year {
-  font-weight: 600;
+  font-weight: var(--font-semibold);
+  color: var(--color-neutral-700);
 }
 
-/* Banner pour le pays sélectionné */
+/* ── Selected country banner ── */
 .selected-country-banner {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 1rem 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-  font-weight: 500;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.25);
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-primary-50);
+  color: var(--color-primary-800);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-4);
+  font-weight: var(--font-medium);
+  font-size: var(--text-sm);
+  border: 1px solid var(--color-primary-200);
 }
 
-.banner-icon {
-  font-size: 1.5rem;
-}
-
-/* Liste de classement */
+/* ── Ranking list ── */
 .ranking-list {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  max-height: 600px;
+  gap: 2px;
+  max-height: 900px;
   overflow-y: auto;
-  padding-right: 0.5rem;
+  padding-right: var(--space-1);
 }
 
 .ranking-list::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
 }
 
 .ranking-list::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 4px;
+  background: transparent;
 }
 
 .ranking-list::-webkit-scrollbar-thumb {
-  background: #cbd5e0;
-  border-radius: 4px;
+  background: var(--color-neutral-300);
+  border-radius: 3px;
 }
 
-.ranking-list::-webkit-scrollbar-thumb:hover {
-  background: #a0aec0;
-}
-
-/* Item de classement */
+/* ── Ranking item ── */
 .ranking-item {
   display: grid;
-  grid-template-columns: 60px 1fr 200px;
+  grid-template-columns: 48px 1fr 220px;
   align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  background: #f7fafc;
-  border-radius: 8px;
-  transition: all 0.2s;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-white);
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast);
+  border: 1px solid transparent;
+}
+
+.ranking-item:nth-child(even) {
+  background: var(--color-neutral-50);
 }
 
 .ranking-item:hover {
-  background: #edf2f7;
-  transform: translateX(4px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background: var(--color-primary-50);
 }
 
 .ranking-item.selected {
-  background: linear-gradient(to right, #ebf4ff, #e0e7ff);
-  border: 2px solid #667eea;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  background: var(--color-primary-50);
+  border: 1px solid var(--color-primary-300);
 }
 
-/* Position */
+/* ── Position ── */
 .ranking-position {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-
-.medal {
-  font-size: 2rem;
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
 }
 
 .rank-number {
-  color: #718096;
+  color: var(--color-neutral-500);
+  font-variant-numeric: tabular-nums;
+  font-size: var(--text-sm);
 }
 
-/* Info pays */
+.rank-number.top-1 {
+  color: var(--color-accent-amber);
+  font-weight: var(--font-bold);
+  font-size: var(--text-base);
+}
+
+.rank-number.top-2 {
+  color: var(--color-neutral-500);
+  font-weight: var(--font-bold);
+  font-size: var(--text-base);
+}
+
+.rank-number.top-3 {
+  color: var(--color-accent-amber);
+  opacity: 0.7;
+  font-weight: var(--font-bold);
+  font-size: var(--text-base);
+}
+
+/* ── Country info ── */
 .country-info {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 1px;
+  min-width: 0;
 }
 
 .country-name {
-  font-weight: 600;
-  color: #1a202c;
-  font-size: 1rem;
+  font-weight: var(--font-semibold);
+  color: var(--color-neutral-900);
+  font-size: var(--text-base);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .country-region {
-  font-size: 0.85rem;
-  color: #a0aec0;
+  font-size: var(--text-xs);
+  color: var(--color-neutral-400);
 }
 
-/* Conteneur de valeur */
+/* ── Value container ── */
 .value-container {
   position: relative;
-  height: 40px;
+  height: 32px;
   display: flex;
   align-items: center;
 }
@@ -145,55 +164,44 @@
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  height: 24px;
-  border-radius: 4px;
+  height: 20px;
+  border-radius: 2px;
   transition: width 0.3s ease;
-  opacity: 0.3;
+  opacity: 0.15;
 }
 
 .value-text {
   position: relative;
   z-index: 1;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: var(--font-bold);
+  font-size: var(--text-base);
   margin-left: auto;
+  font-variant-numeric: tabular-nums;
 }
 
-/* Responsive */
+/* ── Responsive ── */
 @media (max-width: 768px) {
   .ranking-item {
-    grid-template-columns: 50px 1fr 120px;
-    gap: 0.5rem;
-    padding: 0.75rem;
-  }
-
-  .ranking-position {
-    font-size: 1rem;
-  }
-
-  .medal {
-    font-size: 1.5rem;
+    grid-template-columns: 40px 1fr 110px;
+    gap: var(--space-2);
+    padding: var(--space-2);
   }
 
   .country-name {
-    font-size: 0.9rem;
-  }
-
-  .country-region {
-    font-size: 0.75rem;
+    font-size: var(--text-sm);
   }
 
   .value-text {
-    font-size: 0.95rem;
+    font-size: var(--text-sm);
   }
 
   .ranking-meta {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: var(--space-1);
   }
 
   .selected-country-banner {
-    padding: 0.75rem 1rem;
-    font-size: 0.9rem;
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--text-sm);
   }
 }

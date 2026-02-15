@@ -91,8 +91,8 @@ const IndicatorChart = ({ data, selectedCountry }) => {
 
     // Couleurs pour chaque pays
     const colors = [
-      '#667eea', '#f59e0b', '#10b981', '#ef4444', '#8b5cf6',
-      '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1'
+      '#2563a0', '#b8860b', '#2d8a56', '#9b2c2c', '#6b46a0',
+      '#0e7490', '#92400e', '#4338a0', '#065f46', '#7c3aed'
     ];
 
     // Dessiner les lignes pour chaque pays
@@ -178,8 +178,8 @@ const IndicatorChart = ({ data, selectedCountry }) => {
       <div className="chart-legend">
         {data.data.map((country, index) => {
           const colors = [
-            '#667eea', '#f59e0b', '#10b981', '#ef4444', '#8b5cf6',
-            '#ec4899', '#06b6d4', '#84cc16', '#f97316', '#6366f1'
+            '#2563a0', '#b8860b', '#2d8a56', '#9b2c2c', '#6b46a0',
+            '#0e7490', '#92400e', '#4338a0', '#065f46', '#7c3aed'
           ];
           const color = colors[index % colors.length];
           const isSelected = selectedCountry && country.country_code === selectedCountry.iso3;

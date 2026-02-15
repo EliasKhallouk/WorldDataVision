@@ -129,20 +129,20 @@ const ScatterPlot = ({ data, width = 800, height = 500 }) => {
       let r, g, b;
       
       if (normalized < 0.5) {
-        // De rouge à jaune (min à médiane)
-        const t = normalized * 2; // 0 à 1
-        r = 220; // Rouge constant
-        g = Math.round(38 + (191 - 38) * t); // De 38 à 191
-        b = 38; // Reste bas
+        // De rouge institutionnel à ambre (min à médiane)
+        const t = normalized * 2;
+        r = Math.round(155 + (184 - 155) * t);
+        g = Math.round(44 + (134 - 44) * t);
+        b = Math.round(44 + (11 - 44) * t);
       } else {
-        // De jaune à vert (médiane à max)
-        const t = (normalized - 0.5) * 2; // 0 à 1
-        r = Math.round(251 - (251 - 34) * t); // De 251 à 34
-        g = Math.round(191 + (197 - 191) * t); // De 191 à 197
-        b = Math.round(36 + (94 - 36) * t); // De 36 à 94
+        // De ambre à vert institutionnel (médiane à max)
+        const t = (normalized - 0.5) * 2;
+        r = Math.round(184 - (184 - 45) * t);
+        g = Math.round(134 + (138 - 134) * t);
+        b = Math.round(11 + (86 - 11) * t);
       }
       
-      return `rgba(${r}, ${g}, ${b}, 0.7)`;
+      return `rgba(${r}, ${g}, ${b}, 0.65)`;
     };
 
     // Dessiner les points

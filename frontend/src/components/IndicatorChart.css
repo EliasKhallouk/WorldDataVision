@@ -1,24 +1,28 @@
+/* ============================================================
+   INDICATOR CHART — Clean analytical line chart
+   ============================================================ */
+
 .indicator-chart {
   width: 100%;
 }
 
 .chart-header {
-  text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-5);
 }
 
 .chart-header h3 {
-  font-size: 1.5rem;
-  color: #1a202c;
-  margin-bottom: 0.5rem;
+  font-size: var(--text-lg);
+  color: var(--color-neutral-900);
+  margin-bottom: 4px;
+  font-weight: var(--font-semibold);
 }
 
 .chart-subtitle {
-  color: #718096;
-  font-size: 0.95rem;
+  color: var(--color-neutral-500);
+  font-size: var(--text-sm);
 }
 
-/* Canvas */
+/* ── Canvas ── */
 canvas {
   display: block;
   margin: 0 auto;
@@ -27,58 +31,59 @@ canvas {
   cursor: crosshair;
 }
 
-/* Légende */
+/* ── Chart legend ── */
 .chart-legend {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  margin-top: 2rem;
-  padding: 1.5rem;
-  background: #f7fafc;
-  border-radius: 8px;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+  padding: var(--space-4);
+  background: var(--color-neutral-50);
+  border-radius: var(--radius-md);
+  border: var(--border-subtle);
 }
 
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  transition: all 0.2s;
-  background: white;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast);
 }
 
 .legend-item:hover {
-  background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background: var(--color-white);
 }
 
 .legend-item.selected {
-  background: white;
-  border: 2px solid #667eea;
-  font-weight: 600;
+  background: var(--color-white);
+  border: 1px solid var(--color-primary-400);
+  box-shadow: var(--shadow-xs);
 }
 
 .legend-color {
   width: 24px;
-  height: 4px;
+  height: 3px;
   border-radius: 2px;
   flex-shrink: 0;
 }
 
 .legend-label {
   flex: 1;
-  font-size: 0.9rem;
-  color: #2d3748;
+  font-size: var(--text-sm);
+  color: var(--color-neutral-700);
+  font-weight: var(--font-medium);
 }
 
 .legend-value {
-  font-weight: 600;
-  color: #4a5568;
-  font-size: 0.9rem;
+  font-weight: var(--font-semibold);
+  color: var(--color-neutral-800);
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
 }
 
-/* Responsive */
+/* ── Responsive ── */
 @media (max-width: 768px) {
   canvas {
     width: 100%;
@@ -86,12 +91,11 @@ canvas {
   }
 
   .chart-legend {
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-    padding: 1rem;
+    gap: var(--space-1);
+    padding: var(--space-3);
   }
 
   .legend-item {
-    padding: 0.4rem;
+    padding: var(--space-1) var(--space-2);
   }
 }

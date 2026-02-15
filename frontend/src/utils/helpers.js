@@ -35,7 +35,7 @@ export const formatCompactNumber = (num) => {
  */
 export const getColorForValue = (value, min, max) => {
   if (value === null || value === undefined || value === 0) {
-    return '#e0e0e0'; // Gris pour pas de données
+    return '#e8eaed'; // Neutral gray for no data
   }
 
   // Utiliser une échelle logarithmique pour mieux répartir les couleurs
@@ -45,15 +45,15 @@ export const getColorForValue = (value, min, max) => {
   const logValue = Math.log10(Math.max(value, 1));
   const normalized = (logValue - logMin) / (logMax - logMin);
   
-  // Échelle de couleurs plus contrastée : jaune clair -> vert -> bleu -> violet foncé
+  // Institutional sequential blue scale — credible, professional
   const colors = [
-    { threshold: 0.0, color: '#ffffd4' },   // Très petit (jaune très clair)
-    { threshold: 0.15, color: '#fee391' },  // Petit (jaune)
-    { threshold: 0.3, color: '#fec44f' },   // Petit-moyen (orange clair)
-    { threshold: 0.45, color: '#fe9929' },  // Moyen (orange)
-    { threshold: 0.6, color: '#d95f0e' },   // Moyen-grand (orange foncé)
-    { threshold: 0.75, color: '#993404' },  // Grand (marron)
-    { threshold: 1.0, color: '#662506' }    // Très grand (marron très foncé)
+    { threshold: 0.0, color: '#dae8f5' },   // Very low (light blue)
+    { threshold: 0.15, color: '#a8c8e0' },   // Low
+    { threshold: 0.3, color: '#7badd0' },    // Low-medium
+    { threshold: 0.45, color: '#4e91bf' },   // Medium
+    { threshold: 0.6, color: '#2e75a8' },    // Medium-high
+    { threshold: 0.75, color: '#1a5a8a' },   // High
+    { threshold: 1.0, color: '#0c3d6b' }     // Very high (deep navy)
   ];
 
   // Trouver la couleur appropriée

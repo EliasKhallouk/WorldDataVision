@@ -22,9 +22,9 @@ const IndicatorRanking = ({ data, selectedCountry }) => {
 
   const getValueColor = (index) => {
     const ratio = index / countries.length;
-    if (ratio < 0.33) return '#10b981'; // Vert
-    if (ratio < 0.66) return '#f59e0b'; // Orange
-    return '#ef4444'; // Rouge
+    if (ratio < 0.33) return '#2d8a56'; // Institutional green
+    if (ratio < 0.66) return '#b8860b'; // Institutional amber
+    return '#9b2c2c'; // Institutional red
   };
 
   // Trouver la valeur max pour normaliser les barres
@@ -43,9 +43,8 @@ const IndicatorRanking = ({ data, selectedCountry }) => {
 
       {selectedCountry && selectedCountryRank && (
         <div className="selected-country-banner">
-          <span className="banner-icon">🎯</span>
           <span className="banner-text">
-            {selectedCountry.name} est classé #{selectedCountryRank} sur {countries.length} pays
+            <strong>{selectedCountry.name}</strong> — classé #{selectedCountryRank} sur {countries.length} pays
           </span>
         </div>
       )}
@@ -61,13 +60,7 @@ const IndicatorRanking = ({ data, selectedCountry }) => {
               className={`ranking-item ${isSelected ? 'selected' : ''}`}
             >
               <div className="ranking-position">
-                {rank <= 3 ? (
-                  <span className={`medal medal-${rank}`}>
-                    {rank === 1 ? '🥇' : rank === 2 ? '🥈' : '🥉'}
-                  </span>
-                ) : (
-                  <span className="rank-number">#{rank}</span>
-                )}
+                <span className={`rank-number ${rank <= 3 ? `top-${rank}` : ''}`}>#{rank}</span>
               </div>
 
               <div className="country-info">
