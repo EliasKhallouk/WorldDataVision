@@ -3,17 +3,18 @@ import './App.css';
 import CountryDetails from './components/CountryDetails';
 import FilterPanel from './components/FilterPanel';
 import Legend from './components/Legend';
+import TimelinePlayer from './components/TimelinePlayer';
 import WorldMap from './components/WorldMap';
 import {
-    getAgeGroups,
-    getCountry,
-    getLanguages,
-    getPopulationPyramid,
-    getPopulationSummary,
-    getPopulationTrend,
-    getSexCategories,
-    getStats,
-    getYears
+  getAgeGroups,
+  getCountry,
+  getLanguages,
+  getPopulationPyramid,
+  getPopulationSummary,
+  getPopulationTrend,
+  getSexCategories,
+  getStats,
+  getYears
 } from './services/api';
 import { calculateStats, formatCompactNumber } from './utils/helpers';
 
@@ -84,7 +85,8 @@ function App() {
   };
 
   const loadPopulationData = async () => {
-    setLoading(true);
+    // Ne pas activer le loading pour éviter le clignotement
+    // Garder les anciennes données affichées pendant le chargement
     setError(null);
 
     try {
@@ -96,10 +98,10 @@ function App() {
       });
 
       setPopulationData(data.data);
+      setLoading(false);
     } catch (err) {
       console.error('Erreur lors du chargement des données:', err);
       setError('Impossible de charger les données de population');
-    } finally {
       setLoading(false);
     }
   };
@@ -219,18 +221,18 @@ function App() {
         </div>
 
         <div className="map-container">
-          {loading ? (
-            <div className="loading-spinner">
-              <div className="spinner"></div>
-              <p>Chargement des données...</p>
-            </div>
-          ) : (
-            <WorldMap
-              data={populationData}
-              onCountryClick={handleCountryClick}
-              selectedCountry={selectedCountry?.iso3}
+          {years.length > 0 && selectedYear && (
+            <TimelinePlayer
+              years={years}
+              selectedYear={selectedYear}
+              onYearChange={setSelectedYear}
             />
           )}
+          <WorldMap
+            data={populationData}
+            onCountryClick={handleCountryClick}
+            selectedCountry={selectedCountry?.iso3}
+          />
         </div>
       </main>
 
