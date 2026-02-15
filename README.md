@@ -106,7 +106,9 @@ Le projet utilise des données de population de la Banque Mondiale :
 - Années : 1950-2035
 - 249 pays
 
-**Source** : https://data.worldbank.org/indicator/SP.POP.TOTL
+**Source** :
+ - https://data.worldbank.org/indicator/SP.POP.TOTL
+ - https://simplelocalize.io/data/countries/?q=French
 
 ---
 

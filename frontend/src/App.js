@@ -140,28 +140,32 @@ function App() {
     <div className="app">
       <header className="app-header">
         <div className="header-content">
-          <h1>🌍 WorldDataVision</h1>
-          <p className="header-subtitle">
-            Visualisation interactive des données mondiales de population
-          </p>
-          {globalStats && (
-            <div className="global-stats">
-              <div className="stat-item">
-                <span className="stat-value">{globalStats.total_countries}</span>
-                <span className="stat-label">Pays</span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-value">{globalStats.total_years}</span>
-                <span className="stat-label">Années</span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-value">
-                  {formatCompactNumber(globalStats.total_data_points)}
-                </span>
-                <span className="stat-label">Points de données</span>
-              </div>
+          <div className="header-main">
+            <div className="header-left">
+              <h1>🌍 WorldDataVision</h1>
+              <p className="header-subtitle">
+                Visualisation interactive des données mondiales de population
+              </p>
             </div>
-          )}
+            {globalStats && (
+              <div className="global-stats">
+                <div className="stat-item">
+                  <span className="stat-value">{globalStats.total_countries}</span>
+                  <span className="stat-label">Pays</span>
+                </div>
+                <div className="stat-item">
+                  <span className="stat-value">{globalStats.total_years}</span>
+                  <span className="stat-label">Années</span>
+                </div>
+                <div className="stat-item">
+                  <span className="stat-value">
+                    {formatCompactNumber(globalStats.total_data_points)}
+                  </span>
+                  <span className="stat-label">Points de données</span>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </header>
 

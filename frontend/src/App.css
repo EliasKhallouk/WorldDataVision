@@ -23,31 +23,42 @@ body {
 .app-header {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
-  padding: 30px 20px;
+  padding: 20px 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-left {
+  flex: 1;
 }
 
 .app-header h1 {
   font-size: 36px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   font-weight: 700;
 }
 
 .header-subtitle {
   font-size: 16px;
   opacity: 0.95;
-  margin-bottom: 20px;
+  margin: 0;
 }
 
 .global-stats {
   display: flex;
-  gap: 40px;
-  margin-top: 20px;
+  gap: 30px;
+  flex-shrink: 0;
 }
 
 .stat-item {
@@ -71,13 +82,13 @@ body {
 /* Main Content */
 .app-main {
   flex: 1;
-  max-width: 1400px;
+  max-width: 1800px;
   width: 100%;
-  margin: 30px auto;
-  padding: 0 20px;
+  margin: 20px auto;
+  padding: 0 10px;
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 20px;
+  grid-template-columns: 280px 1fr;
+  gap: 15px;
 }
 
 .sidebar {
@@ -89,16 +100,16 @@ body {
 .map-container {
   background: white;
   border-radius: 12px;
-  padding: 20px;
+  padding: 15px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  min-height: 600px;
+  min-height: 700px;
   position: relative;
 }
 
 /* Stats Panel */
 .stats-panel {
   background: white;
-  padding: 20px;
+  padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -214,7 +225,13 @@ body {
 
 @media (max-width: 768px) {
   .app-header {
-    padding: 20px;
+    padding: 15px 10px;
+  }
+
+  .header-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
   }
 
   .app-header h1 {
@@ -227,6 +244,8 @@ body {
 
   .global-stats {
     gap: 20px;
+    width: 100%;
+    justify-content: space-between;
   }
 
   .stat-value {
@@ -238,8 +257,8 @@ body {
   }
 
   .app-main {
-    margin: 20px auto;
-    padding: 0 10px;
+    margin: 15px auto;
+    padding: 0 5px;
   }
 
   .sidebar {
@@ -247,7 +266,7 @@ body {
   }
 
   .map-container {
-    padding: 15px;
+    padding: 10px;
     min-height: 400px;
   }
 }
