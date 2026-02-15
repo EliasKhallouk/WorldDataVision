@@ -6,6 +6,7 @@ const countriesRoutes = require('./routes/countries');
 const populationRoutes = require('./routes/population');
 const metadataRoutes = require('./routes/metadata');
 const demographicsRoutes = require('./routes/demographics');
+const indicatorsRoutes = require('./routes/indicators');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -25,6 +26,7 @@ app.use('/api/countries', countriesRoutes);
 app.use('/api/population', populationRoutes);
 app.use('/api/metadata', metadataRoutes);
 app.use('/api/demographics', demographicsRoutes);
+app.use('/api/indicators', indicatorsRoutes);
 
 // Route de santé
 app.get('/api/health', (req, res) => {
@@ -44,6 +46,8 @@ app.get('/', (req, res) => {
       countries: '/api/countries',
       population: '/api/population',
       metadata: '/api/metadata',
+      demographics: '/api/demographics',
+      indicators: '/api/indicators',
       health: '/api/health'
     }
   });

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import CountryDetails from './components/CountryDetails';
 import FilterPanel from './components/FilterPanel';
+import IndicatorsDashboard from './components/IndicatorsDashboard';
 import Legend from './components/Legend';
 import ScatterPlot from './components/ScatterPlot';
 import TimelinePlayer from './components/TimelinePlayer';
@@ -385,6 +386,14 @@ function App() {
             <ScatterPlot data={scatterData} width={1200} height={600} />
           </div>
         )}
+
+        {/* Tableau de bord des indicateurs */}
+        <div className="full-width-section">
+          <IndicatorsDashboard 
+            selectedYear={selectedYear} 
+            selectedCountry={selectedCountry}
+          />
+        </div>
       </main>
 
       {selectedCountry && (

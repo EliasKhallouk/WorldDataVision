@@ -108,4 +108,35 @@ export const getScatterData = async (params = {}) => {
   return response.data;
 };
 
+// ===== INDICATORS =====
+export const getIndicatorCategories = async () => {
+  const response = await api.get('/indicators/categories');
+  return response.data;
+};
+
+export const getIndicators = async (params = {}) => {
+  const response = await api.get('/indicators', { params });
+  return response.data;
+};
+
+export const getIndicator = async (code) => {
+  const response = await api.get(`/indicators/${code}`);
+  return response.data;
+};
+
+export const getIndicatorValues = async (code, params = {}) => {
+  const response = await api.get(`/indicators/${code}/values`, { params });
+  return response.data;
+};
+
+export const getIndicatorComparison = async (code, params = {}) => {
+  const response = await api.get(`/indicators/${code}/comparison`, { params });
+  return response.data;
+};
+
+export const getIndicatorEvolution = async (code, params = {}) => {
+  const response = await api.get(`/indicators/${code}/evolution`, { params });
+  return response.data;
+};
+
 export default api;
