@@ -5,12 +5,13 @@ const pool = require('../config/database');
 // GET /api/population/summary - Résumé de la population de tous les pays
 router.get('/summary', async (req, res) => {
   try {
-    const { year, sex, ageGroup } = req.query;
+    const { year, sex, ageGroup, language } = req.query;
     
     // Année par défaut : la plus récente avec des données
     const yearValue = year || await getLatestYear();
     const sexCode = sex || 'total';
     const ageGroupId = ageGroup || null;
+    const languageId = language || null;
 
     let query;
     let params;
@@ -42,9 +43,12 @@ router.get('/summary', async (req, res) => {
           INNER JOIN population_stat ps ON c.id = ps.country_id
           INNER JOIN sex s ON ps.sex_id = s.id
           INNER JOIN age_group ag ON ps.age_group_id = ag.id
+          ${languageId ? `INNER JOIN country_language cl ON c.id = cl.country_id
+          INNER JOIN language l ON cl.language_id = l.id` : ''}
           WHERE ps.year = $1
             AND ag.id = $2
             AND s.code IN ('male', 'female')
+            ${languageId ? "AND (l.iso_code = $3 OR l.iso_code LIKE $3 || '-%')" : ''}
         )
         SELECT 
           iso3,
@@ -62,7 +66,7 @@ router.get('/summary', async (req, res) => {
         GROUP BY iso3, name, region
         ORDER BY total_population DESC
       `;
-      params = [yearValue, ageGroupId];
+      params = languageId ? [yearValue, ageGroupId, languageId] : [yearValue, ageGroupId];
       
     } else {
       // Requête standard pour ALL ou sans filtre d'âge
@@ -76,13 +80,16 @@ router.get('/summary', async (req, res) => {
         LEFT JOIN population_stat ps ON c.id = ps.country_id
         LEFT JOIN sex s ON ps.sex_id = s.id
         LEFT JOIN age_group ag ON ps.age_group_id = ag.id
+        ${languageId ? `INNER JOIN country_language cl ON c.id = cl.country_id
+        INNER JOIN language l ON cl.language_id = l.id` : ''}
         WHERE (ps.year = $1 OR ps.year IS NULL)
           AND (s.code = $2 OR s.code IS NULL)
           AND (ag.label = 'ALL' OR ag.label IS NULL)
+          ${languageId ? "AND (l.iso_code = $3 OR l.iso_code LIKE $3 || '-%')" : ''}
         GROUP BY c.id, c.iso3, c.name, c.region
         ORDER BY total_population DESC
       `;
-      params = [yearValue, sexCode];
+      params = languageId ? [yearValue, sexCode, languageId] : [yearValue, sexCode];
     }
 
     const result = await pool.query(query, params);
@@ -98,6 +105,7 @@ router.get('/summary', async (req, res) => {
       year: yearValue,
       sex: sexCode,
       ageGroup: ageGroupId || 'ALL',
+      language: languageId || 'ALL',
       count: data.length,
       data: data
     });

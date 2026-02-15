@@ -72,6 +72,11 @@ export const getAgeGroups = async () => {
   return response.data;
 };
 
+export const getLanguages = async () => {
+  const response = await api.get('/metadata/languages');
+  return response.data;
+};
+
 export const getSexCategories = async () => {
   const response = await api.get('/metadata/sex-categories');
   return response.data;

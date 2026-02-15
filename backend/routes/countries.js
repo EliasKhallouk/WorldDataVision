@@ -67,8 +67,21 @@ router.get('/:iso3', async (req, res) => {
     const { iso3 } = req.params;
     
     const result = await pool.query(`
+      WITH border_countries AS (
+        SELECT 
+          c.id,
+          ARRAY(
+            SELECT bc.name
+            FROM unnest(c.borders) AS border_id
+            JOIN country bc ON bc.id = border_id
+            ORDER BY bc.name
+          ) as border_names
+        FROM country c
+        WHERE c.iso3 = $1
+      )
       SELECT 
         c.*,
+        COALESCE(bc.border_names, ARRAY[]::text[]) as borders,
         COALESCE(
           json_agg(
             json_build_object('id', l.id, 'name', l.name, 'iso_code', l.iso_code)
@@ -76,10 +89,11 @@ router.get('/:iso3', async (req, res) => {
           '[]'
         ) as languages
       FROM country c
+      LEFT JOIN border_countries bc ON c.id = bc.id
       LEFT JOIN country_language cl ON c.id = cl.country_id
       LEFT JOIN language l ON cl.language_id = l.id
       WHERE c.iso3 = $1
-      GROUP BY c.id
+      GROUP BY c.id, bc.border_names
     `, [iso3.toUpperCase()]);
 
     if (result.rows.length === 0) {

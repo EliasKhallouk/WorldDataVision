@@ -6,6 +6,8 @@ import Legend from './components/Legend';
 import WorldMap from './components/WorldMap';
 import {
     getAgeGroups,
+    getCountry,
+    getLanguages,
     getPopulationPyramid,
     getPopulationSummary,
     getPopulationTrend,
@@ -20,9 +22,11 @@ function App() {
   const [years, setYears] = useState([]);
   const [sexCategories, setSexCategories] = useState([]);
   const [ageGroups, setAgeGroups] = useState([]);
+  const [languages, setLanguages] = useState([]);
   const [selectedYear, setSelectedYear] = useState(null);
   const [selectedSex, setSelectedSex] = useState('total');
   const [selectedAgeGroup, setSelectedAgeGroup] = useState('ALL');
+  const [selectedLanguage, setSelectedLanguage] = useState('ALL');
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [countryTrend, setCountryTrend] = useState([]);
   const [countryPyramid, setCountryPyramid] = useState([]);
@@ -42,20 +46,22 @@ function App() {
       loadPopulationData();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedYear, selectedSex, selectedAgeGroup]);
+  }, [selectedYear, selectedSex, selectedAgeGroup, selectedLanguage]);
 
   const loadMetadata = async () => {
     try {
-      const [yearsData, sexData, ageGroupsData] = await Promise.all([
+      const [yearsData, sexData, ageGroupsData, languagesData] = await Promise.all([
         getYears(),
         getSexCategories(),
-        getAgeGroups()
+        getAgeGroups(),
+        getLanguages()
       ]);
 
       const yearsList = yearsData.data;
       setYears(yearsList);
       setSexCategories(sexData.data);
       setAgeGroups(ageGroupsData.data);
+      setLanguages(languagesData.data);
 
       // Sélectionner l'année la plus récente par défaut
       if (yearsList.length > 0) {
@@ -84,7 +90,8 @@ function App() {
       const data = await getPopulationSummary({
         year: selectedYear,
         sex: selectedSex,
-        ageGroup: selectedAgeGroup !== 'ALL' ? selectedAgeGroup : undefined
+        ageGroup: selectedAgeGroup !== 'ALL' ? selectedAgeGroup : undefined,
+        language: selectedLanguage !== 'ALL' ? selectedLanguage : undefined
       });
 
       setPopulationData(data.data);
@@ -100,12 +107,20 @@ function App() {
     try {
       setSelectedCountry(country);
 
-      // Charger les données détaillées du pays
-      const [trendData, pyramidData] = await Promise.all([
+      // Charger les données détaillées du pays depuis l'API
+      const [countryDetails, trendData, pyramidData] = await Promise.all([
+        getCountry(country.iso3),
         getPopulationTrend(country.iso3, { sex: selectedSex }),
         getPopulationPyramid(country.iso3, { year: selectedYear })
       ]);
 
+      // Combiner les données de population avec les détails complets du pays
+      const fullCountryData = {
+        ...countryDetails.data,
+        total_population: country.total_population
+      };
+
+      setSelectedCountry(fullCountryData);
       setCountryTrend(trendData.data);
       setCountryPyramid(pyramidData.data);
     } catch (err) {
@@ -163,12 +178,15 @@ function App() {
               years={years}
               sexCategories={sexCategories}
               ageGroups={ageGroups}
+              languages={languages}
               selectedYear={selectedYear}
               selectedSex={selectedSex}
               selectedAgeGroup={selectedAgeGroup}
+              selectedLanguage={selectedLanguage}
               onYearChange={setSelectedYear}
               onSexChange={setSelectedSex}
               onAgeGroupChange={setSelectedAgeGroup}
+              onLanguageChange={setSelectedLanguage}
             />
           )}
 
@@ -216,6 +234,7 @@ function App() {
           country={selectedCountry}
           trend={countryTrend}
           pyramid={countryPyramid}
+          selectedYear={selectedYear}
           onClose={handleCloseDetails}
         />
       )}

@@ -75,10 +75,29 @@
   padding-bottom: 16px;
 }
 
+.country-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.country-flag {
+  font-size: 48px;
+  line-height: 1;
+}
+
 .country-header h2 {
   margin: 0;
   font-size: 28px;
   color: #333;
+}
+
+.country-name-local {
+  margin: 4px 0 0 0;
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .country-code {
@@ -88,11 +107,31 @@
   font-weight: 500;
 }
 
-.country-info {
+.country-info-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
   margin-bottom: 32px;
+}
+
+.info-section {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #4a90e2;
+}
+
+.info-section h3 {
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .info-item {
@@ -102,7 +141,7 @@
 }
 
 .info-label {
-  font-size: 13px;
+  font-size: 12px;
   color: #666;
   font-weight: 500;
   text-transform: uppercase;
@@ -110,9 +149,24 @@
 }
 
 .info-value {
-  font-size: 18px;
+  font-size: 15px;
   color: #333;
   font-weight: 600;
+}
+
+.languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.language-tag {
+  background: #4a90e2;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .chart-section {
@@ -137,17 +191,25 @@
     max-height: 95vh;
   }
 
+  .country-flag {
+    font-size: 36px;
+  }
+
   .country-header h2 {
     font-size: 22px;
   }
 
-  .country-info {
+  .country-info-grid {
     grid-template-columns: 1fr;
-    gap: 12px;
+    gap: 16px;
+  }
+
+  .info-section {
+    padding: 16px;
   }
 
   .info-value {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .chart-section {

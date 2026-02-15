@@ -95,6 +95,49 @@ router.get('/regions', async (req, res) => {
   }
 });
 
+// GET /api/metadata/languages - Liste des langues disponibles
+router.get('/languages', async (req, res) => {
+  try {
+    // Grouper par code de base (les 2 premières lettres) pour inclure toutes les variantes
+    const result = await pool.query(`
+      WITH language_base AS (
+        SELECT 
+          l.id,
+          l.iso_code,
+          CASE 
+            WHEN l.iso_code LIKE '%-%' THEN SUBSTRING(l.iso_code FROM 1 FOR POSITION('-' IN l.iso_code) - 1)
+            ELSE l.iso_code
+          END as base_code,
+          cl.country_id
+        FROM language l
+        LEFT JOIN country_language cl ON l.id = cl.language_id
+      )
+      SELECT 
+        base_code as iso_code,
+        base_code as name,
+        COUNT(DISTINCT country_id) as country_count,
+        ARRAY_AGG(DISTINCT id) as language_ids
+      FROM language_base
+      WHERE country_id IS NOT NULL
+      GROUP BY base_code
+      HAVING COUNT(DISTINCT country_id) > 0
+      ORDER BY country_count DESC, base_code
+    `);
+
+    res.json({
+      success: true,
+      count: result.rows.length,
+      data: result.rows
+    });
+  } catch (error) {
+    console.error('Erreur lors de la récupération des langues:', error);
+    res.status(500).json({ 
+      success: false,
+      error: 'Erreur lors de la récupération des langues' 
+    });
+  }
+});
+
 // GET /api/metadata/stats - Statistiques générales
 router.get('/stats', async (req, res) => {
   try {
