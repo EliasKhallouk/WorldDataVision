@@ -1,0 +1,79 @@
+ count |         code         |                            name                            
+-------+----------------------+------------------------------------------------------------
+     1 | AG.LND.AGRI.ZS       | Terres agricoles
+     1 | AG.LND.ARBL.HA.PC    | Terres arables par habitant
+     1 | AG.LND.FRST.ZS       | Superficie forestière
+     1 | AG.LND.TOTL.K2       | Superficie terrestre
+     1 | AG.PRD.CROP.XD       | Indice de production végétale
+     1 | AG.PRD.FOOD.XD       | Indice de production alimentaire
+     1 | AG.PRD.LVSK.XD       | Indice de production animale
+     1 | AG.YLD.CREL.KG       | Rendement des céréales
+     1 | BN.CAB.XOKA.GD.ZS    | Balance courante
+     1 | BX.KLT.DINV.WD.GD.ZS | Investissements directs étrangers
+     1 | CC.EST               | Contrôle de la corruption
+     1 | DT.DOD.DECT.GN.ZS    | Dette externe
+     1 | DT.TDS.DECT.EX.ZS    | Service de la dette
+     1 | EG.ELC.ACCS.ZS       | Accès à l'électricité
+     1 | EG.ELC.HYRO.ZS       | Électricité hydroélectrique
+     1 | EG.ELC.NUCL.ZS       | Électricité nucléaire
+     1 | EG.ELC.PROD.KH       | Production d'électricité
+     1 | EG.FEC.RNEW.ZS       | Consommation énergies renouvelables
+     1 | EG.IMP.CONS.ZS       | Importations nettes d'énergie
+     1 | EG.USE.COMM.FO.ZS    | Consommation combustibles fossiles
+     1 | EG.USE.ELEC.KH.PC    | Consommation d'électricité par habitant
+     1 | EG.USE.PCAP.KG.OE    | Consommation énergétique par habitant
+     1 | EN.ATM.CO2E.PC       | Émissions CO2 par habitant
+     1 | EN.GHG.CO2.PC.CE.AR5 | Émissions CO2 (AR5)
+     1 | ER.H2O.FWST.ZS       | Stress hydrique
+     1 | ER.H2O.INTR.PC       | Eau renouvelable par habitant
+     1 | FI.RES.TOTL.MO       | Réserves de change
+     1 | FP.CPI.TOTL.ZG       | Inflation
+     1 | GB.XPD.RSDV.GD.ZS    | Dépenses R&D
+     1 | GC.DOD.TOTL.GD.ZS    | Dette du gouvernement central (% du PIB)
+     1 | GC.TAX.TOTL.GD.ZS    | Revenus fiscaux (% du PIB)
+     1 | GE.EST               | Efficacité gouvernementale
+     1 | IP.JRN.ARTC.SC       | Articles scientifiques
+     1 | IP.PAT.RESD          | Demandes de brevets
+     1 | IT.CEL.SETS.P2       | Abonnements mobiles
+     1 | IT.NET.BBND.P2       | Abonnements haut débit
+     1 | IT.NET.SECR.P6       | Serveurs sécurisés
+     1 | IT.NET.USER.ZS       | Utilisateurs Internet
+     1 | MS.MIL.XPND.GD.ZS    | Dépenses militaires
+     1 | NY.GDP.COAL.RT.ZS    | Rente minière charbon
+     1 | NY.GDP.MKTP.KD.ZG    | Croissance du PIB
+     1 | NY.GDP.NGAS.RT.ZS    | Rente gazière
+     1 | NY.GDP.PCAP.PP.KD    | PIB par habitant (PPA, $ internationaux constants de 2011)
+     1 | NY.GDP.PETR.RT.ZS    | Rente pétrolière
+     1 | PV.EST               | Stabilité politique
+     1 | RL.EST               | État de droit
+     1 | RQ.EST               | Qualité réglementaire
+     1 | SE.ADT.LITR.ZS       | Taux d'alphabétisation adultes
+     1 | SE.TER.ENRR          | Scolarisation tertiaire
+     1 | SE.XPD.TOTL.GD.ZS    | Dépenses publiques en éducation (% du PIB)
+     1 | SH.MED.BEDS.ZS       | Lits d'hôpital
+     1 | SH.MED.PHYS.ZS       | Médecins par 1000
+     1 | SH.XPD.CHEX.GD.ZS    | Dépenses de santé
+     1 | SL.UEM.TOTL.ZS       | Taux de chômage
+     1 | SM.POP.NETM          | Solde migratoire net
+     1 | SP.DYN.CBRT.IN       | Taux de natalité
+     1 | SP.DYN.CDRT.IN       | Taux de mortalité
+     1 | SP.DYN.IMRT.IN       | Mortalité infantile
+     1 | SP.DYN.LE00.IN       | Espérance de vie à la naissance (années)
+     1 | SP.DYN.TFRT.IN       | Taux de fertilité (naissances par femme)
+     1 | SP.POP.0014.TO.ZS    | Population 0-14 ans (%)
+     1 | SP.POP.1564.TO.ZS    | Population 15-64 ans (%)
+     1 | SP.POP.65UP.TO.ZS    | Population 65+ ans (%)
+     1 | SP.POP.AG.MA.NO      | Âge médian
+     1 | SP.POP.DPND          | Ratio de dépendance total
+     1 | SP.POP.DPND.OL       | Ratio de dépendance des âgés
+     1 | SP.POP.DPND.YG       | Ratio de dépendance des jeunes
+     1 | SP.POP.GROW          | Croissance de la population
+     1 | SP.POP.SCIE.RD.P6    | Chercheurs par million
+     1 | SP.POP.TOTL          | Population totale
+     1 | SP.URB.TOTL.IN.ZS    | Population urbaine
+     1 | TM.VAL.FOOD.ZS.UN    | Importations alimentaires
+     1 | TX.VAL.FOOD.ZS.UN    | Exportations agricoles
+     1 | TX.VAL.TECH.MF.ZS    | Exportations haute technologie
+     1 | VA.EST               | Voix et responsabilité
+(75 lignes)
+

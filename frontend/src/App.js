@@ -195,6 +195,7 @@ function App() {
                 Plateforme d'analyse des données mondiales
               </p>
             </div>
+
             {globalStats && (
               <div className="global-stats">
                 <div className="stat-item">

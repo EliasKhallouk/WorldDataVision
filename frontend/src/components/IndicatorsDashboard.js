@@ -13,14 +13,16 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
   const [evolutionData, setEvolutionData] = useState(null);
   const [comparisonCountries, setComparisonCountries] = useState(['FRA', 'USA', 'DEU', 'GBR', 'JPN']);
   const [loading, setLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState('');
 
   // Charger les indicateurs
   useEffect(() => {
     loadIndicators();
-  }, [selectedCategory]);
+  }, []); // Charger une seule fois au démarrage
 
   // Charger les données quand l'indicateur change
   useEffect(() => {
+    console.log('🔄 useEffect déclenché - viewMode:', viewMode, 'selectedIndicator:', selectedIndicator?.code);
     if (selectedIndicator) {
       if (viewMode === 'ranking') {
         loadRankingData();
@@ -28,18 +30,19 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
         loadEvolutionData();
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedIndicator, selectedYear, viewMode, comparisonCountries]);
 
   const loadIndicators = async () => {
     try {
       setLoading(true);
-      const params = selectedCategory !== 'all' ? { category: selectedCategory } : {};
-      const data = await getIndicators(params);
+      const data = await getIndicators();
       setIndicators(data);
       
-      // Sélectionner le premier indicateur par défaut
-      if (data.length > 0 && !selectedIndicator) {
-        setSelectedIndicator(data[0]);
+      // Sélectionner le premier indicateur de la catégorie active par défaut
+      const filtered = getFilteredIndicators(data);
+      if (filtered.length > 0 && !selectedIndicator) {
+        setSelectedIndicator(filtered[0]);
       }
     } catch (error) {
       console.error('Erreur lors du chargement des indicateurs:', error);
@@ -48,17 +51,44 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
     }
   };
 
+  const getFilteredIndicators = (indicatorsList = indicators) => {
+    let filtered = indicatorsList;
+    
+    // Filtrer par catégorie
+    if (selectedCategory !== 'all') {
+      filtered = filtered.filter(ind => ind.category_code === selectedCategory);
+    }
+    
+    // Filtrer par recherche
+    if (searchTerm) {
+      filtered = filtered.filter(ind =>
+        ind.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        ind.code.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
+    
+    return filtered;
+  };
+
   const loadRankingData = async () => {
-    if (!selectedIndicator || !selectedYear) return;
+    if (!selectedIndicator) return;
     
     try {
+      // Toujours utiliser la dernière année disponible de l'indicateur
+      const year = selectedIndicator.last_year;
+      
+      console.log('🔍 Chargement ranking pour:', selectedIndicator.code, 'année:', year);
+      
       const data = await getIndicatorComparison(selectedIndicator.code, {
-        year: selectedYear,
+        year: year,
         limit: 20
       });
+      
+      console.log('✅ Données ranking reçues:', data, 'nombre de pays:', data.data?.length);
       setRankingData(data);
     } catch (error) {
-      console.error('Erreur lors du chargement du classement:', error);
+      console.error('❌ Erreur lors du chargement du classement:', error);
+      setRankingData(null);
     }
   };
 
@@ -80,27 +110,54 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
     }
   };
 
+  // Descriptions enrichies pour certains indicateurs clés
+  const indicatorDescriptions = {
+    'SP.POP.TOTL': {
+      description: 'Population totale estimée en milieu d\'année, incluant tous les résidents quelle que soit leur citoyenneté.',
+      interpretation: 'Une population croissante peut indiquer un développement économique, tandis qu\'une population décroissante peut signaler des défis démographiques.'
+    },
+    'SP.DYN.TFRT.IN': {
+      description: 'Nombre moyen d\'enfants qu\'une femme aurait au cours de sa vie reproductive.',
+      interpretation: 'Un taux < 2.1 indique un vieillissement de la population. Un taux > 3 peut indiquer une population très jeune.'
+    },
+    'SP.DYN.LE00.IN': {
+      description: 'Nombre d\'années qu\'un nouveau-né peut s\'attendre à vivre si les conditions de mortalité actuelles restent constantes.',
+      interpretation: 'Un indicateur clé du niveau de santé et de développement d\'un pays.'
+    },
+    'NY.GDP.PCAP.PP.KD': {
+      description: 'PIB par habitant ajusté pour la parité de pouvoir d\'achat (PPA) en dollars internationaux constants.',
+      interpretation: 'Mesure le niveau de vie relatif entre les pays en tenant compte des différences de coût de la vie.'
+    },
+    'EN.ATM.CO2E.PC': {
+      description: 'Émissions de dioxyde de carbone par habitant en tonnes métriques.',
+      interpretation: 'Indicateur clé de l\'empreinte carbone et de l\'impact environnemental d\'un pays.'
+    }
+  };
+
+  // Catégories avec icônes
   const categories = [
-    { code: 'all', name: 'Tous', icon: '' },
-    { code: 'economy', name: 'Économie', icon: '' },
-    { code: 'social', name: 'Social', icon: '' },
-    { code: 'demographic', name: 'Démographie', icon: '' },
-    { code: 'institutional', name: 'Institutionnel', icon: '' }
+    { code: 'all', name: 'Tous', icon: '📊' },
+    { code: 'demographic', name: 'Démographie', icon: '👥' },
+    { code: 'agriculture', name: 'Agriculture', icon: '🌾' },
+    { code: 'environment', name: 'Environnement', icon: '🌍' },
+    { code: 'energy', name: 'Énergie', icon: '⚡' },
+    { code: 'institutional', name: 'Gouvernance', icon: '🏛️' },
+    { code: 'economy', name: 'Économie', icon: '💰' },
+    { code: 'social', name: 'Social', icon: '📚' },
+    { code: 'technology', name: 'Technologies', icon: '💻' }
   ];
 
-  if (loading && indicators.length === 0) {
-    return (
-      <div className="indicators-dashboard">
-        <div className="loading">Chargement des indicateurs...</div>
-      </div>
-    );
+  const filteredIndicators = getFilteredIndicators();
+
+  if (loading) {
+    return <div className="loading">Chargement des indicateurs...</div>;
   }
 
   return (
     <div className="indicators-dashboard">
       <div className="dashboard-header">
-        <h2>Indicateurs de développement</h2>
-        <p className="subtitle">Données économiques, sociales et institutionnelles</p>
+        <h2>📊 Indicateurs de développement</h2>
+        <p className="subtitle">75 indicateurs économiques, sociaux et environnementaux de la Banque Mondiale</p>
       </div>
 
       {/* Filtres par catégorie */}
@@ -109,16 +166,51 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
           <button
             key={cat.code}
             className={`category-btn ${selectedCategory === cat.code ? 'active' : ''}`}
-            onClick={() => setSelectedCategory(cat.code)}
+            onClick={() => {
+              setSelectedCategory(cat.code);
+              setSearchTerm('');
+              // Sélectionner le premier indicateur de la nouvelle catégorie
+              const newFiltered = cat.code === 'all' 
+                ? indicators 
+                : indicators.filter(ind => ind.category_code === cat.code);
+              if (newFiltered.length > 0) {
+                setSelectedIndicator(newFiltered[0]);
+              }
+            }}
           >
+            <span className="category-icon">{cat.icon}</span>
             <span className="category-name">{cat.name}</span>
+            <span className="category-count">
+              {cat.code === 'all' 
+                ? indicators.length 
+                : indicators.filter(ind => ind.category_code === cat.code).length}
+            </span>
           </button>
         ))}
       </div>
 
+      {/* Barre de recherche */}
+      <div className="search-box">
+        <input
+          type="text"
+          placeholder={`Rechercher parmi ${filteredIndicators.length} indicateurs...`}
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="search-input"
+        />
+        {searchTerm && (
+          <button 
+            className="clear-search"
+            onClick={() => setSearchTerm('')}
+          >
+            ✕
+          </button>
+        )}
+      </div>
+
       {/* Sélection de l'indicateur */}
       <div className="indicator-selector">
-        <label htmlFor="indicator-select">Sélectionner un indicateur:</label>
+        <label htmlFor="indicator-select">Indicateur sélectionné:</label>
         <select
           id="indicator-select"
           value={selectedIndicator?.code || ''}
@@ -127,22 +219,59 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
             setSelectedIndicator(indicator);
           }}
         >
-          {indicators.map(indicator => (
+          {filteredIndicators.map(indicator => (
             <option key={indicator.code} value={indicator.code}>
               {indicator.name}
             </option>
           ))}
         </select>
-        
-        {selectedIndicator && (
-          <div className="indicator-info">
-            <span className="indicator-unit">Unité: {selectedIndicator.unit}</span>
-            <span className="indicator-coverage">
-              {selectedIndicator.country_count} pays • {selectedIndicator.first_year}-{selectedIndicator.last_year}
-            </span>
-          </div>
-        )}
       </div>
+
+      {/* Carte d'information enrichie */}
+      {selectedIndicator && (
+        <div className="indicator-info-card">
+          <div className="info-header">
+            <h3>{selectedIndicator.name}</h3>
+            <span className="indicator-code">{selectedIndicator.code}</span>
+          </div>
+          
+          {indicatorDescriptions[selectedIndicator.code] && (
+            <div className="info-body">
+              <div className="info-section">
+                <h4>📋 Description</h4>
+                <p>{indicatorDescriptions[selectedIndicator.code].description}</p>
+              </div>
+              <div className="info-section">
+                <h4>💡 Interprétation</h4>
+                <p>{indicatorDescriptions[selectedIndicator.code].interpretation}</p>
+              </div>
+            </div>
+          )}
+          
+          <div className="info-metadata">
+            <div className="meta-item">
+              <span className="meta-label">Unité</span>
+              <span className="meta-value">{selectedIndicator.unit || 'N/A'}</span>
+            </div>
+            <div className="meta-item">
+              <span className="meta-label">Source</span>
+              <span className="meta-value">{selectedIndicator.source}</span>
+            </div>
+            <div className="meta-item">
+              <span className="meta-label">Pays couverts</span>
+              <span className="meta-value">{selectedIndicator.country_count}</span>
+            </div>
+            <div className="meta-item">
+              <span className="meta-label">Période</span>
+              <span className="meta-value">{selectedIndicator.first_year} - {selectedIndicator.last_year}</span>
+            </div>
+            <div className="meta-item">
+              <span className="meta-label">Points de données</span>
+              <span className="meta-value">{selectedIndicator.value_count?.toLocaleString()}</span>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Modes de visualisation */}
       <div className="view-modes">
@@ -162,18 +291,29 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
 
       {/* Contenu */}
       <div className="dashboard-content">
-        {viewMode === 'ranking' && rankingData && (
-          <IndicatorRanking 
-            data={rankingData} 
-            selectedCountry={selectedCountry}
-          />
+        {viewMode === 'ranking' && (
+          rankingData ? (
+            <>
+              {console.log('🎯 Affichage ranking avec data:', rankingData)}
+              <IndicatorRanking 
+                data={rankingData} 
+                selectedCountry={selectedCountry}
+              />
+            </>
+          ) : (
+            <div className="loading">Chargement du classement...</div>
+          )
         )}
         
-        {viewMode === 'evolution' && evolutionData && (
-          <IndicatorChart 
-            data={evolutionData}
-            selectedCountry={selectedCountry}
-          />
+        {viewMode === 'evolution' && (
+          evolutionData ? (
+            <IndicatorChart 
+              data={evolutionData}
+              selectedCountry={selectedCountry}
+            />
+          ) : (
+            <div className="loading">Chargement de l'évolution...</div>
+          )
         )}
       </div>
     </div>
