@@ -190,10 +190,17 @@ function App() {
         <div className="header-content">
           <div className="header-main">
             <div className="header-left">
-              <h1>WorldDataVision</h1>
-              <p className="header-subtitle">
-                Plateforme d'analyse des données mondiales
-              </p>
+              <div className="header-branding">
+                <svg className="globe-icon" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.5">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M2 12h20"/>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+                <div className="header-title-group">
+                  <h1>WorldDataVision</h1>
+                  <p className="header-tagline">Données mondiales • Analyses avancées</p>
+                </div>
+              </div>
             </div>
 
             {globalStats && (
@@ -202,15 +209,17 @@ function App() {
                   <span className="stat-value">{globalStats.total_countries}</span>
                   <span className="stat-label">Pays</span>
                 </div>
+                <div className="stat-divider"></div>
                 <div className="stat-item">
                   <span className="stat-value">{globalStats.total_years}</span>
                   <span className="stat-label">Années</span>
                 </div>
+                <div className="stat-divider"></div>
                 <div className="stat-item">
                   <span className="stat-value">
                     {formatCompactNumber(globalStats.total_data_points)}
                   </span>
-                  <span className="stat-label">Points de données</span>
+                  <span className="stat-label">Données</span>
                 </div>
               </div>
             )}
@@ -407,16 +416,71 @@ function App() {
       )}
 
       <footer className="app-footer">
-        <p>
-          Données issues de la base PostgreSQL WorldDataVision | 
-          Carte basée sur <a 
-            href="https://github.com/raphaellepuschitz/SVG-World-Map" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            SVG World Map
-          </a>
-        </p>
+        <div className="footer-content">
+          <div className="footer-section">
+            <h4 className="footer-title">Sources de données</h4>
+            <ul className="footer-list">
+              <li>
+                <a href="https://data.worldbank.org" target="_blank" rel="noopener noreferrer">
+                  Banque mondiale (World Bank Open Data)
+                </a>
+              </li>
+              <li>
+                <a href="https://www.un.org/en/databases" target="_blank" rel="noopener noreferrer">
+                  Nations Unies (UN Data)
+                </a>
+              </li>
+              <li>PostgreSQL WorldDataVision Database</li>
+            </ul>
+          </div>
+
+          <div className="footer-section">
+            <h4 className="footer-title">Ressources</h4>
+            <ul className="footer-list">
+              <li>
+                <a href="https://github.com/raphaellepuschitz/SVG-World-Map" target="_blank" rel="noopener noreferrer">
+                  Carte SVG du monde
+                </a>
+              </li>
+              <li>
+                <a href="#" onClick={(e) => e.preventDefault()}>
+                  Documentation API
+                </a>
+              </li>
+              <li>
+                <a href="#" onClick={(e) => e.preventDefault()}>
+                  Méthodologie
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="footer-section">
+            <h4 className="footer-title">Technologie</h4>
+            <ul className="footer-list">
+              <li>React + Node.js + PostgreSQL</li>
+              <li>D3.js, Recharts pour les visualisations</li>
+              <li>API RESTful pour l'accès aux données</li>
+            </ul>
+          </div>
+
+          <div className="footer-section">
+            <h4 className="footer-title">À propos</h4>
+            <p className="footer-about">
+              WorldDataVision est une plateforme open-source d'analyse de données démographiques 
+              et économiques mondiales, conçue pour les chercheurs, analystes et décideurs.
+            </p>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <p className="footer-copyright">
+            © 2024-2026 WorldDataVision. Projet éducatif et analytique.
+          </p>
+          <p className="footer-update">
+            Dernière mise à jour des données : Février 2026
+          </p>
+        </div>
       </footer>
     </div>
   );
