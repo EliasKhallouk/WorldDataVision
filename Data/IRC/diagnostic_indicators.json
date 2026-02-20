@@ -1,0 +1,308 @@
+{
+  "total_irc_indicators": 75,
+  "already_present": 0,
+  "missing": 75,
+  "to_add": [
+    {
+      "code": "EG.USE.ELEC.KH.PC",
+      "name": "electricity_use_per_capita"
+    },
+    {
+      "code": "EN.GHG.CO2.PC.CE.AR5",
+      "name": "co2_emissions_per_capita_ar5"
+    },
+    {
+      "code": "SP.POP.TOTL",
+      "name": "population_total"
+    },
+    {
+      "code": "SP.POP.0014.TO.ZS",
+      "name": "population_0_14"
+    },
+    {
+      "code": "SP.POP.1564.TO.ZS",
+      "name": "population_15_64"
+    },
+    {
+      "code": "SP.POP.65UP.TO.ZS",
+      "name": "population_65plus"
+    },
+    {
+      "code": "SP.POP.AG.MA.NO",
+      "name": "median_age"
+    },
+    {
+      "code": "SP.POP.DPND",
+      "name": "dependency_ratio"
+    },
+    {
+      "code": "SP.POP.DPND.OL",
+      "name": "old_dependency_ratio"
+    },
+    {
+      "code": "SP.POP.DPND.YG",
+      "name": "young_dependency_ratio"
+    },
+    {
+      "code": "SP.DYN.CBRT.IN",
+      "name": "birth_rate"
+    },
+    {
+      "code": "SP.DYN.CDRT.IN",
+      "name": "death_rate"
+    },
+    {
+      "code": "SP.DYN.TFRT.IN",
+      "name": "fertility_rate"
+    },
+    {
+      "code": "SP.DYN.LE00.IN",
+      "name": "life_expectancy"
+    },
+    {
+      "code": "SP.POP.GROW",
+      "name": "population_growth"
+    },
+    {
+      "code": "SM.POP.NETM",
+      "name": "net_migration"
+    },
+    {
+      "code": "SP.URB.TOTL.IN.ZS",
+      "name": "urban_population"
+    },
+    {
+      "code": "AG.LND.AGRI.ZS",
+      "name": "agricultural_land"
+    },
+    {
+      "code": "AG.LND.ARBL.HA.PC",
+      "name": "arable_land_per_capita"
+    },
+    {
+      "code": "AG.YLD.CREL.KG",
+      "name": "cereal_yield"
+    },
+    {
+      "code": "AG.PRD.FOOD.XD",
+      "name": "food_production_index"
+    },
+    {
+      "code": "AG.PRD.CROP.XD",
+      "name": "crop_production_index"
+    },
+    {
+      "code": "AG.PRD.LVSK.XD",
+      "name": "livestock_production_index"
+    },
+    {
+      "code": "TM.VAL.FOOD.ZS.UN",
+      "name": "food_imports"
+    },
+    {
+      "code": "TX.VAL.FOOD.ZS.UN",
+      "name": "agricultural_exports"
+    },
+    {
+      "code": "ER.H2O.FWST.ZS",
+      "name": "water_stress"
+    },
+    {
+      "code": "ER.H2O.INTR.PC",
+      "name": "renewable_water_per_capita"
+    },
+    {
+      "code": "AG.LND.FRST.ZS",
+      "name": "forest_area"
+    },
+    {
+      "code": "EG.ELC.PROD.KH",
+      "name": "electricity_production"
+    },
+    {
+      "code": "EG.FEC.RNEW.ZS",
+      "name": "renewable_energy_consumption"
+    },
+    {
+      "code": "EG.USE.COMM.FO.ZS",
+      "name": "fossil_fuel_consumption"
+    },
+    {
+      "code": "EG.ELC.NUCL.ZS",
+      "name": "nuclear_electricity"
+    },
+    {
+      "code": "EG.ELC.HYRO.ZS",
+      "name": "hydro_electricity"
+    },
+    {
+      "code": "EG.IMP.CONS.ZS",
+      "name": "energy_imports_net"
+    },
+    {
+      "code": "NY.GDP.PETR.RT.ZS",
+      "name": "oil_rents"
+    },
+    {
+      "code": "NY.GDP.NGAS.RT.ZS",
+      "name": "natural_gas_rents"
+    },
+    {
+      "code": "NY.GDP.COAL.RT.ZS",
+      "name": "coal_rents"
+    },
+    {
+      "code": "EG.USE.PCAP.KG.OE",
+      "name": "energy_use_per_capita"
+    },
+    {
+      "code": "EG.ELC.ACCS.ZS",
+      "name": "access_electricity"
+    },
+    {
+      "code": "CC.EST",
+      "name": "corruption_control"
+    },
+    {
+      "code": "GE.EST",
+      "name": "government_effectiveness"
+    },
+    {
+      "code": "PV.EST",
+      "name": "political_stability"
+    },
+    {
+      "code": "RL.EST",
+      "name": "rule_of_law"
+    },
+    {
+      "code": "RQ.EST",
+      "name": "regulatory_quality"
+    },
+    {
+      "code": "VA.EST",
+      "name": "voice_accountability"
+    },
+    {
+      "code": "GC.DOD.TOTL.GD.ZS",
+      "name": "government_debt"
+    },
+    {
+      "code": "DT.DOD.DECT.GN.ZS",
+      "name": "external_debt"
+    },
+    {
+      "code": "DT.TDS.DECT.EX.ZS",
+      "name": "debt_service"
+    },
+    {
+      "code": "GC.TAX.TOTL.GD.ZS",
+      "name": "tax_revenue"
+    },
+    {
+      "code": "FI.RES.TOTL.MO",
+      "name": "reserves_months_imports"
+    },
+    {
+      "code": "NY.GDP.PCAP.PP.KD",
+      "name": "gdp_per_capita_ppp"
+    },
+    {
+      "code": "NY.GDP.MKTP.KD.ZG",
+      "name": "gdp_growth"
+    },
+    {
+      "code": "FP.CPI.TOTL.ZG",
+      "name": "inflation"
+    },
+    {
+      "code": "SL.UEM.TOTL.ZS",
+      "name": "unemployment"
+    },
+    {
+      "code": "BN.CAB.XOKA.GD.ZS",
+      "name": "current_account_balance"
+    },
+    {
+      "code": "BX.KLT.DINV.WD.GD.ZS",
+      "name": "fdi_inflows"
+    },
+    {
+      "code": "MS.MIL.XPND.GD.ZS",
+      "name": "military_expenditure"
+    },
+    {
+      "code": "SE.XPD.TOTL.GD.ZS",
+      "name": "education_expenditure"
+    },
+    {
+      "code": "SE.TER.ENRR",
+      "name": "school_enrollment_tertiary"
+    },
+    {
+      "code": "SE.ADT.LITR.ZS",
+      "name": "literacy_rate_adult"
+    },
+    {
+      "code": "GB.XPD.RSDV.GD.ZS",
+      "name": "rd_expenditure"
+    },
+    {
+      "code": "SP.POP.SCIE.RD.P6",
+      "name": "researchers_per_million"
+    },
+    {
+      "code": "IP.PAT.RESD",
+      "name": "patent_applications"
+    },
+    {
+      "code": "IP.JRN.ARTC.SC",
+      "name": "scientific_articles"
+    },
+    {
+      "code": "TX.VAL.TECH.MF.ZS",
+      "name": "high_tech_exports"
+    },
+    {
+      "code": "IT.NET.USER.ZS",
+      "name": "internet_users"
+    },
+    {
+      "code": "IT.CEL.SETS.P2",
+      "name": "mobile_subscriptions"
+    },
+    {
+      "code": "IT.NET.BBND.P2",
+      "name": "fixed_broadband"
+    },
+    {
+      "code": "IT.NET.SECR.P6",
+      "name": "secure_internet_servers"
+    },
+    {
+      "code": "AG.LND.TOTL.K2",
+      "name": "land_area"
+    },
+    {
+      "code": "EN.ATM.CO2E.PC",
+      "name": "co2_emissions_per_capita"
+    },
+    {
+      "code": "SH.XPD.CHEX.GD.ZS",
+      "name": "health_expenditure"
+    },
+    {
+      "code": "SH.MED.PHYS.ZS",
+      "name": "physicians_per_1000"
+    },
+    {
+      "code": "SH.MED.BEDS.ZS",
+      "name": "hospital_beds"
+    },
+    {
+      "code": "SP.DYN.IMRT.IN",
+      "name": "infant_mortality"
+    }
+  ],
+  "already_present_detail": []
+}
