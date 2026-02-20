@@ -188,38 +188,26 @@ function App() {
     <div className="app">
       <header className="app-header">
         <div className="header-content">
-          <div className="header-main">
-            <div className="header-left">
-              <div className="header-branding">
-                <svg className="globe-icon" viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <circle cx="12" cy="12" r="10"/>
-                  <path d="M2 12h20"/>
-                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                </svg>
-                <div className="header-title-group">
-                  <h1>WorldDataVision</h1>
-                  <p className="header-tagline">Données mondiales • Analyses avancées</p>
-                </div>
-              </div>
-            </div>
-
+          <div className="header-hero">
+            <div className="header-accent-line"></div>
+            <h1 className="header-title">WorldDataVision</h1>
+            <p className="header-subtitle">Intelligence statistique mondiale</p>
+            
             {globalStats && (
-              <div className="global-stats">
-                <div className="stat-item">
-                  <span className="stat-value">{globalStats.total_countries}</span>
-                  <span className="stat-label">Pays</span>
+              <div className="header-stats-inline">
+                <div className="stat-inline-item">
+                  <span className="stat-inline-value">{globalStats.total_countries}</span>
+                  <span className="stat-inline-label">pays</span>
                 </div>
-                <div className="stat-divider"></div>
-                <div className="stat-item">
-                  <span className="stat-value">{globalStats.total_years}</span>
-                  <span className="stat-label">Années</span>
+                <span className="stat-inline-dot">•</span>
+                <div className="stat-inline-item">
+                  <span className="stat-inline-value">{globalStats.total_years}</span>
+                  <span className="stat-inline-label">années</span>
                 </div>
-                <div className="stat-divider"></div>
-                <div className="stat-item">
-                  <span className="stat-value">
-                    {formatCompactNumber(globalStats.total_data_points)}
-                  </span>
-                  <span className="stat-label">Données</span>
+                <span className="stat-inline-dot">•</span>
+                <div className="stat-inline-item">
+                  <span className="stat-inline-value">{formatCompactNumber(globalStats.total_data_points)}</span>
+                  <span className="stat-inline-label">points de données</span>
                 </div>
               </div>
             )}
