@@ -406,6 +406,22 @@
   line-height: var(--leading-relaxed);
 }
 
+.footer-link-button {
+  background: none;
+  border: none;
+  color: var(--color-neutral-400);
+  cursor: pointer;
+  padding: 0;
+  font-size: var(--text-sm);
+  text-align: left;
+  transition: color var(--transition-fast);
+}
+
+.footer-link-button:hover {
+  color: var(--color-primary-400);
+  text-decoration: underline;
+}
+
 .footer-about {
   font-size: var(--text-sm);
   line-height: var(--leading-relaxed);

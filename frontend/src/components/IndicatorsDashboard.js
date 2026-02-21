@@ -11,7 +11,7 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
   const [viewMode, setViewMode] = useState('ranking'); // 'ranking' ou 'evolution'
   const [rankingData, setRankingData] = useState(null);
   const [evolutionData, setEvolutionData] = useState(null);
-  const [comparisonCountries, setComparisonCountries] = useState(['FRA', 'USA', 'DEU', 'GBR', 'JPN']);
+  const comparisonCountries = ['FRA', 'USA', 'DEU', 'GBR', 'JPN'];
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -20,6 +20,7 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
   // Charger les indicateurs
   useEffect(() => {
     loadIndicators();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Charger une seule fois au démarrage
 
   // Charger les données quand l'indicateur change

@@ -431,14 +431,14 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="#" onClick={(e) => e.preventDefault()}>
+                <button className="footer-link-button" onClick={(e) => e.preventDefault()}>
                   Documentation API
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" onClick={(e) => e.preventDefault()}>
+                <button className="footer-link-button" onClick={(e) => e.preventDefault()}>
                   Méthodologie
-                </a>
+                </button>
               </li>
             </ul>
           </div>

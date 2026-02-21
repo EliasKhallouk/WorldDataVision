@@ -1,15 +1,14 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import './IndicatorChart.css';
 
 const IndicatorChart = ({ data, selectedCountry }) => {
   const canvasRef = useRef(null);
-  const [hoveredPoint, setHoveredPoint] = useState(null);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     if (data && data.data && canvasRef.current) {
       drawChart();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, selectedCountry]);
 
   const drawChart = () => {
@@ -147,16 +146,7 @@ const IndicatorChart = ({ data, selectedCountry }) => {
   };
 
   const handleMouseMove = (e) => {
-    const canvas = canvasRef.current;
-    const rect = canvas.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    
-    setMousePos({ x: e.clientX, y: e.clientY });
-
-    // Détecter si on survole un point
-    // (Logique simplifiée - à améliorer pour la précision)
-    setHoveredPoint(null);
+    // Logique pour détecter les points survolés (désactivée pour l'instant)
   };
 
   return (
@@ -171,7 +161,6 @@ const IndicatorChart = ({ data, selectedCountry }) => {
         width={900}
         height={500}
         onMouseMove={handleMouseMove}
-        onMouseLeave={() => setHoveredPoint(null)}
       />
 
       {/* Légende */}
