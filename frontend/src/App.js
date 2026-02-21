@@ -3,6 +3,7 @@ import './App.css';
 import CountryDetails from './components/CountryDetails';
 import FilterPanel from './components/FilterPanel';
 import IndicatorsDashboard from './components/IndicatorsDashboard';
+import IRCVisualizations from './components/IRCVisualizations';
 import Legend from './components/Legend';
 import ScatterPlot from './components/ScatterPlot';
 import TimelinePlayer from './components/TimelinePlayer';
@@ -12,6 +13,7 @@ import {
     getCountry,
     getDemographicStats,
     getGenderBalance,
+    getIndicatorComparison,
     getLanguages,
     getPopulationPyramid,
     getPopulationSummary,
@@ -35,11 +37,14 @@ const InfoTooltip = ({ text }) => (
 
 function App() {
   const [populationData, setPopulationData] = useState([]);
+  const [ircData, setIrcData] = useState([]);
   const [years, setYears] = useState([]);
+  const [ircYears, setIrcYears] = useState([]);
   const [sexCategories, setSexCategories] = useState([]);
   const [ageGroups, setAgeGroups] = useState([]);
   const [languages, setLanguages] = useState([]);
   const [selectedYear, setSelectedYear] = useState(null);
+  const [selectedIrcYear, setSelectedIrcYear] = useState(null);
   const [selectedSex, setSelectedSex] = useState('total');
   const [selectedAgeGroup, setSelectedAgeGroup] = useState('ALL');
   const [selectedLanguage, setSelectedLanguage] = useState('ALL');
@@ -52,6 +57,7 @@ function App() {
   const [demographicStats, setDemographicStats] = useState(null);
   const [genderBalance, setGenderBalance] = useState(null);
   const [scatterData, setScatterData] = useState([]);
+  const [mapMode, setMapMode] = useState('population'); // 'population' ou 'irc'
 
   // Charger les métadonnées au démarrage
   useEffect(() => {
@@ -67,6 +73,14 @@ function App() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedYear, selectedSex, selectedAgeGroup, selectedLanguage]);
+
+  // Charger les données IRC quand l'année change
+  useEffect(() => {
+    if (selectedIrcYear) {
+      loadIrcData();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedIrcYear]);
 
   const loadMetadata = async () => {
     try {
@@ -88,6 +102,11 @@ function App() {
         const defaultYear = yearsList.includes(2024) ? 2024 : yearsList[yearsList.length - 1];
         setSelectedYear(defaultYear);
       }
+
+      // Charger les années disponibles pour IRC
+      const availableIrcYears = [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999, 1998, 1997, 1996];
+      setIrcYears(availableIrcYears);
+      setSelectedIrcYear(2022); // Année par défaut pour IRC
     } catch (err) {
       console.error('Erreur lors du chargement des métadonnées:', err);
       setError('Impossible de charger les métadonnées');
@@ -148,6 +167,22 @@ function App() {
       setScatterData(scatterDataResponse.data || []);
     } catch (err) {
       console.error('Erreur lors du chargement des stats démographiques:', err);
+    }
+  };
+
+  const loadIrcData = async () => {
+    try {
+      const data = await getIndicatorComparison('IRC', { year: selectedIrcYear, limit: 300 });
+      // Transformer les données pour matcher le format de WorldMap
+      const formattedData = data.data.map(item => ({
+        iso3: item.country_code, // country_code est déjà ISO3
+        name: item.country_name,
+        total_population: item.value // La valeur IRC est déjà entre 0 et 100
+      }));
+      setIrcData(formattedData);
+      console.log('IRC Data loaded:', formattedData.slice(0, 3)); // Debug
+    } catch (err) {
+      console.error('Erreur lors du chargement des données IRC:', err);
     }
   };
 
@@ -367,17 +402,47 @@ function App() {
 
           <div className="content-column">
             <div className="map-container">
-              {years.length > 0 && selectedYear && (
+              <div className="map-controls">
+                <div className="map-mode-selector">
+                  <button
+                    className={`mode-btn ${mapMode === 'population' ? 'active' : ''}`}
+                    onClick={() => setMapMode('population')}
+                  >
+                    👥 Population
+                  </button>
+                  <button
+                    className={`mode-btn ${mapMode === 'irc' ? 'active' : ''}`}
+                    onClick={() => setMapMode('irc')}
+                  >
+                    📊 IRC
+                  </button>
+                </div>
+              </div>
+
+              {mapMode === 'population' && years.length > 0 && selectedYear && (
                 <TimelinePlayer
                   years={years}
                   selectedYear={selectedYear}
                   onYearChange={setSelectedYear}
                 />
               )}
+
+              {mapMode === 'irc' && ircYears.length > 0 && (
+                <div className="timeline-player">
+                  <label>Année IRC: </label>
+                  <select value={selectedIrcYear} onChange={(e) => setSelectedIrcYear(Number(e.target.value))}>
+                    {ircYears.map(year => (
+                      <option key={year} value={year}>{year}</option>
+                    ))}
+                  </select>
+                </div>
+              )}
+              
               <WorldMap
-                data={populationData}
+                data={mapMode === 'population' ? populationData : ircData}
                 onCountryClick={handleCountryClick}
                 selectedCountry={selectedCountry?.iso3}
+                mapMode={mapMode}
               />
             </div>
 
@@ -389,6 +454,8 @@ function App() {
               selectedYear={selectedYear} 
               selectedCountry={selectedCountry}
             />
+
+            <IRCVisualizations />
           </div>
         </div>
       </main>

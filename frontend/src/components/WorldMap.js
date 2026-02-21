@@ -3,7 +3,7 @@ import { getCountryMapping } from '../services/api';
 import { getColorForValue } from '../utils/helpers';
 import './WorldMap.css';
 
-const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry }) => {
+const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry, mapMode = 'population' }) => {
   const [svgContent, setSvgContent] = useState(null);
   const [hoveredCountry, setHoveredCountry] = useState(null);
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
@@ -432,6 +432,8 @@ const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry }) => 
       if (onCountryHover) {
         onCountryHover(countryData);
       }
+    } else {
+      setHoveredCountry(null);
     }
     e.target.style.opacity = '0.8';
   }, [onCountryHover]);
@@ -500,8 +502,11 @@ const WorldMap = ({ data, onCountryClick, onCountryHover, selectedCountry }) => 
         >
           <h4>{hoveredCountry.name}</h4>
           <p>
-            <strong>Population:</strong>{' '}
-            {new Intl.NumberFormat('fr-FR').format(hoveredCountry.total_population)}
+            <strong>{mapMode === 'irc' ? 'IRC:' : 'Population:'}</strong>{' '}
+            {mapMode === 'irc' 
+              ? hoveredCountry.total_population.toFixed(2)
+              : new Intl.NumberFormat('fr-FR').format(hoveredCountry.total_population)
+            }
           </p>
           {hoveredCountry.region && (
             <p><strong>Région:</strong> {hoveredCountry.region}</p>

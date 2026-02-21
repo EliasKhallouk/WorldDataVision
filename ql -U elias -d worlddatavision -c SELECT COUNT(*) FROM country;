@@ -1,0 +1,37 @@
+                                              Table « public.country »
+        Colonne         |          Type          | Collationnement | NULL-able |             Par défaut              
+------------------------+------------------------+-----------------+-----------+-------------------------------------
+ id                     | integer                |                 | not null  | nextval('country_id_seq'::regclass)
+ iso2                   | character(2)           |                 | not null  | 
+ iso3                   | character(3)           |                 | not null  | 
+ name                   | character varying(150) |                 | not null  | 
+ region                 | character varying(100) |                 |           | 
+ capital                | character varying(100) |                 |           | 
+ currency_name          | character varying(100) |                 |           | 
+ lldc                   | boolean                |                 |           | 
+ sids                   | boolean                |                 |           | 
+ ldc                    | boolean                |                 |           | 
+ is_independent         | boolean                |                 |           | 
+ name_local             | character varying(255) |                 |           | 
+ area_sq_km             | numeric                |                 |           | 
+ continent              | character varying(50)  |                 |           | 
+ capital_latitude       | numeric(10,8)          |                 |           | 
+ capital_longitude      | numeric(11,8)          |                 |           | 
+ currency_local         | character varying(150) |                 |           | 
+ currency_code          | character varying(10)  |                 |           | 
+ currency_symbol        | character varying(10)  |                 |           | 
+ currency_numeric       | integer                |                 |           | 
+ currency_subunit_value | integer                |                 |           | 
+ currency_subunit_name  | character varying(50)  |                 |           | 
+ flag                   | character varying(10)  |                 |           | 
+ timezones              | text[]                 |                 |           | 
+ borders                | integer[]              |                 |           | 
+Index :
+    "country_pkey" PRIMARY KEY, btree (id)
+    "country_iso2_key" UNIQUE CONSTRAINT, btree (iso2)
+    "country_iso3_key" UNIQUE CONSTRAINT, btree (iso3)
+Référencé par :
+    TABLE "country_language" CONSTRAINT "country_language_country_id_fkey" FOREIGN KEY (country_id) REFERENCES country(id)
+    TABLE "indicator_value" CONSTRAINT "indicator_value_country_id_fkey" FOREIGN KEY (country_id) REFERENCES country(id)
+    TABLE "population_stat" CONSTRAINT "population_stat_country_id_fkey" FOREIGN KEY (country_id) REFERENCES country(id)
+

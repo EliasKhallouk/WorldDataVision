@@ -1,0 +1,11 @@
+code,name,category_id,country_count,first_year,last_year
+DT.TDS.DECT.EX.ZS,Service de la dette,1,121,1970,2024
+DT.DOD.DECT.GN.ZS,Dette externe,1,121,1970,2024
+SP.POP.SCIE.RD.P6,Chercheurs par million,6,144,1996,2023
+EG.IMP.CONS.ZS,Importations nettes d'énergie,7,145,1990,2023
+EG.USE.ELEC.KH.PC,Consommation d'électricité par habitant,7,150,1990,2023
+GB.XPD.RSDV.GD.ZS,Dépenses R&D,6,153,1996,2023
+IP.PAT.RESD,Demandes de brevets,6,158,1980,2021
+GC.TAX.TOTL.GD.ZS,Revenus fiscaux (% du PIB),4,161,1972,2024
+MS.MIL.XPND.GD.ZS,Dépenses militaires,1,164,1960,2024
+SE.ADT.LITR.ZS,Taux d'alphabétisation adultes,2,170,1970,2024
