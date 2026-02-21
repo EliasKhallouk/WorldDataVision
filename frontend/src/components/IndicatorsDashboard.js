@@ -11,6 +11,10 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
   const [viewMode, setViewMode] = useState('ranking'); // 'ranking' ou 'evolution'
   const [rankingData, setRankingData] = useState(null);
   const [evolutionData, setEvolutionData] = useState(null);
+  const [countrySelectionMode, setCountrySelectionMode] = useState('top5'); // 'top5', 'flop5', 'custom'
+  const [customCountries, setCustomCountries] = useState([]);
+  const [availableCountries, setAvailableCountries] = useState([]);
+  const [countrySearchTerm, setCountrySearchTerm] = useState('');
   const comparisonCountries = ['FRA', 'USA', 'DEU', 'GBR', 'JPN'];
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
@@ -34,7 +38,7 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedIndicator, selectedYear, viewMode, comparisonCountries]);
+  }, [selectedIndicator, selectedYear, viewMode, countrySelectionMode, customCountries]);
 
   const loadIndicators = async () => {
     try {
@@ -77,8 +81,11 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
     if (!selectedIndicator) return;
     
     try {
-      // Toujours utiliser la dernière année disponible de l'indicateur
-      const year = selectedIndicator.last_year;
+      // Utiliser selectedYear s'il est dans la plage de l'indicateur, sinon last_year
+      let year = selectedIndicator.last_year;
+      if (selectedYear && selectedYear >= selectedIndicator.first_year && selectedYear <= selectedIndicator.last_year) {
+        year = selectedYear;
+      }
       
       console.log('🔍 Chargement ranking pour:', selectedIndicator.code, 'année:', year);
       
@@ -99,13 +106,50 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
     if (!selectedIndicator) return;
     
     try {
-      const countries = selectedCountry ? [selectedCountry.iso3, ...comparisonCountries] : comparisonCountries;
-      const uniqueCountries = [...new Set(countries)].slice(0, 5);
+      // Utiliser selectedYear s'il est dans la plage de l'indicateur, sinon last_year
+      let endYear = selectedIndicator.last_year;
+      if (selectedYear && selectedYear >= selectedIndicator.first_year && selectedYear <= selectedIndicator.last_year) {
+        endYear = selectedYear;
+      }
+      
+      const startYear = Math.max(selectedIndicator.first_year, endYear - 20);
+      
+      let countriesToLoad = [];
+      
+      if (countrySelectionMode === 'top5' || countrySelectionMode === 'flop5') {
+        // Charger le classement pour obtenir les top 5 ou flop 5
+        const rankingData = await getIndicatorComparison(selectedIndicator.code, {
+          year: endYear,
+          limit: 200 // Charger tous les pays
+        });
+        
+        if (rankingData && rankingData.data && rankingData.data.length > 0) {
+          if (countrySelectionMode === 'top5') {
+            countriesToLoad = rankingData.data.slice(0, 5).map(c => c.country_code);
+          } else {
+            countriesToLoad = rankingData.data.slice(-5).reverse().map(c => c.country_code);
+          }
+          
+          // Stocker les pays disponibles pour le mode custom
+          setAvailableCountries(rankingData.data.map(c => ({
+            code: c.country_code,
+            name: c.country_name
+          })));
+        }
+      } else {
+        // Mode custom
+        countriesToLoad = customCountries.slice(0, 5);
+      }
+      
+      if (countriesToLoad.length === 0) {
+        setEvolutionData(null);
+        return;
+      }
       
       const data = await getIndicatorEvolution(selectedIndicator.code, {
-        countries: uniqueCountries.join(','),
-        startYear: selectedYear ? selectedYear - 20 : undefined,
-        endYear: selectedYear
+        countries: countriesToLoad.join(','),
+        startYear: startYear,
+        endYear: endYear
       });
       setEvolutionData(data);
     } catch (error) {
@@ -372,15 +416,126 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
           className={`view-mode-btn ${viewMode === 'ranking' ? 'active' : ''}`}
           onClick={() => setViewMode('ranking')}
         >
-          Classement
+          🏆 Classement
         </button>
         <button
           className={`view-mode-btn ${viewMode === 'evolution' ? 'active' : ''}`}
           onClick={() => setViewMode('evolution')}
         >
-          Évolution
+          📈 Évolution
         </button>
       </div>
+
+      {/* Sélection des pays pour l'évolution */}
+      {viewMode === 'evolution' && (
+        <div className="country-selection-panel">
+          <div className="country-mode-buttons">
+            <button
+              className={`country-mode-btn ${countrySelectionMode === 'top5' ? 'active' : ''}`}
+              onClick={() => setCountrySelectionMode('top5')}
+            >
+              🥇 Top 5
+            </button>
+            <button
+              className={`country-mode-btn ${countrySelectionMode === 'flop5' ? 'active' : ''}`}
+              onClick={() => setCountrySelectionMode('flop5')}
+            >
+              📉 Flop 5
+            </button>
+            <button
+              className={`country-mode-btn ${countrySelectionMode === 'custom' ? 'active' : ''}`}
+              onClick={() => setCountrySelectionMode('custom')}
+            >
+              ⚙️ Personnalisés
+            </button>
+          </div>
+
+          {countrySelectionMode === 'custom' && availableCountries.length > 0 && (
+            <div className="custom-countries-selector">
+              <label>Sélectionner jusqu'à 5 pays :</label>
+              
+              {/* Pays sélectionnés */}
+              {customCountries.length > 0 && (
+                <div className="selected-countries-tags">
+                  {customCountries.map(countryCode => {
+                    const country = availableCountries.find(c => c.code === countryCode);
+                    return (
+                      <span key={countryCode} className="country-tag">
+                        {country?.name || countryCode}
+                        <button
+                          className="remove-tag"
+                          onClick={() => setCustomCountries(customCountries.filter(c => c !== countryCode))}
+                          title="Retirer"
+                        >
+                          ×
+                        </button>
+                      </span>
+                    );
+                  })}
+                </div>
+              )}
+              
+              {/* Barre de recherche */}
+              {customCountries.length < 5 && (
+                <div className="country-search-box">
+                  <input
+                    type="text"
+                    placeholder="Rechercher un pays..."
+                    value={countrySearchTerm}
+                    onChange={(e) => setCountrySearchTerm(e.target.value)}
+                    className="country-search-input"
+                  />
+                  {countrySearchTerm && (
+                    <button 
+                      className="clear-country-search"
+                      onClick={() => setCountrySearchTerm('')}
+                    >
+                      ✕
+                    </button>
+                  )}
+                </div>
+              )}
+              
+              {/* Résultats de recherche */}
+              {countrySearchTerm && customCountries.length < 5 && (
+                <div className="country-search-results">
+                  {availableCountries
+                    .filter(country => 
+                      !customCountries.includes(country.code) &&
+                      (country.name.toLowerCase().includes(countrySearchTerm.toLowerCase()) ||
+                       country.code.toLowerCase().includes(countrySearchTerm.toLowerCase()))
+                    )
+                    .slice(0, 10)
+                    .map(country => (
+                      <div
+                        key={country.code}
+                        className="country-search-item"
+                        onClick={() => {
+                          setCustomCountries([...customCountries, country.code]);
+                          setCountrySearchTerm('');
+                        }}
+                      >
+                        <span className="country-name">{country.name}</span>
+                        <span className="country-code">{country.code}</span>
+                      </div>
+                    ))}
+                  {availableCountries.filter(country => 
+                    !customCountries.includes(country.code) &&
+                    (country.name.toLowerCase().includes(countrySearchTerm.toLowerCase()) ||
+                     country.code.toLowerCase().includes(countrySearchTerm.toLowerCase()))
+                  ).length === 0 && (
+                    <div className="no-results">Aucun pays trouvé</div>
+                  )}
+                </div>
+              )}
+              
+              <div className="selection-info">
+                {customCountries.length} / 5 pays sélectionnés
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Contenu */}
       <div className="dashboard-content">
