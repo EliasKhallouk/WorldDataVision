@@ -14,6 +14,8 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
   const [comparisonCountries, setComparisonCountries] = useState(['FRA', 'USA', 'DEU', 'GBR', 'JPN']);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
 
   // Charger les indicateurs
   useEffect(() => {
@@ -149,6 +151,49 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
 
   const filteredIndicators = getFilteredIndicators();
 
+  const handleSearchChange = (e) => {
+    const value = e.target.value;
+    setSearchTerm(value);
+    setShowSuggestions(true);
+    setHighlightedIndex(-1);
+  };
+
+  const handleSelectIndicator = (indicator) => {
+    setSelectedIndicator(indicator);
+    setSearchTerm('');
+    setShowSuggestions(false);
+    setHighlightedIndex(-1);
+  };
+
+  const handleKeyDown = (e) => {
+    if (!showSuggestions || filteredIndicators.length === 0) return;
+
+    switch (e.key) {
+      case 'ArrowDown':
+        e.preventDefault();
+        setHighlightedIndex(prev => 
+          prev < filteredIndicators.length - 1 ? prev + 1 : prev
+        );
+        break;
+      case 'ArrowUp':
+        e.preventDefault();
+        setHighlightedIndex(prev => prev > 0 ? prev - 1 : -1);
+        break;
+      case 'Enter':
+        e.preventDefault();
+        if (highlightedIndex >= 0 && highlightedIndex < filteredIndicators.length) {
+          handleSelectIndicator(filteredIndicators[highlightedIndex]);
+        }
+        break;
+      case 'Escape':
+        setShowSuggestions(false);
+        setHighlightedIndex(-1);
+        break;
+      default:
+        break;
+    }
+  };
+
   if (loading) {
     return <div className="loading">Chargement des indicateurs...</div>;
   }
@@ -189,42 +234,89 @@ const IndicatorsDashboard = ({ selectedYear, selectedCountry }) => {
         ))}
       </div>
 
-      {/* Barre de recherche */}
-      <div className="search-box">
-        <input
-          type="text"
-          placeholder={`Rechercher parmi ${filteredIndicators.length} indicateurs...`}
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="search-input"
-        />
-        {searchTerm && (
-          <button 
-            className="clear-search"
-            onClick={() => setSearchTerm('')}
-          >
-            ✕
-          </button>
-        )}
-      </div>
+      {/* Champ de recherche avec autocomplétion */}
+      <div className="indicator-search-container">
+        <div className="selected-indicator-display">
+          {selectedIndicator && (
+            <div className="current-indicator">
+              <span className="current-label">Indicateur actuel:</span>
+              <span className="current-name">{selectedIndicator.name}</span>
+              <span className="current-code">({selectedIndicator.code})</span>
+            </div>
+          )}
+        </div>
+        
+        <div className="search-autocomplete">
+          <div className="search-input-wrapper">
+            <input
+              type="text"
+              placeholder="Rechercher un indicateur (nom ou code)..."
+              value={searchTerm}
+              onChange={handleSearchChange}
+              onKeyDown={handleKeyDown}
+              onFocus={() => setShowSuggestions(true)}
+              onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+              className="autocomplete-input"
+            />
+            {searchTerm && (
+              <button 
+                className="clear-search"
+                onClick={() => {
+                  setSearchTerm('');
+                  setShowSuggestions(false);
+                }}
+              >
+                ✕
+              </button>
+            )}
+          </div>
 
-      {/* Sélection de l'indicateur */}
-      <div className="indicator-selector">
-        <label htmlFor="indicator-select">Indicateur sélectionné:</label>
-        <select
-          id="indicator-select"
-          value={selectedIndicator?.code || ''}
-          onChange={(e) => {
-            const indicator = indicators.find(i => i.code === e.target.value);
-            setSelectedIndicator(indicator);
-          }}
-        >
-          {filteredIndicators.map(indicator => (
-            <option key={indicator.code} value={indicator.code}>
-              {indicator.name}
-            </option>
-          ))}
-        </select>
+          {showSuggestions && filteredIndicators.length > 0 && (
+            <div className="suggestions-dropdown">
+              <div className="suggestions-header">
+                {searchTerm 
+                  ? `${filteredIndicators.length} résultat${filteredIndicators.length > 1 ? 's' : ''}` 
+                  : `${filteredIndicators.length} indicateur${filteredIndicators.length > 1 ? 's' : ''} - ${categories.find(c => c.code === selectedCategory)?.name || 'Tous'}`
+                }
+              </div>
+              <ul className="suggestions-list">
+                {filteredIndicators.map((indicator, index) => (
+                  <li
+                    key={indicator.code}
+                    className={`suggestion-item ${
+                      index === highlightedIndex ? 'highlighted' : ''
+                    } ${
+                      selectedIndicator?.code === indicator.code ? 'selected' : ''
+                    }`}
+                    onClick={() => handleSelectIndicator(indicator)}
+                    onMouseEnter={() => setHighlightedIndex(index)}
+                  >
+                    <div className="suggestion-main">
+                      <span className="suggestion-name">{indicator.name}</span>
+                      <span className="suggestion-code">{indicator.code}</span>
+                    </div>
+                    <div className="suggestion-meta">
+                      <span className="suggestion-category">
+                        {categories.find(c => c.code === indicator.category_code)?.name || 'Autre'}
+                      </span>
+                      <span className="suggestion-period">
+                        {indicator.first_year} - {indicator.last_year}
+                      </span>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {showSuggestions && searchTerm && filteredIndicators.length === 0 && (
+            <div className="suggestions-dropdown">
+              <div className="no-results">
+                Aucun indicateur trouvé pour "{searchTerm}"
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Carte d'information enrichie */}
