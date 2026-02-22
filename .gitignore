@@ -93,6 +93,7 @@ Data/OWID/**/*
 *.zip
 *.tar.gz
 *.rar
+Data/Manuel/Eurostat/eurostat_energy_balance.tsv
 
 # ============ Outputs/Résultats ============
 analysis_outputs/*.png
