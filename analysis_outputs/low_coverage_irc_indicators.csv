@@ -1,11 +1,21 @@
 code,name,category_id,country_count,first_year,last_year
 DT.TDS.DECT.EX.ZS,Service de la dette,1,121,1970,2024
 DT.DOD.DECT.GN.ZS,Dette externe,1,121,1970,2024
-SP.POP.SCIE.RD.P6,Chercheurs par million,6,144,1996,2023
-EG.IMP.CONS.ZS,Importations nettes d'énergie,7,145,1990,2023
-EG.USE.ELEC.KH.PC,Consommation d'électricité par habitant,7,150,1990,2023
-GB.XPD.RSDV.GD.ZS,Dépenses R&D,6,153,1996,2023
-IP.PAT.RESD,Demandes de brevets,6,158,1980,2021
-GC.TAX.TOTL.GD.ZS,Revenus fiscaux (% du PIB),4,161,1972,2024
-MS.MIL.XPND.GD.ZS,Dépenses militaires,1,164,1960,2024
-SE.ADT.LITR.ZS,Taux d'alphabétisation adultes,2,170,1970,2024
+SP.POP.SCIE.RD.P6,Chercheurs par million,6,145,1980,2024
+EG.IMP.CONS.ZS,Importations nettes d'énergie,7,146,1990,2024
+GB.XPD.RSDV.GD.ZS,Dépenses R&D,6,155,1981,2024
+MS.MIL.XPND.GD.ZS,Dépenses militaires,1,165,1950,2024
+IP.PAT.RESD,Demandes de brevets,6,173,1979,2024
+SE.ADT.LITR.ZS,Taux d'alphabétisation adultes,2,177,1970,2024
+FI.RES.TOTL.MO,Réserves de change,1,179,1960,2024
+ER.H2O.FWST.ZS,Stress hydrique,8,180,1962,2022
+ER.H2O.INTR.PC,Eau renouvelable par habitant,8,183,1961,2022
+IRC,Index de Résilience Civilisationnelle,9,183,1990,2023
+AG.YLD.CREL.KG,Rendement des céréales,8,185,1961,2023
+SL.UEM.TOTL.ZS,Taux de chômage,1,186,1991,2024
+TX.VAL.TECH.MF.ZS,Exportations haute technologie,6,186,2007,2024
+GC.DOD.TOTL.GD.ZS,Dette du gouvernement central (% du PIB),4,187,1950,2024
+FP.CPI.TOTL.ZG,Inflation,1,193,1960,2024
+SH.XPD.CHEX.GD.ZS,Dépenses de santé,2,193,2000,2024
+GC.TAX.TOTL.GD.ZS,Revenus fiscaux (% du PIB),4,194,1972,2024
+AG.PRD.LVSK.XD,Indice de production animale,8,194,1961,2022

@@ -1,0 +1,2 @@
+indicatorId,name,theme,lastDataUpdate,lastDataUpdateDescription,dataAvailability.totalRecordCount,dataAvailability.timeLine.min,dataAvailability.timeLine.max,dataAvailability.geoUnits.types,disaggregations,glossaryTerms
+EXPGDP.TOT,GERD as a percentage of GDP,SCIENCE_TECHNOLOGY_INNOVATION,11/01/2025,November 2025 Data Release,3769,1996,2023,"NATIONAL, REGIONAL",,"2444, 2456, 2445"

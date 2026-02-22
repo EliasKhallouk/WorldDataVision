@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://ember-energy.org/app/themes/ember-energy/resources/images/favicon.png" type="image/png">
+              <meta property="og:image" content="/app/uploads/2024/10/Ember_global_energy_think_tank_logo.png"/>
+      <meta name="twitter:image" content="/app/uploads/2024/10/Ember_global_energy_think_tank_logo.png"/>
+    
+    <!-- Google Tag Manager -->
+
+
+
+
+
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><div class="cmplz-placeholder-parent"><iframe data-placeholder-image="https://ember-energy.org/app/plugins/complianz-gdpr/assets/images/placeholders/default-minimal.jpg" data-category="statistics" data-service="Google-Tag-Manager-Ifram" class="cmplz-placeholder-element cmplz-iframe cmplz-iframe-styles cmplz-no-video " data-cmplz-target="src" data-src-cmplz="https://www.googletagmanager.com/ns.html?id=GTM-T823Q92N"  src="about:blank" 
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></div></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    
+    <style type="text/css">@font-face {font-family:Poppins;font-style:normal;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/100/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/100/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin/100/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/200/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/200/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin/200/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/300/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin/300/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/300/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/400/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/400/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin/500/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/500/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/500/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/600/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/600/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin/600/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/700/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/700/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/800/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/800/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin/800/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin/900/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/900/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/900/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin/100/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/100/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:100;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/100/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin/200/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/200/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:200;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/200/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin/300/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/300/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:300;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/300/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin/400/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/400/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:400;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/400/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin/500/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/500/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:500;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/500/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/600/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/600/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:600;src:url(/cf-fonts/s/poppins/5.0.11/latin/600/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/700/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/latin/700/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:700;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/700/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin/800/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/800/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:800;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/800/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin-ext/900/italic.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/devanagari/900/italic.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+25CC,U+A830-A839,U+A8E0-A8FF;font-display:swap;}@font-face {font-family:Poppins;font-style:italic;font-weight:900;src:url(/cf-fonts/s/poppins/5.0.11/latin/900/italic.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="en" href="https://ember-energy.org/page-not-found/" />
+<link rel="alternate" hreflang="es" href="https://ember-energy.org/es/pagina-no-encontrada/" />
+<link rel="alternate" hreflang="x-default" href="https://ember-energy.org/page-not-found/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>404 | Ember</title>
+	<link rel="canonical" href="https://ember-energy.org/page-not-found/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="404 | Ember" />
+	<meta property="og:url" content="https://ember-energy.org/page-not-found/" />
+	<meta property="og:site_name" content="Ember" />
+	<meta property="article:modified_time" content="2024-12-05T16:37:24+00:00" />
+	<meta property="og:image" content="https://ember-energy.org/app/uploads/2024/10/Ember_global_energy_think_tank_logo.png" />
+	<meta property="og:image:width" content="316" />
+	<meta property="og:image:height" content="316" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ember-energy.org/page-not-found/","url":"https://ember-energy.org/page-not-found/","name":"404 | Ember","isPartOf":{"@id":"https://ember-energy.org/#website"},"datePublished":"2024-09-19T09:42:19+00:00","dateModified":"2024-12-05T16:37:24+00:00","breadcrumb":{"@id":"https://ember-energy.org/page-not-found/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://ember-energy.org/page-not-found/"]}]},{"@type":"BreadcrumbList","@id":"https://ember-energy.org/page-not-found/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://ember-energy.org/"},{"@type":"ListItem","position":2,"name":"404"}]},{"@type":"WebSite","@id":"https://ember-energy.org/#website","url":"https://ember-energy.org/","name":"Ember","description":"","publisher":{"@id":"https://ember-energy.org/#organization"},"alternateName":"Ember","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://ember-energy.org/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://ember-energy.org/#organization","name":"Ember","url":"https://ember-energy.org/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://ember-energy.org/#/schema/logo/image/","url":"https://ember-energy.org/app/uploads/2024/10/Ember_global_energy_think_tank_logo.png","contentUrl":"https://ember-energy.org/app/uploads/2024/10/Ember_global_energy_think_tank_logo.png","width":316,"height":316,"caption":"Ember"},"image":{"@id":"https://ember-energy.org/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='stylesheet' id='ember_flourish_assets-css' href='https://ember-energy.org/app/plugins/ember-flourish/css/style.css?ver=6.6.1' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://ember-energy.org/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' media='all' />
+<link rel='stylesheet' id='wpml-blocks-css' href='https://ember-energy.org/app/plugins/sitepress-multilingual-cms/dist/css/blocks/styles.css?ver=4.6.13' media='all' />
+<link rel='stylesheet' id='cmplz-general-css' href='https://ember-energy.org/app/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1708937690' media='all' />
+<link rel='stylesheet' id='webflow-normalize-css' href='https://ember-energy.org/app/themes/ember-energy/webflow/css/normalize.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='components-css' href='https://ember-energy.org/app/themes/ember-energy/webflow/css/components.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='webflow-css' href='https://ember-energy.org/app/themes/ember-energy/webflow/css/ember-full-v6.css?ver=1.0.0' media='all' />
+<link rel='stylesheet' id='app/0-css' href='https://ember-energy.org/app/themes/ember-energy/public/css/app.d9fd7d.css' media='all' />
+<script src="https://ember-energy.org/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://ember-energy.org/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://ember-energy.org/app/plugins/ember-flourish/js/script.js?ver=6.6.1" id="ember_flourish_assets-js"></script>
+<script src="https://ember-energy.org/app/plugins/ember-flourish/js/flourish-live-sdk.js?ver=6.6.1" id="flourish-live-sdk-js"></script>
+<script src="https://ember-energy.org/app/plugins/ember-flourish/js/load-chart.js?ver=6.6.1" id="flourish-load-chart-js"></script>
+<script id="wpml-cookie-js-extra">
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+</script>
+<script src="https://ember-energy.org/app/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.6.13" id="wpml-cookie-js" defer data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://ember-energy.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://ember-energy.org/wp-json/wp/v2/pages/1327" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ember-energy.org/wp/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<link rel='shortlink' href='https://ember-energy.org/?p=1327' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://ember-energy.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fember-energy.org%2Fpage-not-found%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://ember-energy.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fember-energy.org%2Fpage-not-found%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.6.13 stt:59,1,25,40,42,2,53;" />
+			<style>.cmplz-hidden {
+					display: none !important;
+				}</style>
+
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+             _paq.push(['setDocumentTitle',  '404/URL = ' +  encodeURIComponent(document.location.pathname+document.location.search) + ' /From = ' + encodeURIComponent(document.referrer)]);
+            _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://emberenergy.matomo.cloud/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://cdn.matomo.cloud/emberenergy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
+  </head>
+
+  <body data-cmplz=1 class="page-template-default page page-id-1327 wp-embed-responsive page-not-found">
+    
+
+
+      <div class="nav-wrapper">
+  <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+    <div class="navcontainer">
+      <a href="/" aria-current="page" class="brand w-nav-brand w--current"><img src="https://ember-energy.org/app/themes/ember-energy/resources/images/icons/Ember24HoverGrad.svg" loading="lazy" alt="" class="logoover"><img src="https://ember-energy.org/app/themes/ember-energy/resources/images/icons/logov4.svg" loading="lazy" alt=""></a>
+
+
+      <nav role="navigation" class="nav-menu w-nav-menu">
+    <div data-hover="false" data-delay="0" class="menu-dropdown w-dropdown">
+    <div class="nav-link w-dropdown-toggle">
+      <div>Explore</div>
+    </div>
+
+    <nav class="menu-drop w-dropdown-list">
+      <div class="menu-inner">
+        <div class="menucontainer">
+          <div class="menucol">
+            <div class="drop-menu-text">How is the clean energy transition progressing around the world? </div>
+          </div>
+        </div>
+                <div class="menucontainer">
+          
+          <div class="menucol">
+            <a href="/countries-and-regions/" class="menu-title">Countries <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="https://ember-energy.org/countries-and-regions/argentina" class="drop-menu-link w-dropdown-link">
+                Argentina</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/australia" class="drop-menu-link w-dropdown-link">
+                Australia</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/brazil" class="drop-menu-link w-dropdown-link">
+                Brazil</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/canada" class="drop-menu-link w-dropdown-link">
+                Canada</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/china" class="drop-menu-link w-dropdown-link">
+                China</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/france" class="drop-menu-link w-dropdown-link">
+                France</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/germany" class="drop-menu-link w-dropdown-link">
+                Germany</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/india" class="drop-menu-link w-dropdown-link">
+                India</a>
+                                                          
+                            <a href="https://ember-energy.org/indonesia" class="drop-menu-link w-dropdown-link">
+                Indonesia</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/italy" class="drop-menu-link w-dropdown-link">
+                Italy</a>
+                                                          
+                              </div><div class="menucol">
+                                            <a href="https://ember-energy.org/countries-and-regions/japan" class="drop-menu-link w-dropdown-link">
+                Japan</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/mexico" class="drop-menu-link w-dropdown-link">
+                Mexico</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/russia" class="drop-menu-link w-dropdown-link">
+                Russia</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/saudi-arabia" class="drop-menu-link w-dropdown-link">
+                Saudi Arabia</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/south-africa" class="drop-menu-link w-dropdown-link">
+                South Africa</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/south-korea" class="drop-menu-link w-dropdown-link">
+                South Korea</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/turkiye" class="drop-menu-link w-dropdown-link">
+                Türkiye</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/united-kingdom" class="drop-menu-link w-dropdown-link">
+                United Kingdom</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/united-states-of-america" class="drop-menu-link w-dropdown-link">
+                United States</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/" class="drop-menu-link w-dropdown-link">
+                See more</a>
+                                                                    </div>
+          </div>
+          
+          <div class="menucol">
+            <a href="/countries-and-regions/#regions" class="menu-title">Regions <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="https://ember-energy.org/countries-and-regions/world" class="drop-menu-link w-dropdown-link">
+                World</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/africa" class="drop-menu-link w-dropdown-link">
+                Africa</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/asia" class="drop-menu-link w-dropdown-link">
+                Asia</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/europe" class="drop-menu-link w-dropdown-link">
+                Europe</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/latin-america-and-caribbean" class="drop-menu-link w-dropdown-link">
+                Latin America and Caribbean</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/middle-east" class="drop-menu-link w-dropdown-link">
+                Middle East</a>
+                                                          
+                              </div><div class="menucol">
+                                            <a href="https://ember-energy.org/countries-and-regions/european-union" class="drop-menu-link w-dropdown-link">
+                European Union</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/oecd" class="drop-menu-link w-dropdown-link">
+                OECD</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/g20" class="drop-menu-link w-dropdown-link">
+                G20</a>
+                                                          
+                            <a href="https://ember-energy.org/countries-and-regions/g7" class="drop-menu-link w-dropdown-link">
+                G7</a>
+                                                                    </div>
+          </div>
+          
+          <div class="menucol">
+            <a href="https://ember-energy.org/focus-areas/" class="menu-title">Focus Areas <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="https://ember-energy.org/focus-areas/clean-electricity" class="drop-menu-link w-dropdown-link">
+                Clean Electricity</a>
+                                                          
+                            <a href="https://ember-energy.org/focus-areas/clean-flexibility" class="drop-menu-link w-dropdown-link">
+                Clean Flexibility</a>
+                                                          
+                            <a href="https://ember-energy.org/focus-areas/batteries-and-energy-storage" class="drop-menu-link w-dropdown-link">
+                - Batteries and energy storage</a>
+                                                          
+                            <a href="https://ember-energy.org/focus-areas/grids-and-interconnection" class="drop-menu-link w-dropdown-link">
+                - Grids and Interconnection</a>
+                                                          
+                            <a href="https://ember-energy.org/focus-areas/electrification" class="drop-menu-link w-dropdown-link">
+                Electrification</a>
+                                                          
+                            <a href="https://ember-energy.org/focus-areas/coal-mine-methane" class="drop-menu-link w-dropdown-link">
+                Coal Mine Methane</a>
+                                                                    </div>
+          </div>
+                  </div>
+              </div>
+      <div class="nav-background"></div>
+    </nav>
+
+  </div>
+    <div data-hover="false" data-delay="0" class="menu-dropdown w-dropdown">
+    <div class="nav-link w-dropdown-toggle">
+      <div>Latest</div>
+    </div>
+
+    <nav class="menu-drop w-dropdown-list">
+      <div class="menu-inner">
+        <div class="menucontainer">
+          <div class="menucol">
+            <div class="drop-menu-text">Explore our latest research, policy analysis, events and more</div>
+          </div>
+        </div>
+                <div class="menucontainer">
+          
+          <div class="menucol">
+            <a href="/latest-insights" class="menu-title">Insights <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="/insights#analysis" class="drop-menu-link w-dropdown-link">
+                Analysis</a>
+                                                          
+                            <a href="https://ember-energy.org/latest-insights/global-electricity-review-2025" class="drop-menu-link w-dropdown-link">
+                - Global Electricity Review 2025</a>
+                                                          
+                            <a href="https://ember-energy.org/latest-insights/european-electricity-review-2026" class="drop-menu-link w-dropdown-link">
+                - European Electricity Review 2026</a>
+                                                          
+                            <a href="https://ember-energy.org/insights/#analysis" class="drop-menu-link w-dropdown-link">
+                - All Analysis</a>
+                                                          
+                            <a href="/insights#commentary" class="drop-menu-link w-dropdown-link">
+                Commentary</a>
+                                                          
+                            <a href="/insights#policy-papers" class="drop-menu-link w-dropdown-link">
+                Policy Papers</a>
+                                                                    </div>
+          </div>
+          
+          <div class="menucol">
+            <a href="/latest-updates/" class="menu-title">Updates <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="/latest-updates/#press-releases" class="drop-menu-link w-dropdown-link">
+                Press Releases</a>
+                                                          
+                            <a href="/latest-updates/#events" class="drop-menu-link w-dropdown-link">
+                Events</a>
+                                                          
+                            <a href="https://ember-energy.org/updates/#news" class="drop-menu-link w-dropdown-link">
+                News at Ember</a>
+                                                          
+                            <a href="https://ember-energy.org/updates/#newsletters" class="drop-menu-link w-dropdown-link">
+                Newsletters</a>
+                                                          
+                            <a href="https://ember-energy.org/latest-updates/graphic-of-the-week/" class="drop-menu-link w-dropdown-link">
+                Graphic of the week</a>
+                                                                    </div>
+          </div>
+                  </div>
+              </div>
+      <div class="nav-background"></div>
+    </nav>
+
+  </div>
+    <div data-hover="false" data-delay="0" class="menu-dropdown w-dropdown">
+    <div class="nav-link w-dropdown-toggle">
+      <div>Data</div>
+    </div>
+
+    <nav class="menu-drop w-dropdown-list">
+      <div class="menu-inner">
+        <div class="menucontainer">
+          <div class="menucol">
+            <div class="drop-menu-text">World-class open data at your fingertips</div>
+          </div>
+        </div>
+                <div class="menucontainer">
+          
+          <div class="menucol">
+            <a href="https://ember-energy.org/data/" class="menu-title">Our Data <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="https://ember-energy.org/data/#data-tools" class="drop-menu-link w-dropdown-link">
+                All Data Tools</a>
+                                                          
+                            <a href="https://ember-energy.org/data/#datasets" class="drop-menu-link w-dropdown-link">
+                All Datasets</a>
+                                                          
+                            <a href="https://ember-energy.org/data/api" class="drop-menu-link w-dropdown-link">
+                API</a>
+                                                                    </div>
+          </div>
+          
+          <div class="menucol">
+            <a href="https://ember-energy.org/data/#data-tools" class="menu-title">Data Tools <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="/data/electricity-data-explorer" class="drop-menu-link w-dropdown-link">
+                Electricity Data Explorer</a>
+                                                          
+                            <a href="https://ember-energy.org/data/european-electricity-prices-and-costs/" class="drop-menu-link w-dropdown-link">
+                European electricity prices and costs</a>
+                                                          
+                            <a href="https://ember-energy.org/data/2030-global-renewable-target-tracker/" class="drop-menu-link w-dropdown-link">
+                2030 Global Renewable Target Tracker</a>
+                                                          
+                            <a href="https://ember-energy.org/data/india-electricity-data-explorer" class="drop-menu-link w-dropdown-link">
+                India Electricity Data Explorer</a>
+                                                          
+                            <a href="https://ember-energy.org/data/#data-tools" class="drop-menu-link w-dropdown-link">
+                All Data Tools</a>
+                                                                    </div>
+          </div>
+          
+          <div class="menucol">
+            <a href="https://ember-energy.org/data/#datasets" class="menu-title">Datasets <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="https://ember-energy.org/data/yearly-electricity-data/" class="drop-menu-link w-dropdown-link">
+                Yearly Electricity Data</a>
+                                                          
+                            <a href="https://ember-energy.org/data/monthly-electricity-data/" class="drop-menu-link w-dropdown-link">
+                Monthly Electricity Data</a>
+                                                          
+                            <a href="https://ember-energy.org/data/european-wholesale-electricity-price-data" class="drop-menu-link w-dropdown-link">
+                European Wholesale Electricity Price Data</a>
+                                                          
+                            <a href="https://ember-energy.org/data/india-electricity-data" class="drop-menu-link w-dropdown-link">
+                India Electricity Data</a>
+                                                          
+                            <a href="https://ember-energy.org/data/#datasets" class="drop-menu-link w-dropdown-link">
+                All Datasets</a>
+                                                                    </div>
+          </div>
+                  </div>
+              </div>
+      <div class="nav-background"></div>
+    </nav>
+
+  </div>
+    <div data-hover="false" data-delay="0" class="menu-dropdown w-dropdown">
+    <div class="nav-link w-dropdown-toggle">
+      <div>About</div>
+    </div>
+
+    <nav class="menu-drop w-dropdown-list">
+      <div class="menu-inner">
+        <div class="menucontainer">
+          <div class="menucol">
+            <div class="drop-menu-text">We're a global energy think tank that accelerates the clean energy transition with data and policy</div>
+          </div>
+        </div>
+                <div class="menucontainer">
+          
+          <div class="menucol">
+            <a href="/about/" class="menu-title">About us <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="/about/#vision" class="drop-menu-link w-dropdown-link">
+                Vision</a>
+                                                          
+                            <a href="/about/#mission" class="drop-menu-link w-dropdown-link">
+                Mission</a>
+                                                                    </div>
+          </div>
+          
+          <div class="menucol">
+            <a href="/people/" class="menu-title">Our People <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                                            
+                            <a href="/about/our-people/" class="drop-menu-link w-dropdown-link">
+                Meet the Ember team</a>
+                                                          
+                            <a href="https://ember-energy.org/careers/" class="drop-menu-link w-dropdown-link">
+                Careers at Ember</a>
+                                                          
+                            <a href="https://ember-energy.org/about/careers/#vacancies" class="drop-menu-link w-dropdown-link">
+                - Current vacancies</a>
+                                                                    </div>
+          </div>
+          
+          <div class="menucol">
+            <a href="/contact-us/" class="menu-title">Contact Us <span class="fa"></span></a>
+                        <div class="menucol inner-mc">
+                          </div>
+          </div>
+                  </div>
+              </div>
+      <div class="nav-background"></div>
+    </nav>
+
+  </div>
+  </nav>
+
+
+      <div data-w-id="a99934cf-57b1-85cf-c9b9-b528a3bdb3e9" class="menu-button w-nav-button">
+        <div class="menuicon">
+          <div data-w-id="46191eb2-3fa8-0e6d-d910-a7ef221c5f51" class="menubar"></div>
+          <div data-w-id="cfede657-cb55-e0f2-fb8f-0aa157f64285" class="menubar"></div>
+          <div data-w-id="f7dd87d9-7947-4f2c-2731-10095cf11685" class="menubar crossbar"></div>
+          <div data-w-id="19ec03e6-7c55-2bb8-215b-81567353d7d2" class="menubar"></div>
+        </div>
+      </div>
+      <div data-hover="false" data-delay="0" class="menu-dropdown w-dropdown">
+  <div class="nav-link lang-nl w-dropdown-toggle">
+
+    <div>EN</div>
+  </div>
+  <nav class="menu-drop out-menu w-dropdown-list">
+    <div class="menu-inner">
+      <div class="menucontainer">
+        <div class="menucol">
+          <div class="drop-menu-text">Explore our site in your language</div>
+        </div>
+      </div>
+      <div class="menucontainer">
+        <div class="menucol">
+          <div class="menucol inner-mc">
+            <div><p>Our core content has been translated to a number of languages.</p>
+</div>
+          </div>
+        </div>
+        <div class="menucol">
+          <div class="menu-title">Available Languages</div>
+                    <div class="menucol inner-mc">
+                                          <a href="https://ember-energy.org/" class="drop-menu-link w-dropdown-link">
+                  English</a>
+                                                        <a href="https://ember-energy.org/es" class="drop-menu-link w-dropdown-link">
+                  Español</a>
+                                                        <a href="https://ember-energy.org/zh-hans/" class="drop-menu-link w-dropdown-link">
+                  中文</a>
+                                                        <a href="https://ember-energy.org/id" class="drop-menu-link w-dropdown-link">
+                  Bahasa Indonesia</a>
+                                                        <a href="https://ember-energy.org/pl" class="drop-menu-link w-dropdown-link">
+                  Polski</a>
+                                                        <a href="https://ember-energy.org/pt-br/" class="drop-menu-link w-dropdown-link">
+                  Português</a>
+                                                        <a href="https://ember-energy.org/tr" class="drop-menu-link w-dropdown-link">
+                  Türkçe</a>
+                                    </div>
+                    </div>
+        <div class="menucol">
+          <div class="menucol inner-mc">
+            <div>
+              <strong>Is your language missing?<br></strong>
+              <p>We hope to add more languages in the future. But in the meantime, you can learn how to translate using <a tabindex="0" href="https://support.google.com/chrome/answer/173424?hl=en-GB&amp;co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Chrome</a>, <a tabindex="0" href="https://support.mozilla.org/en-US/questions/1074501">Firefox </a>and <a tabindex="0" href="https://support.microsoft.com/en-us/topic/use-microsoft-translator-in-microsoft-edge-browser-4ad1c6cb-01a4-4227-be9d-a81e127fcb0b">Edge </a>browsers.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-background"></div>
+  </nav>
+</div>
+      <div data-hover="false" data-delay="0" class="menu-dropdown w-dropdown">
+  <div class="nav-link searchnl w-dropdown-toggle">
+    <div></div>
+  </div>
+  <nav class="menu-drop out-menu w-dropdown-list">
+    <div class="menu-inner">
+      <div class="menucontainer">
+        <div class="menucol">
+          <div class="drop-menu-text">Search the Ember website:</div>
+          <div class="searchblock w-form">
+            
+      <form id="searchform" method="get" role="search" class="form"action="https://ember-energy.org/">
+      <input class="text-field w-input" maxlength="256" name="s" id="s" placeholder="Type something..." type="text" value="" />
+      <input type="submit" id="searchsubmit" class="button newsletter-button w-button" value="Search" />
+    </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav-background"></div>
+  </nav>
+</div>
+    </div>
+  </div>
+  <div class="navpush"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <main id="main" class="main">
+               <div class="page-hero blackb">
+
+
+    
+
+  <div class="container">
+
+          <div class="breadcrumbs">
+            <a href="https://ember-energy.org/" class="crumb">Home</a>
+              <div class="crumb-break">/</div>
+    
+            <a href="https://ember-energy.org/page-not-found/" class="crumb">404</a>
+        
+  </div>
+    
+    <div class="row">
+      <div class="column">
+
+        <div class="w-richtext">
+                    <h1>404</h1>
+                    <h3>The page you were looking for could not be found. </h3>
+                            </div>
+
+
+                  
+
+          
+          
+            
+          
+                  </div>
+                                
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<div class="contents-section stickycontents">
+  <div class="container">
+    <div class="row">
+      <div class="contents-block row-contents on-page-sticky-menu">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="section text-block blackb padding-small">
+  <div class="container">
+    <div class="row">
+                  <div class="column">
+                          <div class="w-richtext"><h4>You may have noticed, we recently launched a new website. If you can&#8217;t find what you are looking for, feel free to contact us or otherwise explore the links below.</h4>
+</div>
+        
+                                        <a href="https://ember-energy.org/" class="button w-button" target="">Back to homepage</a>
+                                                  <a href="https://ember-energy.org/contact-us/" class="button w-button" target="">Contact Us</a>
+                                          </div>
+                </div>
+
+
+  </div>
+</div>
+
+
+<div class="section custom-card-row greys padding-large">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <div class="w-richtext">
+                                <h2 class="section-title">Useful links</h2>
+                            </div>
+      </div>
+    </div>
+
+
+        <div class="cardrow">
+
+                                                         <a href="https://ember-energy.org/latest-insights/" class="explorecard white_ec w-inline-block">
+    <div class="cardtext explore-ct">
+              <div class="cardtitle featured-cardtitle">Latest insights</div>
+                <div class="card-sub-title"><p>Analysis, commentary and policy papers on the clean energy transition</p>
+</div>
+        </div>
+  </a>
+                                                                <a href="/latest-updates" class="explorecard white_ec w-inline-block">
+    <div class="cardtext explore-ct">
+              <div class="cardtitle featured-cardtitle">Latest updates</div>
+                <div class="card-sub-title"><p>Latest events, press releases and careers from Ember</p>
+</div>
+        </div>
+  </a>
+                                                                <a href="https://ember-energy.org/data/" class="explorecard white_ec w-inline-block">
+    <div class="cardtext explore-ct">
+              <div class="cardtitle featured-cardtitle">Open data</div>
+                <div class="card-sub-title"><p>Best-in-class open data on electricity, emissions, prices and much more</p>
+</div>
+        </div>
+  </a>
+                                                                <a href="/about/" class="explorecard white_ec w-inline-block">
+    <div class="cardtext explore-ct">
+              <div class="cardtitle featured-cardtitle">About us</div>
+                <div class="card-sub-title"><p>Find out more about our vision of a clean, electrified energy future</p>
+</div>
+        </div>
+  </a>
+                                                                <a href="https://ember-energy.org/about/careers/" class="explorecard white_ec w-inline-block">
+    <div class="cardtext explore-ct">
+              <div class="cardtitle featured-cardtitle">Careers</div>
+                <div class="card-sub-title"><p>Be part of a dynamic team and make a difference to the world</p>
+</div>
+        </div>
+  </a>
+                                                </div>
+
+
+    </div>
+</div>
+
+
+
+<!-- Block Cache Debug: Latest Content Block
+     Status: ✗ NEW
+     Cached At: 2026-02-22 17:26:04
+     Cache Key: block-1327-acf/latest-content-2f96846272b5c88f568b...
+-->
+
+
+
+
+
+
+<div class="section latest-content whites padding-large" data-cache-status="fresh" data-cache-timestamp="2026-02-22 17:26:04" data-cache-key="block-1327-acf/latest-content-">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+          <div class="w-richtext">
+                        <h3 class="section-title">Latest insights</h3>
+                                  </div>
+
+      </div>
+              <a href="https://ember-energy.org/latest-insights/" class="continuetitle">View all <span class="fa"></span></a>
+          </div>
+        <div class="cardrow">
+                                                <a href="https://ember-energy.org/latest-insights/reframing-energy-for-the-age-of-electricity"
+       class="card w-inline-block  off-whites  insight_page">
+              <img decoding="async" src="https://ember-energy.org/app/uploads/2025/10/GettyImages-2203472108.jpg" loading="lazy" alt="" class="cardimage">
+                    <div class="type-tag">Analysis</div>
+            <div class="cardtext">
+        <div class="cardtitle">Reframing Energy for the Age of Electricity</div>
+                              <div class="cardtags">
+                              <div class="card-tag">Electrification</div>
+                              <div class="card-tag">World</div>
+                          </div>
+                    <div class="carddate">17 February 2026</div>
+        
+      </div>
+    </a>
+                                                                  <a href="https://ember-energy.org/latest-insights/eu-coal-mines-still-vent-methane-satellite-findings-from-poland"
+       class="card w-inline-block  off-whites  insight_page">
+              <img decoding="async" src="https://ember-energy.org/app/uploads/2026/02/Coal-mine-in-Poland-scaled.jpg" loading="lazy" alt="" class="cardimage">
+                    <div class="type-tag">Analysis</div>
+            <div class="cardtext">
+        <div class="cardtitle">EU coal mines still vent methane: satellite findings from Poland</div>
+                              <div class="cardtags">
+                              <div class="card-tag">Poland</div>
+                              <div class="card-tag">Coal Mine Methane</div>
+                              <div class="card-tag">Europe</div>
+                              <div class="card-tag">European Union</div>
+                          </div>
+                    <div class="carddate">11 February 2026</div>
+        
+      </div>
+    </a>
+                                                                  <a href="https://ember-energy.org/latest-insights/from-baseload-to-flexibility-how-coals-role-in-china-is-changing"
+       class="card w-inline-block  off-whites  insight_page">
+              <img decoding="async" src="https://ember-energy.org/app/uploads/2026/02/2-29-coal-fired-power-plant-chimneys-china-city.jpg" loading="lazy" alt="" class="cardimage">
+                    <div class="type-tag">Analysis</div>
+            <div class="cardtext">
+        <div class="cardtitle">From baseload to flexibility: How coal’s role in China is changing</div>
+                              <div class="cardtags">
+                              <div class="card-tag">China</div>
+                              <div class="card-tag">Clean Flexibility</div>
+                              <div class="card-tag">Electricity</div>
+                          </div>
+                    <div class="carddate">10 February 2026</div>
+        
+      </div>
+    </a>
+                                                                  <a href="https://ember-energy.org/latest-insights/hot-stuff-geothermal-energy-in-europe"
+       class="card w-inline-block  off-whites  insight_page">
+              <img decoding="async" src="https://ember-energy.org/app/uploads/2026/02/GettyImages-2203762045.jpg" loading="lazy" alt="" class="cardimage">
+                    <div class="type-tag">Analysis</div>
+            <div class="cardtext">
+        <div class="cardtitle">Hot stuff: geothermal energy in Europe</div>
+                              <div class="cardtags">
+                              <div class="card-tag">Europe</div>
+                              <div class="card-tag">Electricity</div>
+                              <div class="card-tag">European Union</div>
+                          </div>
+                    <div class="carddate">09 February 2026</div>
+        
+      </div>
+    </a>
+                                        </div>
+  </div>
+</div>
+</div>
+
+        </main>
+
+
+
+
+
+
+      <div class="share-wrapper">
+  <div class="share-text" style="background-color: rgb(255, 255, 255); color: rgb(25, 34, 56);">
+    <span class="fa"></span> Share
+    </div>
+  <div class="share-text mobilest" style="background-color: rgb(255, 255, 255); color: rgb(25, 34, 56);">
+    <span class="fa"></span>
+  </div>
+  <div class="share-options" style="height: 122px; width: 0px;">
+    <a class="share-link share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://ember-energy.org/page-not-found/" target="_blank"><span class="fab"></span> LinkedIn</a>
+    <a class="share-link share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://ember-energy.org/page-not-found/" target="_blank"><span class="fab"></span> Facebook</a>
+    <a class="share-link share-twitter" href="https://twitter.com/intent/tweet?url=https://ember-energy.org/page-not-found/" target="_blank"><span class="fab"></span> Twitter/X</a>
+    <a class="share-link share-email" href="/cdn-cgi/l/email-protection#4f703c3a2d252a2c3b720c272a2c246a7d7f3b27263c6a7d7f203a3b692d202b3672273b3b3f3c7560602a222d2a3d622a212a3d283661203d28603f2e282a6221203b6229203a212b60" target="_blank"><span class="fa"></span> Email</a>
+</div>
+</div>
+
+
+      <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <h3><strong>Newsletter</strong></h3>
+        <div>Get monthly reports, commentaries, and datasets straight to your inbox.</div>
+      </div>
+      <div class="column">
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer src="https://crm.ember-energy.org/wp-content/uploads/civicrm/inlay-5d76ebc09b4c.js" data-inlay-id="5d76ebc09b4c" ></script>      </div>
+    </div>
+    <div class="rowbreak"></div>
+  </div>
+
+  <div class="container">
+  <div class="row">
+              <div class="column f-col">
+
+      <a href="https://ember-energy.org/countries-and-regions/" class="footer-link">Explore</a>
+              <a href="https://ember-energy.org/countries-and-regions/#countries" class="footer-link sub-fl">Countries</a>
+              <a href="https://ember-energy.org/countries-and-regions/#regions" class="footer-link sub-fl">Regions</a>
+              <a href="https://ember-energy.org/focus-areas/" class="footer-link sub-fl">Focus Areas</a>
+                </div>
+              <div class="column f-col">
+
+      <a href="https://ember-energy.org/data/" class="footer-link">Data</a>
+              <a href="/electricity-data-explorer/" class="footer-link sub-fl">Electricity Data Explorer</a>
+              <a href="/data/#data-tools" class="footer-link sub-fl">Data Tools</a>
+              <a href="/data/#datasets" class="footer-link sub-fl">Datasets</a>
+                </div>
+              <div class="column f-col">
+
+      <a href="https://ember-energy.org/latest-insights/" class="footer-link">Latest</a>
+              <a href="https://ember-energy.org/latest-insights/" class="footer-link sub-fl">Insights</a>
+              <a href="https://ember-energy.org/latest-updates/" class="footer-link sub-fl">Updates</a>
+                </div>
+              <div class="column f-col">
+
+      <a href="https://ember-energy.org/about/" class="footer-link">About</a>
+              <a href="https://ember-energy.org/about/careers/" class="footer-link sub-fl">Careers</a>
+              <a href="https://ember-energy.org/contact-us/" class="footer-link sub-fl">Contact Us</a>
+              <a href="https://ember-energy.org/privacy-policy/" class="footer-link sub-fl">Privacy Policy</a>
+              <a href="https://ember-energy.org/creative-commons/" class="footer-link sub-fl">Creative Commons</a>
+              <a href="https://89up.org/" class="footer-link sub-fl">Built by 89up</a>
+                            <div class="socialrow">
+          
+          <a href="https://www.linkedin.com/company/emberenergyresearch/" class="social-link"></a>
+          
+          <a href="https://x.com/ember_energy" class="social-link"></a>
+          
+          <a href="https://www.youtube.com/@Emberenergy" class="social-link"></a>
+          
+          <a href="https://www.instagram.com/emberenergyresearch/" class="social-link"></a>
+          
+          <a href="https://github.com/ember-climate/" class="social-link"></a>
+                  </div>
+                  </div>
+    
+
+  </div>
+  <div class="rowbreak"></div>
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="column f-col">
+        <p class="note">Ember is an energy think tank that aims to accelerate the clean energy transition with data and policy. Ember is the trading name of Ember Energy Research CIC, a Community Interest Company registered in England & Wales #06714443. 'Ember' is a trademark held at the United Kingdom and European Union Intellectual Property Offices. All content is released under a Creative Commons Attribution Licence (CC-BY-4.0). Website powered by 100% renewable electricity.</p>
+        <img src="https://ember-energy.org/app/themes/ember-energy/resources/images/icons/logov4.svg" loading="lazy" width="118" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 banner-a optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Manage Consent</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Close dialog">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin"><p>To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.<br><br>Please read our Privacy policy <a href="/privacy-policy/">here</a>.</p></div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Functional</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Functional</span></label>
+								</span>
+								Always active							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferences</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Preferences</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Statistics</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Statistics</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">The technical storage or access that is used exclusively for statistical purposes.</span>
+					<span class="cmplz-description-statistics-anonymous">The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Manage options</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Manage services</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Manage {vendor_count} vendors</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Read more about these purposes</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Accept</button>
+		<button class="cmplz-btn cmplz-deny">Deny</button>
+		<button class="cmplz-btn cmplz-view-preferences">View preferences</button>
+		<button class="cmplz-btn cmplz-save-preferences">Save preferences</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">View preferences</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a>
+		<a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Manage consent</button>
+
+</div><script src="https://ember-energy.org/app/themes/ember-energy/resources/scripts/on-page-menu.js" id="on-page-menu-js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js?ver=3.5.1" id="webflow-jquery-script-js"></script>
+<script src="https://ember-energy.org/app/themes/ember-energy/webflow/js/ember-full-v6.js?ver=1.0" id="webflow-script-js"></script>
+<script id="app/0-js-before">
+!function(){"use strict";var e,r={},n={};function o(e){var t=n[e];if(void 0!==t)return t.exports;var u=n[e]={exports:{}};return r[e](u,u.exports,o),u.exports}o.m=r,e=[],o.O=function(r,n,t,u){if(!n){var i=1/0;for(l=0;l<e.length;l++){n=e[l][0],t=e[l][1],u=e[l][2];for(var f=!0,a=0;a<n.length;a++)(!1&u||i>=u)&&Object.keys(o.O).every((function(e){return o.O[e](n[a])}))?n.splice(a--,1):(f=!1,u<i&&(i=u));if(f){e.splice(l--,1);var c=t();void 0!==c&&(r=c)}}return r}u=u||0;for(var l=e.length;l>0&&e[l-1][2]>u;l--)e[l]=e[l-1];e[l]=[n,t,u]},o.d=function(e,r){for(var n in r)o.o(r,n)&&!o.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:r[n]})},o.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},function(){var e={666:0};o.O.j=function(r){return 0===e[r]};var r=function(r,n){var t,u,i=n[0],f=n[1],a=n[2],c=0;if(i.some((function(r){return 0!==e[r]}))){for(t in f)o.o(f,t)&&(o.m[t]=f[t]);if(a)var l=a(o)}for(r&&r(n);c<i.length;c++)u=i[c],o.o(e,u)&&e[u]&&e[u][0](),e[u]=0;return o.O(l)},n=self.webpackChunk_roots_bud_sage=self.webpackChunk_roots_bud_sage||[];n.forEach(r.bind(null,0)),n.push=r.bind(null,n.push.bind(n))}()}();
+</script>
+<script src="https://ember-energy.org/app/themes/ember-energy/public/js/app.c0116a.js" id="app/0-js"></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"16","version":"7.1.0","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"uk","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/ember-energy.org\/wp-json\/complianz\/v1\/","locale":"lang=en&locale=en_US","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"35","cookie_path":"\/","categories":{"statistics":"statistics","marketing":"marketing"},"tcf_active":"","placeholdertext":"Click to accept {category} cookies and enable this content","css_file":"https:\/\/ember-energy.org\/app\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=16","page_links":{"uk":{"cookie-statement":{"title":"Cookies","url":"https:\/\/ember-energy.org\/cookies\/"},"privacy-statement":{"title":"Privacy Policy","url":"https:\/\/ember-energy.org\/privacy-policy\/"}}},"tm_categories":"1","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Click to accept {category} cookies and enable this content"};
+</script>
+<script defer src="https://ember-energy.org/app/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1709631116" id="cmplz-cookiebanner-js"></script>
+<!-- Script Center statistics script Complianz GDPR/CCPA -->
+				<script  type="text/plain"
+											 data-category="statistics">
+                    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-T823Q92N');
+				</script>
+				  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d2041293acca1a9',t:'MTc3MTc4MTg3OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+<!-- Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com -->
+
+<!-- Dynamic page generated in 0.268 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-02-22 17:26:05 -->
+
+<!-- super cache -->

@@ -1,6 +1,6 @@
-# Electricity generation - Data package
+# Literacy rates among adults - Data package
 
-This data package contains the data that powers the chart ["Electricity generation"](https://ourworldindata.org/grapher/electricity-generation?v=1&csvType=full&useColumnShortNames=false) on the Our World in Data website. It was downloaded on February 20, 2026.
+This data package contains the data that powers the chart ["Literacy rates among adults"](https://ourworldindata.org/grapher/literacy?v=1&csvType=full&useColumnShortNames=false&age_group=adult&sex=both) on the Our World in Data website. It was downloaded on February 22, 2026.
 
 ### Active Filters
 
@@ -28,40 +28,39 @@ Our World in Data is almost never the original producer of the data - almost all
 ## Detailed information about the data
 
 
-## Total electricity generation
-Total electricity generated in each country or region, measured in [terawatt-hours](#dod:watt-hours).
-Last updated: January 26, 2026  
-Next update: January 2027  
-Date range: 1985–2025  
-Unit: terawatt-hours  
+## Literacy rate among adults aged 15+
+Share of the population aged 15 years and older who can read and write.
+Last updated: May 1, 2025  
+Next update: May 2026  
+Date range: 1970–2023  
+Unit: %  
 
 
 ### How to cite this data
 
 #### In-line citation
 If you have limited space (e.g. in data visualizations), you can use this abbreviated in-line citation:  
-Ember (2026); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data
+UNESCO Institute for Statistics (2025) – with minor processing by Our World in Data
 
 #### Full citation
-Ember (2026); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Total electricity generation” [dataset]. Ember, “Yearly Electricity Data Europe”; Ember, “Yearly Electricity Data”; Energy Institute, “Statistical Review of World Energy” [original data].
-Source: Ember (2026), Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World In Data
+UNESCO Institute for Statistics (2025) – with minor processing by Our World in Data. “Literacy rate among adults aged 15+” [dataset]. UNESCO Institute for Statistics, “UNESCO Institute for Statistics (UIS) - Education” [original data].
+Source: UNESCO Institute for Statistics (2025) – with minor processing by Our World In Data
 
-### Sources
+### What you should know about this data
+* Literacy is a foundational skill. Children need to learn to read so that they can read to learn. When we fail to teach this foundational skill, people have fewer opportunities to lead the rich and interesting lives that a good education offers.
+* This indicator measures the percentage of people who can read and write a simple sentence about their daily life. It’s calculated as the number of people in a given age group who report being able to do so, divided by the total number in that group. UNESCO tracks this across different generations – including youth, adults, and older people – to show how literacy is changing over time.
+* Most of the data comes from national surveys. In some countries, people are asked directly whether they can read and write; in others, they take a short test.
+* In many high–income countries, literacy rates reached near–universal levels by the late 20th century. As a result, regular tracking has been scaled back, since changes are small and less relevant for education policy.
+* This data tells us whether someone can read and write at a very basic level – for example, reading simple sentences or writing their name. But it doesn’t tell us whether they can use reading and writing in everyday life, like filling out a job application or reading health instructions. Those kinds of skills take more years of schooling and are much harder to measure, especially when comparing across countries and over time.
 
-#### Ember – Yearly Electricity Data Europe
-Retrieved on: 2026-01-26  
-Retrieved from: https://ember-energy.org/data/yearly-electricity-data/  
+### How is this data described by its producer - UNESCO Institute for Statistics (2025)?
+Percentage of the population age 15 and above who can, with understanding, read and write a short, simple statement on their everyday life. Generally, ‘literacy’ also encompasses ‘numeracy’, the ability to make simple arithmetic calculations. This indicator is calculated by dividing the number of literates aged 15 years and over by the corresponding age group population and multiplying the result by 100.
 
-#### Ember – Yearly Electricity Data
-Retrieved on: 2026-01-09  
-Retrieved from: https://ember-energy.org/data/yearly-electricity-data/  
+### Source
 
-#### Energy Institute – Statistical Review of World Energy
-Retrieved on: 2025-06-27  
-Retrieved from: https://www.energyinst.org/statistical-review/  
-
-#### Notes on our processing step for this indicator
-- Electricity data from 2000 onwards (and from 1990 onwards for European countries, including Turkey) comes from Ember. Earlier data comes from the Energy Institute.
+#### UNESCO Institute for Statistics – UNESCO Institute for Statistics (UIS) - Education
+Retrieved on: 2025-05-01  
+Retrieved from: https://databrowser.uis.unesco.org/resources/bulk  
 
 
     

@@ -1,39 +1,114 @@
-# Dépendances
-node_modules/
+# ===================================
+# WorldDataVision - .gitignore
+# ===================================
+
+# ============ Logs ============
+*.log
+logs/
+backend/logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Fichiers d'environnement
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# ============ OS ============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
 
-# Builds
-build/
-dist/
-*.log
-
-# IDE
+# ============ IDE ============
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
-.DS_Store
+*.swn
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
 
-# Système
-Thumbs.db
+# ============ Node ============
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+.eslintcache
 
-# Base de données
-*.sql.backup
-*.dump
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
 
-# Fichiers temporaires
+# ============ Jupyter ============
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============ Build ============
+frontend/build/
+backend/build/
+dist/
+*.min.js
+*.min.css
+
+# ============ Données Sensibles ============
+.env
+.env.local
+.env.*.local
+backend/.env
+*.key
+*.pem
+*.p12
+credentials.json
+
+# ============ Temporaires ============
 *.tmp
 *.temp
-.cache/
+*.cache
+.backup/
+tmp/
 
-.venv
+# ============ Datasets Volumineux ============
+Data/*.csv
+!Data/country-codes*.csv
+Data/Age/*.csv
+Data/OWID/**/*
+*.zip
+*.tar.gz
+*.rar
+
+# ============ Outputs/Résultats ============
+analysis_outputs/*.png
+analysis_outputs/*.pdf
+!analysis_outputs/.gitkeep
+
+# ============ Base de Données ============
+*.db
+*.sqlite
+*.sqlite3
+
+# ============ Scripts Temporaires ============
+test_*.py
+temp_*.py
+debug_*.js
+
+# ============ Exceptions (à garder) ============
+!.gitkeep
+!README.md

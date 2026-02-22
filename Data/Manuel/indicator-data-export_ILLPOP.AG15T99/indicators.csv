@@ -1,0 +1,2 @@
+indicatorId,name,theme,lastDataUpdate,lastDataUpdateDescription,dataAvailability.totalRecordCount,dataAvailability.timeLine.min,dataAvailability.timeLine.max,dataAvailability.geoUnits.types,disaggregations,glossaryTerms
+ILLPOP.AG15T99,"Adult illiterate population, 15+ years, both sexes (number)",EDUCATION,9/17/2025,September 2025 Data Release,7268,1989,2024,"REGIONAL, NATIONAL",AgeRange:15+,2250

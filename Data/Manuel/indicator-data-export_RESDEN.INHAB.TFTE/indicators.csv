@@ -1,0 +1,2 @@
+indicatorId,name,theme,lastDataUpdate,lastDataUpdateDescription,dataAvailability.totalRecordCount,dataAvailability.timeLine.min,dataAvailability.timeLine.max,dataAvailability.geoUnits.types,disaggregations,glossaryTerms
+RESDEN.INHAB.TFTE,Researchers per million inhabitants (FTE),SCIENCE_TECHNOLOGY_INNOVATION,11/01/2025,November 2025 Data Release,3288,1996,2023,"NATIONAL, REGIONAL",,"2461, 2464, 2443"
