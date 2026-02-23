@@ -1,132 +1,559 @@
-# 🌍 WorldDataVision - Prochaines étapes
+# 🌍 WorldDataVision - Prochaines Étapes
+## Mise à jour 22 février 2026
 
-Félicitations ! Tous les fichiers pour votre interface web de visualisation de données géolocalisées ont été créés.
+---
 
-## ✅ Ce qui a été créé
+## ✅ État Actuel du Projet
 
-### 📁 Structure complète du projet
+### Données
+- ✅ **75 indicateurs IRC** importés et optimisés
+- ✅ **6 sources de données** intégrées (World Bank, OMS, UNESCO, Eurostat, Ember, EIA)
+- ✅ **217 pays** couverts
+- ✅ **>115,000 valeurs** dans la base de données
+- ✅ **92% des indicateurs** avec couverture excellente (≥200 pays)
+
+### Infrastructure
 - ✅ Backend Node.js/Express avec API RESTful
 - ✅ Frontend React avec composants interactifs
-- ✅ Scripts SQL pour PostgreSQL
-- ✅ Scripts d'importation de données
-- ✅ Documentation complète
+- ✅ Base de données PostgreSQL configurée
+- ✅ Scripts d'import Python pour toutes les sources
+- ✅ Documentation complète et organisée (40+ documents)
 
-### 📄 Fichiers importants
-- **README_WEB_APP.md** - Documentation principale
-- **QUICKSTART.md** - Guide de démarrage rapide
-- **PROJECT_STRUCTURE.md** - Structure du projet
-- **CUSTOMIZATION.md** - Guide de personnalisation
-- **DATA_INTEGRATION.md** - Intégration des données
-- **COMMANDS.md** - Aide-mémoire des commandes
+### Optimisations Récentes (22 février 2026)
+- ✅ **Import OMS :** 12,774 valeurs ajoutées (santé optimisée à 75%)
+- ✅ **Réorganisation complète :** 76 scripts + 40+ docs hiérarchisés
+- ✅ **Méthodologie IRC v1.1 :** Documentation mise à jour
 
-## 🚀 Pour démarrer maintenant
+---
 
-### Étape 1 : Installation automatique
-```bash
-./setup.sh
+## 🎯 Prochaines Étapes Prioritaires
+
+### Phase 1 : Calcul de l'IRC (🔴 Haute Priorité)
+
+**Objectif :** Calculer l'Index de Résilience Civilisationnelle pour tous les pays.
+
+#### 1.1 Normalisation des Indicateurs
+
+**Script à créer :** `scripts/analysis/calculate_irc_normalization.py`
+
+```python
+# Tâches :
+# - Calculer percentiles p2.5 et p97.5 pour chaque indicateur
+# - Normaliser valeurs (0-100) avec winsorization
+# - Gérer indicateurs "négatifs" (mortalité, dette, etc.)
+# - Implémenter fonctions gaussiennes (fertilité, âge médian, etc.)
 ```
 
-### Étape 2 : Configuration PostgreSQL
-```bash
-# Se connecter à PostgreSQL
-psql -U postgres
+**Priorité :** 🔴 **Critique**  
+**Temps estimé :** 2-3 jours  
+**Dépendances :** Base de données complète ✅
 
-# Créer la base de données
-CREATE DATABASE worlddatavision;
+#### 1.2 Calcul des Sous-Piliers
 
-# Quitter et exécuter les scripts
-\q
-psql -U postgres -d worlddatavision -f BDD/creation_bdd.sql
-psql -U postgres -d worlddatavision -f BDD/Parser_country_language.sql
+**Script à créer :** `scripts/analysis/calculate_irc_subpillars.py`
+
+```python
+# Tâches :
+# - Calculer scores des 20+ sous-piliers
+# - Moyenne géométrique pondérée
+# - Gérer données manquantes (imputation)
 ```
 
-### Étape 3 : Configurer le backend
-```bash
-# Éditer backend/.env avec vos identifiants
-nano backend/.env
+**Priorité :** 🔴 **Critique**  
+**Temps estimé :** 2-3 jours  
+**Dépendances :** 1.1 Normalisation
 
-# Exemple de configuration :
-# PORT=5000
-# DB_HOST=localhost
-# DB_PORT=5432
-# DB_NAME=worlddatavision
-# DB_USER=postgres
-# DB_PASSWORD=votre_mot_de_passe
+#### 1.3 Agrégation en Piliers et IRC Global
+
+**Script à créer :** `scripts/analysis/calculate_irc_final.py`
+
+```python
+# Tâches :
+# - Agréger sous-piliers → 7 piliers
+# - Calculer IRC global (moyenne pondérée)
+# - Exporter résultats en CSV/JSON
+# - Insérer dans nouvelle table `irc_scores`
 ```
 
-### Étape 4 : Importer les données
-```bash
-cd backend
-npm run import-data
+**Priorité :** 🔴 **Critique**  
+**Temps estimé :** 1-2 jours  
+**Dépendances :** 1.2 Sous-piliers
+
+#### 1.4 Table SQL pour IRC
+
+**Script à créer :** `BDD/create_irc_tables.sql`
+
+```sql
+CREATE TABLE irc_scores (
+    country_iso3 CHAR(3) REFERENCES country(iso3),
+    year INTEGER REFERENCES year_table(value),
+    irc_global NUMERIC(5,2),
+    pillar_demographie NUMERIC(5,2),
+    pillar_economie NUMERIC(5,2),
+    pillar_gouvernance NUMERIC(5,2),
+    pillar_capital_humain NUMERIC(5,2),
+    pillar_souverainete NUMERIC(5,2),
+    pillar_innovation NUMERIC(5,2),
+    pillar_environnement NUMERIC(5,2),
+    data_completeness NUMERIC(4,2),
+    PRIMARY KEY (country_iso3, year)
+);
 ```
 
-### Étape 5 : Lancer l'application
+**Priorité :** 🔴 **Critique**  
+**Temps estimé :** 1 jour  
 
-**Terminal 1 - Backend :**
-```bash
-cd backend
-npm start
+---
+
+### Phase 2 : Validation Scientifique (🟠 Haute Priorité)
+
+#### 2.1 Tests de Corrélation
+
+**Script à créer :** `scripts/analysis/validate_irc_correlations.py`
+
+**Tests à réaliser :**
+- IRC vs HDI (attendu : r > 0.85)
+- IRC vs Democracy Index (attendu : r > 0.65)
+- IRC vs PIB/capita (attendu : r > 0.70)
+- Stabilité temporelle (attendu : r > 0.95 année n vs n-1)
+
+**Priorité :** 🟠 **Haute**  
+**Temps estimé :** 1-2 jours  
+**Dépendances :** 1.3 IRC calculé
+
+#### 2.2 Analyse de Sensibilité
+
+**Script à créer :** `scripts/analysis/irc_sensitivity_analysis.py`
+
+**Tests :**
+- Variation pondérations ±20%
+- Impact sur ranking (top 20 pays)
+- Identification indicateurs critiques
+
+**Priorité :** 🟠 **Haute**  
+**Temps estimé :** 1 jour  
+
+#### 2.3 Validation Historique
+
+**Script à créer :** `scripts/analysis/irc_historical_validation.py`
+
+**Vérifications :**
+- Pays effondrés (Venezuela, Zimbabwe) : déclin IRC préalable ?
+- Pays prospères (Corée, Singapour) : amélioration IRC continue ?
+- Impact COVID-19 (2020-2021) : corrélation IRC vs gestion ?
+
+**Priorité :** 🟡 **Moyenne**  
+**Temps estimé :** 2 jours  
+
+---
+
+### Phase 3 : API Backend (🟠 Haute Priorité)
+
+#### 3.1 Routes IRC
+
+**Fichier à créer :** `backend/routes/irc.js`
+
+**Endpoints à implémenter :**
+
+```javascript
+// GET /api/irc/score/:iso3/:year
+// Retourne IRC + détail des 7 piliers pour un pays/année
+
+// GET /api/irc/ranking/:year
+// Retourne classement mondial IRC pour une année
+
+// GET /api/irc/evolution/:iso3
+// Retourne évolution IRC 1960-2024 pour un pays
+
+// GET /api/irc/comparison
+// Compare plusieurs pays (body: {countries: ['FRA','USA']})
+
+// GET /api/irc/stats
+// Statistiques globales (médiane, top 10, bottom 10)
 ```
 
-**Terminal 2 - Frontend :**
-```bash
-cd frontend
-npm start
+**Priorité :** 🟠 **Haute**  
+**Temps estimé :** 2-3 jours  
+**Dépendances :** 1.4 Table IRC
+
+#### 3.2 Optimisation Base de Données
+
+**Script à créer :** `BDD/optimize_irc.sql`
+
+```sql
+-- Index pour performances
+CREATE INDEX idx_irc_country ON irc_scores(country_iso3);
+CREATE INDEX idx_irc_year ON irc_scores(year);
+CREATE INDEX idx_irc_global ON irc_scores(irc_global DESC);
+
+-- Vue matérialisée pour ranking
+CREATE MATERIALIZED VIEW irc_ranking_2023 AS
+SELECT country_iso3, irc_global, 
+       RANK() OVER (ORDER BY irc_global DESC) as rank
+FROM irc_scores WHERE year = 2023;
 ```
 
-### Étape 6 : Accéder à l'application
-- 🌐 Interface web : http://localhost:3000
-- 🔌 API : http://localhost:5000/api
-- 💚 Health check : http://localhost:5000/api/health
+**Priorité :** 🟡 **Moyenne**  
+**Temps estimé :** 1 jour  
 
-## 🎯 Fonctionnalités disponibles
+---
 
-### 🗺️ Carte interactive
-- Survol de pays pour voir un aperçu
-- Clic sur un pays pour voir les détails complets
-- Coloration dynamique selon les données de population
-- Zoom et navigation (selon le SVG utilisé)
+### Phase 4 : Frontend IRC (🟡 Moyenne Priorité)
 
-### 🎛️ Filtres
-- Sélection de l'année (1950-2035)
-- Choix de la catégorie (Homme, Femme, Total)
-- Possibilité d'ajouter plus de filtres
+#### 4.1 Page IRC Dashboard
 
-### 📊 Visualisations
-- Graphique d'évolution de la population dans le temps
-- Pyramide des âges (hommes/femmes)
-- Statistiques globales
-- Légende avec échelle de couleurs
+**Composants à créer :**
+- `frontend/src/components/IRC/IRCMap.js` - Carte choroplèthe IRC
+- `frontend/src/components/IRC/IRCRadar.js` - Radar chart 7 piliers
+- `frontend/src/components/IRC/IRCEvolution.js` - Graphique évolution
+- `frontend/src/components/IRC/IRCRanking.js` - Tableau classement
 
-### 📱 Responsive
-- Interface adaptée aux mobiles
-- Adaptée aux tablettes
-- Optimisée pour desktop
+**Priorité :** 🟡 **Moyenne**  
+**Temps estimé :** 5-7 jours  
+**Dépendances :** 3.1 API IRC
 
-## 🔧 Personnalisation rapide
+#### 4.2 Visualisations
 
-### Changer les couleurs de la carte
-Éditez `frontend/src/utils/helpers.js` → fonction `getColorForValue()`
+**Bibliothèques recommandées :**
+- **Recharts** : Graphiques évolution/comparaison
+- **D3.js** : Radar chart (déjà utilisé)
+- **Leaflet + Choropleth** : Carte IRC mondiale
 
-### Ajouter un filtre
-Modifiez `frontend/src/components/FilterPanel.js`
+**Exemple Carte Choroplètre :**
+```javascript
+<MapContainer center={[20, 0]} zoom={2}>
+  <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+  <GeoJSON 
+    data={countriesGeoJSON}
+    style={(feature) => ({
+      fillColor: getIRCColor(feature.properties.irc),
+      weight: 1,
+      fillOpacity: 0.7
+    })}
+  />
+</MapContainer>
+```
 
-### Ajouter un endpoint API
-Créez une nouvelle route dans `backend/routes/`
+**Priorité :** 🟡 **Moyenne**  
+**Temps estimé :** 3-4 jours  
 
-### Modifier l'apparence
-Éditez les fichiers CSS dans `frontend/src/components/`
+---
 
-## 📚 Documentation
+### Phase 5 : Rapports et Analyses (🟡 Moyenne Priorité)
 
-Consultez les fichiers suivants pour plus d'informations :
+#### 5.1 Rapport IRC PDF
 
-1. **README_WEB_APP.md** - Vue d'ensemble complète
-2. **QUICKSTART.md** - Démarrage rapide
-3. **PROJECT_STRUCTURE.md** - Architecture du projet
-4. **CUSTOMIZATION.md** - Guide de personnalisation détaillé
-5. **DATA_INTEGRATION.md** - Comment brancher vos données
-6. **COMMANDS.md** - Toutes les commandes utiles
+**Script à créer :** `scripts/analysis/generate_irc_report.py`
+
+**Contenu :**
+- Synthèse méthodologie
+- Top 20 / Bottom 20 pays
+- Analyse par région
+- Évolution 2000-2023
+- Impact COVID-19
+- Graphiques et cartes
+
+**Librairies Python :**
+- `reportlab` : Génération PDF
+- `matplotlib` : Graphiques
+- `pandas` : Analyse données
+
+**Priorité :** 🟡 **Moyenne**  
+**Temps estimé :** 3-4 jours  
+
+#### 5.2 Analyses Thématiques
+
+**Scripts à créer :**
+
+```bash
+scripts/analysis/
+├── irc_regional_analysis.py    # Analyse par région
+├── irc_income_groups.py         # Analyse par niveau revenu
+├── irc_demographic_clusters.py  # Clustering démographique
+└── irc_trends_2000_2023.py      # Tendances temporelles
+```
+
+**Priorité :** 🟢 **Basse**  
+**Temps estimé :** 2-3 jours chacun  
+
+---
+
+### Phase 6 : Optimisations Futures (🟢 Basse Priorité)
+
+#### 6.1 Automatisation Mises à Jour
+
+**Script à créer :** `scripts/utils/auto_update_worldbank.py`
+
+**Fonctionnalités :**
+- Vérifier nouvelles données World Bank API
+- Import automatique si disponibles
+- Notification email
+- Recalcul IRC automatique
+
+**Priorité :** 🟢 **Basse**  
+**Temps estimé :** 2-3 jours  
+
+#### 6.2 Indicateurs Climat
+
+**Sources potentielles :**
+- IPCC (Intergovernmental Panel on Climate Change)
+- Climate Watch
+- Our World in Data (OWID) Climate
+
+**Indicateurs à ajouter :**
+- Risques climatiques par pays
+- Vulnérabilité aux catastrophes naturelles
+- Adaptation climatique
+
+**Priorité :** 🟢 **Basse**  
+**Temps estimé :** 5-7 jours  
+
+#### 6.3 Machine Learning
+
+**Objectif :** Optimiser pondérations IRC par ML
+
+**Approche :**
+```python
+# Régression pour prédire "succès" d'un pays
+# Variables : 75 indicateurs normalisés
+# Target : Composite (HDI + Democracy + PIB growth)
+# Méthode : Random Forest → feature importance
+```
+
+**Priorité :** 🟢 **Basse**  
+**Temps estimé :** 7-10 jours  
+
+---
+
+## 📅 Planning Recommandé
+
+### Semaine 1-2 : Calcul IRC
+- Jour 1-3 : Normalisation indicateurs
+- Jour 4-6 : Calcul sous-piliers
+- Jour 7-9 : Agrégation finale + export
+- Jour 10-14 : Tests et debugging
+
+### Semaine 3 : Validation
+- Jour 15-17 : Tests corrélations
+- Jour 18-19 : Analyse sensibilité
+- Jour 20-21 : Validation historique
+
+### Semaine 4 : API Backend
+- Jour 22-24 : Routes IRC
+- Jour 25-28 : Tests API + optimisation
+
+### Semaine 5-6 : Frontend
+- Jour 29-35 : Composants IRC
+- Jour 36-42 : Visualisations + intégration
+
+### Semaine 7 : Rapports
+- Jour 43-49 : Génération rapport PDF + analyses
+
+**Total estimé :** 7-8 semaines
+
+---
+
+## 🎯 Milestones Clés
+
+### Milestone 1 : IRC Calculé ✅
+- [ ] Normalisation complète
+- [ ] Sous-piliers calculés
+- [ ] IRC global pour tous pays
+- [ ] Export CSV/JSON
+
+**Date cible :** Fin semaine 2
+
+### Milestone 2 : Validation Scientifique ✅
+- [ ] Corrélations validées (r > 0.85 vs HDI)
+- [ ] Sensibilité testée
+- [ ] Cohérence historique vérifiée
+
+**Date cible :** Fin semaine 3
+
+### Milestone 3 : API Complète ✅
+- [ ] 5 endpoints IRC opérationnels
+- [ ] Documentation Swagger
+- [ ] Tests unitaires
+
+**Date cible :** Fin semaine 4
+
+### Milestone 4 : Dashboard IRC ✅
+- [ ] Carte choroplèthe mondiale
+- [ ] Radar chart pays
+- [ ] Évolution temporelle
+- [ ] Ranking interactif
+
+**Date cible :** Fin semaine 6
+
+### Milestone 5 : Rapport Final ✅
+- [ ] PDF généré automatiquement
+- [ ] Analyses régionales complètes
+- [ ] Recommandations stratégiques
+
+**Date cible :** Fin semaine 7
+
+---
+
+## 🔧 Commandes Rapides
+
+### Démarrage Application Actuelle
+
+```bash
+# Backend (Terminal 1)
+cd /home/elias/PROJECT/WorldDataVision/backend
+npm start        # Port 5000
+
+# Frontend (Terminal 2)
+cd /home/elias/PROJECT/WorldDataVision/frontend
+npm start        # Port 3000
+```
+
+### Calcul IRC (Après création scripts)
+
+```bash
+# Activer environnement Python
+source .venv/bin/activate
+
+# Étape 1 : Normalisation
+python scripts/analysis/calculate_irc_normalization.py
+
+# Étape 2 : Sous-piliers
+python scripts/analysis/calculate_irc_subpillars.py
+
+# Étape 3 : IRC final
+python scripts/analysis/calculate_irc_final.py
+
+# Vérification
+psql -U elias -d worlddatavision -c \
+  "SELECT COUNT(*) FROM irc_scores WHERE year = 2023;"
+```
+
+### Tests Validation
+
+```bash
+# Corrélations
+python scripts/analysis/validate_irc_correlations.py
+
+# Sensibilité
+python scripts/analysis/irc_sensitivity_analysis.py
+
+# Historique
+python scripts/analysis/irc_historical_validation.py
+```
+
+---
+
+## 📚 Ressources Disponibles
+
+### Documentation
+- ✅ **[Méthodologie IRC v1.1](../METHODOLOGIE_CALCUL_IRC.md)** - Guide complet
+- ✅ **[Liste 75 Indicateurs](../LISTE_INDICATEURS_IRC.md)** - Tous les indicateurs
+- ✅ **[Sources Données](../SOURCES_DONNEES.md)** - Guide des 6 sources
+- ✅ **[État Projet](../ETAT_PROJET_22FEV2026.md)** - Statut actuel
+
+### Scripts Existants
+- ✅ **76 scripts** organisés dans `/scripts/imports/`, `/scripts/analysis/`, `/scripts/utils/`
+- ✅ **Notebooks Jupyter** dans `/notebooks/` pour analyses interactives
+
+### Base de Données
+- ✅ **worlddatavision** : 217 pays, 75 indicateurs, >115K valeurs
+- ✅ **Tables** : country, indicator, indicator_value, year_table
+- ⏳ **À créer** : irc_scores, irc_subpillars
+
+---
+
+## ⚠️ Points d'Attention
+
+### Avant de Commencer le Calcul IRC
+
+1. **Vérifier données complètes**
+   ```sql
+   -- Vérifier NULL dans indicateurs critiques
+   SELECT indicator_code, COUNT(*) as nulls
+   FROM indicator_value
+   WHERE value IS NULL
+   GROUP BY indicator_code
+   HAVING COUNT(*) > 100;
+   ```
+
+2. **Backup base de données**
+   ```bash
+   pg_dump -U elias worlddatavision > backup_$(date +%Y%m%d).sql
+   ```
+
+3. **Tester sur échantillon**
+   - Calculer IRC pour 10 pays d'abord
+   - Valider résultats manuellement
+   - Puis lancer calcul complet
+
+### Problèmes Connus
+
+1. **Git Commit/Push** : Problèmes signalés → à résoudre avant gros travaux
+2. **Terminal Buffer** : Utiliser notebooks Jupyter pour scripts lourds
+3. **Performance** : Indexer indicator_value avant calculs massifs
+
+---
+
+## 📞 Support
+
+**Documentation :** `/docs/INDEX.md` - Index complet  
+**Scripts :** `/scripts/` - Tous les scripts organisés  
+**Notebooks :** `/notebooks/` - Analyses Jupyter  
+
+---
+
+## ✅ Checklist Avant Déploiement Final
+
+### Données
+- [ ] Toutes les sources importées (6/6) ✅
+- [ ] Indicateurs validés (75/75) ✅
+- [ ] Années complètes (1950-2024) ✅
+- [ ] Couverture pays (≥200 pour 92% indicateurs) ✅
+
+### IRC
+- [ ] Normalisation testée et validée
+- [ ] Sous-piliers calculés sans erreurs
+- [ ] IRC global cohérent (0-100)
+- [ ] Corrélations validées (vs HDI, PIB, Democracy)
+
+### API
+- [ ] Tous endpoints documentés (Swagger)
+- [ ] Tests unitaires (>80% coverage)
+- [ ] Performance (<200ms par requête)
+- [ ] Gestion erreurs robuste
+
+### Frontend
+- [ ] Responsive (mobile, tablet, desktop)
+- [ ] Accessibilité (WCAG 2.1 AA)
+- [ ] Performance (Lighthouse >90)
+- [ ] Compatibilité navigateurs
+
+### Documentation
+- [ ] README à jour ✅
+- [ ] Guides utilisateurs complets ✅
+- [ ] Documentation API (Swagger)
+- [ ] Changelog détaillé
+
+### Infrastructure
+- [ ] Base de données optimisée (index)
+- [ ] Backups automatisés
+- [ ] Monitoring (logs, erreurs)
+- [ ] CI/CD configuré (optionnel)
+
+---
+
+## 🎉 Conclusion
+
+Le projet WorldDataVision est **prêt pour la phase de calcul de l'IRC**. Toutes les données sont importées et optimisées. La prochaine étape critique est l'implémentation de l'algorithme de calcul IRC selon la méthodologie v1.1.
+
+**État actuel :** 🟢 **Excellent** (92% d'indicateurs avec couverture optimale)
+
+**Prochaine action recommandée :** Commencer par Phase 1.1 (Normalisation des indicateurs)
+
+---
+
+**Document mis à jour le 22 février 2026**  
+**Statut : ✅ À jour avec import OMS et réorganisation complète**
 
 ## 🎨 Prochaines améliorations possibles
 

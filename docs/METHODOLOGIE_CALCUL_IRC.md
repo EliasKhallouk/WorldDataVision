@@ -1,9 +1,10 @@
 # Méthodologie de Calcul de l'IRC
 ## Index de Résilience Civilisationnelle
 
-**Date:** 21 février 2026  
-**Version:** 1.0  
+**Date:** 22 février 2026  
+**Version:** 1.1  
 **Auteur:** Analyse scientifique WorldDataVision  
+**Dernière mise à jour:** Import données OMS + optimisation sources multiples  
 
 ---
 
@@ -226,10 +227,13 @@ Où `W_k` = poids du pilier (25%, 20%, etc.)
 
 | Indicateur | Poids | Justification |
 |------------|-------|---------------|
-| SH.XPD.CHEX.GD.ZS (Dépenses santé) | 35% | Investissement (>5% PIB optimal) |
-| SH.MED.PHYS.ZS (Médecins/1000) | 30% | Accès aux soins (>2.5/1000 optimal) |
-| SH.MED.BEDS.ZS (Lits hôpitaux/1000) | 20% | Capacité hospitalière (>2.5/1000 optimal) |
-| SP.DYN.IMRT.IN (Mortalité infantile) | 15% | Qualité système (<10/1000 optimal) |
+| SH.XPD.CHEX.GD.ZS (Dépenses santé) | 30% | Investissement (>5% PIB optimal) |
+| SP.DYN.LE00.IN (Espérance de vie) | 25% | Indicateur synthétique de santé globale (>75 ans optimal) |
+| SH.MED.PHYS.ZS (Médecins/1000) | 25% | Accès aux soins (>2.5/1000 optimal) |
+| SH.MED.BEDS.ZS (Lits hôpitaux/1000) | 15% | Capacité hospitalière (>2.5/1000 optimal) |
+| SP.DYN.IMRT.IN (Mortalité infantile) | 5% | Qualité système de base (<10/1000 optimal) |
+
+**Note:** L'espérance de vie est désormais enrichie par les données OMS (WHO GHO) en complément de la Banque Mondiale, améliorant la couverture à 216 pays.
 
 #### B. Éducation & Compétences (50%)
 **Mesure l'investissement dans le futur.**
@@ -573,7 +577,7 @@ FROM demo_scores;
 ### 1. Limites Méthodologiques
 
 **Agrégation = Perte d'Information**
-- L'IRC résume 74 indicateurs en 1 chiffre → **simplification massive**
+- L'IRC résume 75 indicateurs en 1 chiffre → **simplification massive**
 - Deux pays avec même IRC peuvent avoir profils très différents
 
 **Choix Subjectifs**
@@ -583,7 +587,10 @@ FROM demo_scores;
 **Données Manquantes**
 - Couverture 79% en moyenne → **21% de biais potentiel**
 - Pays pauvres sous-représentés dans données R&D, tech
-
+**Sources Multiples**
+- Combinaison World Bank + OMS + UNESCO + Eurostat + Ember + EIA
+- Moyennage des valeurs multiples pour même pays-année (même méthodologie)
+- Amélioration significative de la couverture pays (200+ pays pour indicateurs clés)
 ### 2. Précautions d'Interprétation
 
 **Ne PAS utiliser pour :**
@@ -634,6 +641,13 @@ FROM demo_scores;
 ---
 
 ## 📝 Notes de Version
+
+**Version 1.1 (22 février 2026)**
+- Ajout indicateur SP.DYN.LE00.IN (Espérance de vie) avec données OMS
+- Import de 12,774 valeurs depuis WHO Global Health Observatory
+- Amélioration couverture santé : 75% des indicateurs à 200+ pays
+- Réorganisation complète de la structure du projet
+- Sources multiples : World Bank + OMS + UNESCO + Eurostat + Ember + EIA
 
 **Version 1.0 (21 février 2026)**
 - Méthodologie initiale

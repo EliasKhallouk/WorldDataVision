@@ -5,6 +5,7 @@
 - [README Principal](../README.md) - Vue d'ensemble du projet
 - [Guide de Navigation](../NAVIGATION.md) - Où trouver quoi
 - [Organisation du Projet](../ORGANISATION.md) - Structure détaillée
+- **[📊 État du Projet (22 fév 2026)](ETAT_PROJET_22FEV2026.md)** - **Nouveau : État actuel complet**
 - [Quickstart](guides/QUICKSTART.md) - Démarrage rapide
 
 ## 📖 Guides Utilisateur
@@ -30,11 +31,33 @@
 
 ## 🗄️ Documentation Technique
 
-### Déjà dans docs/
-- Guides d'import (GUIDE_*.md)
-- Corrections (CORRECTION*.md)
-- Documentation API (API_*.md)
-- Listes et méthodologies (LISTE_*.md, METHODOLOGIE_*.md)
+### Méthodologie IRC
+- **[Méthodologie de Calcul IRC](METHODOLOGIE_CALCUL_IRC.md)** - v1.1 (mise à jour 22 fév 2026)
+- **[Liste des 75 Indicateurs IRC](LISTE_INDICATEURS_IRC.md)** - Indicateurs complets avec OMS
+- **[Sources de Données](SOURCES_DONNEES.md)** - ⭐ Nouveau : Guide complet des 6 sources
+
+### Analyses et Rapports
+- [Récapitulatif IRC](RECAPITULATIF_IRC.md)
+- [Statut Final IRC](STATUT_FINAL_IRC.md)
+- [Analyse Sources Dette](DEBT_SOURCES_ANALYSIS.md)
+- [Sources Alternatives IRC](ALTERNATIVE_SOURCES_IRC.md)
+
+### Guides d'Import
+- [Guide Import IMF](GUIDE_IMPORT_IMF.md)
+- [Guide Import OWID](OWID_IMPORT_GUIDE.md)
+- [README Import IMF](README_IMF_IMPORT.md)
+- [Correction Import IMF](CORRECTION_IMPORT_IMF.md)
+
+### API et Techniques
+- [Documentation API Indicateurs](API_INDICATORS_DOCUMENTATION.md)
+- [Guide Dashboard IRC](GUIDE_IRC_DASHBOARD.md)
+- [Corrections Dashboard IRC](CORRECTIONS_IRC_DASHBOARD.md)
+
+### Résumés et Résultats
+- [Résumé d'Implémentation](IMPLEMENTATION_SUMMARY.md)
+- [Résultat Test IMF IDS](RESULTAT_TEST_IMF_IDS.md)
+- [Fichiers Créés/Modifiés](FICHIERS_CREES_MODIFIES.md)
+- [Structure du Projet](PROJECT_STRUCTURE.md)
 
 ## 📦 Archives
 

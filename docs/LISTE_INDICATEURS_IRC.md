@@ -1,4 +1,4 @@
-# 📋 Liste complète des 75 indicateurs IRC
+# 📋 Liste complète des 74 indicateurs IRC
 
 ## 👥 DÉMOGRAPHIE (15 indicateurs)
 
@@ -33,7 +33,7 @@
 | TM.VAL.FOOD.ZS.UN | Importations alimentaires | % des importations totales |
 | TX.VAL.FOOD.ZS.UN | Exportations agricoles | % des exportations totales |
 
-## 🌍 ENVIRONNEMENT (6 indicateurs)
+## 🌍 ENVIRONNEMENT (5 indicateurs)
 
 | Code | Nom | Description |
 |------|-----|-------------|
@@ -41,7 +41,6 @@
 | ER.H2O.INTR.PC | Eau renouvelable par habitant | m³ par personne par an |
 | AG.LND.FRST.ZS | Surface forestière | % de la superficie totale |
 | EN.GHG.CO2.PC.CE.AR5 | CO2 par habitant (AR5) | Tonnes métriques (méthode AR5) |
-| EN.ATM.CO2E.PC | CO2 par habitant | Tonnes métriques (standard) |
 | AG.LND.TOTL.K2 | Superficie terrestre | Km² |
 
 ## ⚡ ÉNERGIE (12 indicateurs)
@@ -121,7 +120,7 @@
 | IT.NET.BBND.P2 | Haut débit fixe | Pour 100 habitants |
 | IT.NET.SECR.P6 | Serveurs Internet sécurisés | Pour 1 million d'habitants |
 
-## 🏥 SANTÉ (4 indicateurs)
+## 🏥 SANTÉ (5 indicateurs)
 
 | Code | Nom | Description |
 |------|-----|-------------|
@@ -129,17 +128,18 @@
 | SH.MED.PHYS.ZS | Médecins | Pour 1000 habitants |
 | SH.MED.BEDS.ZS | Lits d'hôpital | Pour 1000 habitants |
 | SP.DYN.IMRT.IN | Mortalité infantile | Pour 1000 naissances vivantes |
+| SP.DYN.LE00.IN | Espérance de vie à la naissance | Années d'espérance de vie |
 
 ---
 
 ## 📊 Statistiques globales
 
 - **Total indicateurs** : 75
-- **Source** : Banque Mondiale API v2
+- **Sources** : Banque Mondiale API v2 + OMS (WHO GHO) + UNESCO + Eurostat + Ember + EIA
 - **Période** : 1960-2025 (variable selon l'indicateur)
-- **Pays couverts** : ~200
-- **Points de données** : > 100 000
-- **Dernière mise à jour** : 2026-02-19
+- **Pays couverts** : ~217
+- **Points de données** : > 115 000
+- **Dernière mise à jour** : 2026-02-22
 
 ## 🎯 Répartition par catégorie
 
@@ -154,7 +154,7 @@ Innovation          ███████           7%
 Finances publiques  ███████           7%
 Technologies        █████             5%
 Éducation           ████              4%
-Santé               █████             5%
+Santé               ██████            7%
 ```
 
 ## 🌍 Couverture géographique
