@@ -15,6 +15,7 @@ const IRCVisualizations = () => {
   const [years, setYears] = useState([]);
   const [selectedYear, setSelectedYear] = useState(2022);
   const [rankingData, setRankingData] = useState(null);
+  const [bottomRankingData, setBottomRankingData] = useState(null);
   const [evolutionData, setEvolutionData] = useState(null);
   const [selectedCountries, setSelectedCountries] = useState([]);
   const [loadingRanking, setLoadingRanking] = useState(false);
@@ -48,15 +49,24 @@ const IRCVisualizations = () => {
       setLoadingRanking(true);
       setError(null);
       try {
-        const data = await getIndicatorComparison(IRC_CODE, {
+        // Charger Top 20
+        const topData = await getIndicatorComparison(IRC_CODE, {
           year: selectedYear,
           limit: 20,
           sort: 'desc'
         });
-        setRankingData(data);
+        setRankingData(topData);
 
-        if (data?.data?.length > 0) {
-          const defaultSelection = data.data
+        // Charger Bottom 20
+        const bottomData = await getIndicatorComparison(IRC_CODE, {
+          year: selectedYear,
+          limit: 20,
+          sort: 'asc'
+        });
+        setBottomRankingData(bottomData);
+
+        if (topData?.data?.length > 0) {
+          const defaultSelection = topData.data
             .slice(0, 5)
             .map((country) => country.country_code);
           setSelectedCountries((prev) => (prev.length > 0 ? prev : defaultSelection));
@@ -67,6 +77,7 @@ const IRCVisualizations = () => {
         console.error('Erreur lors du chargement du classement IRC:', err);
         setError('Impossible de charger le classement IRC pour cette année');
         setRankingData(null);
+        setBottomRankingData(null);
         setSelectedCountries([]);
       } finally {
         setLoadingRanking(false);
@@ -87,9 +98,11 @@ const IRCVisualizations = () => {
       setError(null);
       try {
         const startYear = Math.max(MIN_IRC_YEAR, selectedYear - 15);
+        // Si startYear === selectedYear (cas de 1996), on prend au moins 2 ans pour éviter les bugs graphiques
+        const adjustedStartYear = startYear === selectedYear ? Math.max(MIN_IRC_YEAR, selectedYear - 1) : startYear;
         const data = await getIndicatorEvolution(IRC_CODE, {
           countries: selectedCountries.join(','),
-          startYear,
+          startYear: adjustedStartYear,
           endYear: selectedYear
         });
         setEvolutionData(data);
@@ -166,28 +179,14 @@ const IRCVisualizations = () => {
         </div>
       </div>
 
-      <div className="irc-visualizations-grid">
+      <div className="irc-rankings-row">
         <div className="irc-panel">
           <div className="irc-panel-header">
-            <h3>Classement IRC (Top 20)</h3>
-            <span>{loadingRanking ? 'Chargement...' : 'Sélectionnez des pays pour la tendance'}</span>
+            <h3>🏆 Top 20</h3>
+            <span>Les plus résilients</span>
           </div>
           {rankingData && rankingData.data?.length > 0 ? (
-            <div className="irc-ranking-wrapper">
-              <div className="irc-country-selector">
-                {rankingData.data.map((country) => (
-                  <label key={country.country_code} className="irc-country-chip">
-                    <input
-                      type="checkbox"
-                      checked={selectedCountries.includes(country.country_code)}
-                      onChange={() => handleCountryToggle(country.country_code)}
-                    />
-                    <span>{country.country_name}</span>
-                  </label>
-                ))}
-              </div>
-              <IndicatorRanking data={rankingData} />
-            </div>
+            <IndicatorRanking data={rankingData} />
           ) : (
             <div className="irc-empty">Aucune donnée IRC pour cette année.</div>
           )}
@@ -195,15 +194,64 @@ const IRCVisualizations = () => {
 
         <div className="irc-panel">
           <div className="irc-panel-header">
-            <h3>Évolution IRC</h3>
-            <span>{loadingEvolution ? 'Chargement...' : 'Comparaison sur 15 ans'}</span>
+            <h3>⚠️ Flop 20</h3>
+            <span>Les plus vulnérables</span>
           </div>
-          {evolutionData && evolutionData.data?.length > 0 ? (
-            <IndicatorChart data={evolutionData} />
+          {bottomRankingData && bottomRankingData.data?.length > 0 ? (
+            <IndicatorRanking data={bottomRankingData} />
           ) : (
-            <div className="irc-empty">Sélectionnez des pays pour voir la tendance.</div>
+            <div className="irc-empty">Aucune donnée IRC pour cette année.</div>
           )}
         </div>
+      </div>
+
+      <div className="irc-panel irc-evolution-panel">
+        <div className="irc-panel-header">
+          <h3>📈 Évolution IRC - Comparaison</h3>
+          <span>{loadingEvolution ? 'Chargement...' : `${selectedCountries.length} pays sélectionnés`}</span>
+        </div>
+        
+        <div className="irc-country-selector-full">
+          <div className="irc-selector-section">
+            <h4>🏆 Top 20</h4>
+            <div className="irc-country-chips">
+              {rankingData?.data?.map((country) => (
+                <label key={country.country_code} className="irc-country-chip">
+                  <input
+                    type="checkbox"
+                    checked={selectedCountries.includes(country.country_code)}
+                    onChange={() => handleCountryToggle(country.country_code)}
+                  />
+                  <span>{country.country_name}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+
+          <div className="irc-selector-section">
+            <h4>⚠️ Flop 20</h4>
+            <div className="irc-country-chips">
+              {bottomRankingData?.data?.map((country) => (
+                <label key={country.country_code} className="irc-country-chip">
+                  <input
+                    type="checkbox"
+                    checked={selectedCountries.includes(country.country_code)}
+                    onChange={() => handleCountryToggle(country.country_code)}
+                  />
+                  <span>{country.country_name}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {evolutionData && evolutionData.data?.length > 0 ? (
+          <div className="irc-chart-container">
+            <IndicatorChart data={evolutionData} />
+          </div>
+        ) : (
+          <div className="irc-empty">Sélectionnez des pays ci-dessus pour voir leur évolution.</div>
+        )}
       </div>
     </section>
   );

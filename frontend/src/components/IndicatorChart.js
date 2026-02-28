@@ -41,10 +41,22 @@ const IndicatorChart = ({ data, selectedCountry }) => {
       });
     });
 
+    // Gérer le cas où il n'y a qu'une seule année (éviter division par zéro)
+    if (minYear === maxYear) {
+      minYear = minYear - 1;
+      maxYear = maxYear + 1;
+    }
+
     // Ajouter une marge aux valeurs
     const valueRange = maxValue - minValue;
-    minValue = minValue - valueRange * 0.1;
-    maxValue = maxValue + valueRange * 0.1;
+    // Éviter division par zéro si toutes les valeurs sont identiques
+    if (valueRange === 0) {
+      minValue = minValue - 1;
+      maxValue = maxValue + 1;
+    } else {
+      minValue = minValue - valueRange * 0.1;
+      maxValue = maxValue + valueRange * 0.1;
+    }
 
     // Fonctions de scale
     const scaleX = (year) => margin.left + ((year - minYear) / (maxYear - minYear)) * chartWidth;

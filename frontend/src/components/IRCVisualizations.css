@@ -81,10 +81,11 @@
   color: #0f172a;
 }
 
-.irc-visualizations-grid {
+.irc-rankings-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  margin-bottom: 24px;
 }
 
 .irc-panel {
@@ -92,6 +93,40 @@
   border-radius: 20px;
   border: 1px solid #e2e8f0;
   padding: 20px;
+}
+
+.irc-evolution-panel {
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  padding: 24px;
+}
+
+.irc-country-selector-full {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 16px;
+}
+
+.irc-selector-section h4 {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.irc-country-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.irc-chart-container {
+  margin-top: 20px;
 }
 
 .irc-panel-header {
@@ -161,5 +196,13 @@
   .irc-visualizations-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .irc-rankings-row {
+    grid-template-columns: 1fr;
+  }
+
+  .irc-country-selector-full {
+    grid-template-columns: 1fr;
   }
 }

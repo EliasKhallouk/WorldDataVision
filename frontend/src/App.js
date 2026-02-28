@@ -9,19 +9,19 @@ import ScatterPlot from './components/ScatterPlot';
 import TimelinePlayer from './components/TimelinePlayer';
 import WorldMap from './components/WorldMap';
 import {
-    getAgeGroups,
-    getCountry,
-    getDemographicStats,
-    getGenderBalance,
-    getIndicatorComparison,
-    getLanguages,
-    getPopulationPyramid,
-    getPopulationSummary,
-    getPopulationTrend,
-    getScatterData,
-    getSexCategories,
-    getStats,
-    getYears
+  getAgeGroups,
+  getCountry,
+  getDemographicStats,
+  getGenderBalance,
+  getIndicatorComparison,
+  getLanguages,
+  getPopulationPyramid,
+  getPopulationSummary,
+  getPopulationTrend,
+  getScatterData,
+  getSexCategories,
+  getStats,
+  getYears
 } from './services/api';
 import { calculateStats, formatCompactNumber } from './utils/helpers';
 
