@@ -177,29 +177,39 @@ const IndicatorChart = ({ data, selectedCountry }) => {
 
       {/* Légende */}
       <div className="chart-legend">
-        {data.data.map((country, index) => {
-          const colors = [
-            '#2563a0', '#b8860b', '#2d8a56', '#9b2c2c', '#6b46a0',
-            '#0e7490', '#92400e', '#4338a0', '#065f46', '#7c3aed'
-          ];
-          const color = colors[index % colors.length];
-          const isSelected = selectedCountry && country.country_code === selectedCountry.iso3;
+        {[...data.data]
+          .sort((a, b) => {
+            // Trier par la dernière valeur IRC (décroissant)
+            const valueA = a.values.length > 0 ? a.values[a.values.length - 1].value : 0;
+            const valueB = b.values.length > 0 ? b.values[b.values.length - 1].value : 0;
+            return valueB - valueA;
+          })
+          .map((country) => {
+            const colors = [
+              '#2563a0', '#b8860b', '#2d8a56', '#9b2c2c', '#6b46a0',
+              '#0e7490', '#92400e', '#4338a0', '#065f46', '#7c3aed'
+            ];
+            // Trouver l'index original pour garder la même couleur
+            const originalIndex = data.data.findIndex(c => c.country_code === country.country_code);
+            const color = colors[originalIndex % colors.length];
+            const isSelected = selectedCountry && country.country_code === selectedCountry.iso3;
 
-          return (
-            <div key={country.country_code} className={`legend-item ${isSelected ? 'selected' : ''}`}>
-              <div 
-                className="legend-color" 
-                style={{ backgroundColor: color }}
-              />
-              <span className="legend-label">{country.country_name}</span>
-              {country.values.length > 0 && (
-                <span className="legend-value">
-                  {country.values[country.values.length - 1].value.toFixed(2)}
-                </span>
-              )}
-            </div>
-          );
-        })}
+            return (
+              <div key={country.country_code} className={`legend-item ${isSelected ? 'selected' : ''}`}>
+                <div 
+                  className="legend-color" 
+                  style={{ backgroundColor: color }}
+                />
+                <span className="legend-label">{country.country_name}</span>
+                {country.values.length > 0 && (
+                  <span className="legend-value">
+                    {country.values[country.values.length - 1].value.toFixed(2)}
+                  </span>
+                )}
+              </div>
+            );
+          })
+        }
       </div>
     </div>
   );
