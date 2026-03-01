@@ -95,6 +95,19 @@ Data/OWID/**/*
 *.rar
 Data/Manuel/Eurostat/eurostat_energy_balance.tsv
 
+# FAOSTAT - fichiers volumineux (>100MB)
+Data/FAOSTAT/*_All_Data_*.csv
+
+# AfDB IfDB - fichier Data.csv trop volumineux (374MB)
+Data/Manuel/IfDB/Data.csv
+
+# IDB - fichiers de données brutes
+Data/IDB/**/*.csv
+!Data/IDB/**/dataset_metadata.csv
+
+# ITU - fichiers de données brutes
+Data/ITU/*.csv
+
 # ============ Outputs/Résultats ============
 analysis_outputs/*.png
 analysis_outputs/*.pdf
